@@ -525,7 +525,9 @@ header{
     background-image: url(assets/showcase-bg-05.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 1470px;
+    height: auto;
+    min-height: 0;
+    padding-bottom: 48px;
 }
 
 .portfolio-heading{
@@ -1015,7 +1017,8 @@ footer{
 
     .portfolio-container{
         height: auto;
-        min-height: 100vh;
+        min-height: 0;
+        padding-bottom: 36px;
     }
 }
 
