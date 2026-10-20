@@ -493,6 +493,324 @@ header {
     font-size: 10px;
   }
 }
+
+/* =========================================================
+   About Section (Detailed)
+   ========================================================= */
+
+  .about-main-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+
+  .about-image-section{
+    margin: auto;
+  }
+
+  .about-me-image{
+    width: 800px;
+  }
+
+  .about-description-section{
+    padding: 20px 120px;
+    margin: auto;
+  }
+
+  .intro{
+    width: 100%;
+    max-width: 1500px;
+    font-size: 60px;
+    font-weight: 400;
+    color: #2a2a2a;
+  }
+
+  .name{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    color: #2a2a2a;
+  }
+
+  .about-description{
+    margin-top: 5px;
+    font-size: 25px;
+    font-weight: 500;
+    color: #2a2a2a;
+  }
+
+  .about-bio{
+    padding: 25px 0px;
+    text-align: justify;
+    width: 100%;
+    max-width: 1000px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #6b6b6b;
+  }
+
+  .about-headline{
+    padding: 8px 5px;
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #f5b400;
+  }
+
+  .feature-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    background-color: #1e1e1e;
+  }
+
+  .feature-column{
+    margin: auto;
+    width: 100%;
+    max-width: 650px;
+    padding: 50px 100px;
+  }
+
+  .feature-heading{
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #f5b400;
+  }
+
+  .feature-title{
+    color: #f1f1f1;
+    font-size: 25px;
+    font-weight: 600;
+  }
+
+  .feature-description{
+    margin-top: 15px;
+    line-height: 25px;
+    font-weight: 300;
+    color: #f1f1f1;
+  }
+
+  .timelapse-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 40px;
+    padding: 30px 0px;
+  }
+
+  .success-container{
+    padding: 50px 100px;
+    width: 100%;
+  }
+
+  .success-title{
+    font-size: 30px;
+    font-weight: 600;
+    color: #f5b400;
+  }
+
+  .timelapse-card{
+    margin-top: 15px;
+    padding: 50px 30px;
+    border: none;
+    border: 1px solid #e5e4e4;
+    border-radius: 30px;
+    background-color: #f7f7f7;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.182);
+  }
+
+  .year{
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #f5b400;
+  }
+
+  .company{
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #727272;
+  }
+
+  .role{
+    margin-top: -26px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #727272;
+  }
+
+  .country{
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #f5b400;
+  }
+
+  .timelapse-description{
+    width: 340px;
+    margin: 15px 0px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: justify;
+    color: #727272;
+  }
+
+  .view-more{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #f1f1f1;
+    border: none;
+    background-color: #1e1e1e;
+  }
+
+  .view-more:hover{
+    transition: all ease-in-out .2s;
+    background-color: #f5b400;
+  }
+
+.timelapse-card-actual{
+    margin-top: 15px;
+    padding: 50px 30px;
+    border-radius: 30px;
+    background-color: #f5b400;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.182);
+  }
+
+  .year-actual{
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #fefefe;
+  }
+
+  .company-actual{
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #111111;
+  }
+
+  .role-actual{
+    margin-top: -26px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #111111;
+  }
+
+  .country-actual{
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fefefe;
+  }
+
+  .timelapse-description-actual{
+    width: 340px;
+    margin: 15px 0px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: justify;
+    color: #111111;
+  }
+
+  .view-more-actual{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #3f3f3f;
+    border: none;
+    background-color: #e3af1f;
+  }
+
+  .view-more-disabled{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #f1f1f1;
+    border: none;
+    background-color: #bfbfbf;
+  }
+
+  hr{
+    margin: auto;
+    width: 100%;
+    max-width: 2200px;
+    border: none;
+    border: .4px solid #edebeb;
+  }
+
+  .hobies-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 100px 0px;
+  }
+
+  .hobie{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 110px 280px;
+    
+  }
+
+  .hobie-data{
+    margin: auto;
+  }
+
+  .hobie-title{
+    margin: auto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #3f3f3f;
+  }
+
+  .hobie-description{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #4f4f4f;
+  }
+
+  .thumb-imge-container{
+    margin: auto;
+  }
+
+  .thumb-image{
+    width: 100%;
+    max-width: 100px;
+    padding: 15px;
+  }
+
+  @media(max-width: 575px) {
+    
+    .about-main-container{
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .intro{
+      width: 100%;
+      max-width: 1500px;
+      font-size: 60px;
+      font-weight: 400;
+      color: #2a2a2a;
+    }
+  }
+
 /* =========================================================
    Portfolio Section (index)
    ========================================================= */
@@ -1361,11 +1679,11 @@ footer {
 
 .project-main-title {
   margin: 0;
-  font-size: clamp(26px, 2.1vw, 40px);
+  font-size: clamp(26px, 2.1vw, 35px);
   font-weight: 600;
   line-height: 1.1;
   letter-spacing: -0.04em;
-  color: #1f1f1f;
+  color: #454545;
 }
 
 .project-main-description {
@@ -1403,14 +1721,12 @@ footer {
 }
 
 .card-footer {
-  width: 100px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 12px 18px;
   margin-top: 26px;
   padding-top: 12px;
-  background-color: transparent;
 }
 
 .card-published {
@@ -1606,10 +1922,6 @@ footer {
   .card,
   .card-disabled {
     padding: 20px;
-  }
-  .card-footer {
-    flex-direction: column;
-    align-items: flex-start;
   }
   .view-more-btn {
     padding: 16px 36px;
