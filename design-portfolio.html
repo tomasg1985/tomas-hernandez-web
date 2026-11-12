@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -30,7 +30,7 @@
             <a class="portfolio-nav-link" href="about.html">
                 <li class="portfolio-nav-list-item">SOBRE MI</li>
             </a>
-            <a class="portfolio-nav-link" href="portfolio.html">
+            <a class="portfolio-nav-link" href="web-portfolio.html">
                 <li class="portfolio-nav-list-item">PORTFOLIO</li>
             </a>
             <a class="portfolio-nav-link" href="certifications.html">
@@ -84,28 +84,33 @@
         <section class="filter-section-container">
             <div class="filter-inputs">
                 <div class="view-all-btn">
-                    <input class="view-all" type="button" value="Ver todos los proyectos">
+                    <input class="view-all" id="show-all-design-projects" type="button" value="Ver todos los proyectos">
                 </div>
                 <div class="search-input">
-                    <input class="search" type="search" placeholder="Buscar por proyecto..." name="" id="">
+                    <input class="search" type="search" placeholder="Buscar por proyecto..." aria-label="Buscar por proyecto" id="design-project-search">
+                </div>
+                <div class="search-input">
+                    <input class="search" type="search" placeholder="Buscar por palabra clave..." aria-label="Buscar por palabra clave" id="design-keyword-search">
                 </div>
                 <div class="popularity-input">
                     <select class="popularity" id="" name="">
-                        <option value="default">Filtrar por popularidad</option>
+                        <option value="default" selected>Popularidad</option>
                         <option value="plus-4">Mas de 4</option>
                         <option value="plus-3">Mas de 3</option>
-                        <option value="less-3" selected>Menos de 3</option>
+                        <option value="less-3">Menos de 3</option>
                         <option value="plus-2">Mas de 2</option>
-                        <option value="less-3" selected>Menos de 2</option>
+                        <option value="less-3">Menos de 2</option>
                     </select>
                 </div>
                 <div class="tech-stack-input">
                     <select class="tech-stack" id="" name="">
-                        <option value="default">Filtrar por categoria</option>
-                        <option value="motion'graphics">Motion Graphics</option>
-                        <option value="video'editing">Edicion de video</option>
-                        <option value="branding" selected>Branding</option>
-                        <option value="packaging">Packaging</option>
+                        <option value="default" selected>Stack tecnológico</option>
+                        <option value="html">HTML</option>
+                        <option value="css">CSS</option>
+                        <option value="js">JavaScript</option>
+                        <option value="python">Python</option>
+                        <option value="node">Node Js</option>
+                        <option value="node">IA</option>
                     </select>
                 </div>
             </div>
@@ -120,108 +125,8 @@
             </div>
         </section>
 
-        <section class="work-showcase-gallery">
-            <div class="showcase-cards-container">
+        <section class="work-showcase-gallery" id="motion-graphics-projects">
 
-                <div class="card">
-
-                    <div class="rate-condition-container">
-                        <div class="condition-tag">
-                            <p class="new-tag">Nuevo</p>
-                        </div>
-                        <div class="rating">
-                            <p class="rating-stars"><span class="rating-score">4/5</span> <span class="stars">★★★★★</span></p>
-                        </div>
-                    </div>
-
-                    <div class="project-main-card-content">
-                        <h4 class="project-main-title">Voluntariado Cruz Roja</h4>
-                        <p class="project-main-description">Plataforma SaaS modular para la gestión integral de clínicas, consultorios y profesionales de la salud.</p>
-                    </div>
-
-                    <div class="languages-tag-container">
-                        <span class="language-tag">After Effects</span>
-                        <span class="language-tag">Audition</span>
-                        <span class="language-tag">Illustrator</span>
-                    </div>
-
-                    <div class="card-footer">
-                        <p class="card-published">Publicado: <span>Fecha</span></p>
-                        <div class="card-actions">
-                            <a href="portfolio-details.html">
-                                <button class="preview-link" type="button">Ver detalles</button>
-                            </a>
-                            <button class="github-link" type="button">Ver video</button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card">
-
-                    <div class="rate-condition-container">
-                        <div class="condition-tag">
-                            <p class="new-tag">Nuevo</p>
-                        </div>
-                        <div class="rating">
-                            <p class="rating-stars"><span class="rating-score">4/5</span> <span class="stars">★★★★★</span></p>
-                        </div>
-                    </div>
-
-                    <div class="project-main-card-content">
-                        <h4 class="project-main-title">Pet Care App</h4>
-                        <p class="project-main-description">Plataforma SaaS modular para la gestión integral de clínicas, consultorios y profesionales de la salud.</p>
-                    </div>
-
-                    <div class="languages-tag-container">
-                        <span class="language-tag">After Effects</span>
-                        <span class="language-tag">Audition</span>
-                        <span class="language-tag">Illustrator</span>
-                    </div>
-
-                    <div class="card-footer">
-                        <p class="card-published">Publicado: <span>Fecha</span></p>
-                        <div class="card-actions">
-                            <a href="portfolio-details.html">
-                                <button class="preview-link" type="button">Ver detalles</button>
-                            </a>
-                            <button class="github-link" type="button">Ver video</button>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="card">
-
-                    <div class="rate-condition-container">
-                        <div class="condition-tag">
-                            <p class="in-progress-tag">En Proceso</p>
-                        </div>
-                    </div>
-
-                    <div class="project-main-card-content">
-                        <h4 class="project-main-title">CMS Medical System</h4>
-                        <p class="project-main-description">Plataforma SaaS modular para la gestión integral de clínicas, consultorios y profesionales de la salud.</p>
-                    </div>
-
-                    <div class="languages-tag-container">
-                        <span class="language-tag">HTML</span>
-                        <span class="language-tag">CSS</span>
-                        <span class="language-tag">PYTHON</span>
-                        <span class="language-tag">SQL</span>
-                    </div>
-
-                    <div class="card-footer">
-                        <p class="card-published">Publicado: <span>Fecha</span></p>
-                        <div class="card-actions">
-                            <a href="portfolio-details.html">
-                                <button class="preview-link" type="button">Ver detalles</button>
-                            </a>
-                            <button class="github-link" type="button">Ver preview</button>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
         </section>
 
 
@@ -234,125 +139,9 @@
             </div>
         </section>
 
-        <section class="work-showcase-gallery">
-            <div class="showcase-cards-container">
+        <section class="work-showcase-gallery" id="video-projects">
 
-                <div class="card">
-
-                    <div class="rate-condition-container">
-                        <div class="condition-tag">
-                            <p class="new-tag">Nuevo</p>
-                        </div>
-                    </div>
-
-                    <div class="project-main-card-content">
-                        <h4 class="project-main-title">Jazz Boozz Sessions</h4>
-                        <p class="project-main-description">Plataforma SaaS modular para la gestión integral de clínicas, consultorios y profesionales de la salud.</p>
-                    </div>
-
-                    <div class="languages-tag-container">
-                        <span class="language-tag">PREMIERE</span>
-                    </div>
-
-                    <div class="card-footer">
-                        <p class="card-published">Publicado: <span>Fecha</span></p>
-                        <div class="card-actions">
-                            <a href="portfolio-details.html">
-                                <button class="preview-link" type="button">Ver detalles</button>
-                            </a>
-                            <button class="github-link" type="button">Ver video</button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card">
-
-                    <div class="rate-condition-container">
-                        <div class="condition-tag">
-                            <p class="new-tag">Nuevo</p>
-                        </div>
-                    </div>
-
-                    <div class="project-main-card-content">
-                        <h4 class="project-main-title">Dunas de un cuerpo</h4>
-                        <p class="project-main-description">Plataforma SaaS modular para la gestión integral de clínicas, consultorios y profesionales de la salud.</p>
-                    </div>
-
-                    <div class="languages-tag-container">
-                        <span class="language-tag">PREMIERE</span>
-                    </div>
-
-                    <div class="card-footer">
-                        <p class="card-published">Publicado: <span>Fecha</span></p>
-                        <div class="card-actions">
-                            <a href="portfolio-details.html">
-                                <button class="preview-link" type="button">Ver detalles</button>
-                            </a>
-                            <button class="github-link" type="button">Ver video</button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card">
-
-                    <div class="rate-condition-container">
-                        <div class="condition-tag">
-                            <p class="new-tag">Nuevo</p>
-                        </div>
-                    </div>
-
-                    <div class="project-main-card-content">
-                        <h4 class="project-main-title">Inspiracional</h4>
-                        <p class="project-main-description">Plataforma SaaS modular para la gestión integral de clínicas, consultorios y profesionales de la salud.</p>
-                    </div>
-
-                    <div class="languages-tag-container">
-                        <span class="language-tag">PREMIERE</span>
-                    </div>
-
-                    <div class="card-footer">
-                        <p class="card-published">Publicado: <span>Fecha</span></p>
-                        <div class="card-actions">
-                            <a href="portfolio-details.html">
-                                <button class="preview-link" type="button">Ver detalles</button>
-                            </a>
-                            <button class="github-link" type="button">Ver video</button>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="card">
-
-                    <div class="rate-condition-container">
-                        <div class="condition-tag">
-                            <p class="in-progress-tag">En Proceso</p>
-                        </div>
-                    </div>
-
-                    <div class="project-main-card-content">
-                        <h4 class="project-main-title">CMS Medical System</h4>
-                        <p class="project-main-description">Plataforma SaaS modular para la gestión integral de clínicas, consultorios y profesionales de la salud.</p>
-                    </div>
-
-                    <div class="languages-tag-container">
-                        <span class="language-tag">PREMIERE</span>
-                    </div>
-
-                    <div class="card-footer">
-                        <p class="card-published">Publicado: <span>Fecha</span></p>
-                        <div class="card-actions">
-                            <a href="portfolio-details.html">
-                                <button class="preview-link" type="button">Ver detalles</button>
-                            </a>
-                            <button class="github-link" type="button">Ver preview</button>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
         </section>
-
 
         <!-- Seccion Branding -->
 
@@ -363,76 +152,22 @@
             </div>
         </section>
 
-        <section class="work-showcase-gallery">
-            <div class="showcase-cards-container">
+        <section class="work-showcase-gallery" id="branding-projects">
 
-                <div class="card">
-
-                    <div class="rate-condition-container">
-                        <div class="condition-tag">
-                            <p class="new-tag">Nuevo</p>
-                        </div>
-                        <div class="rating">
-                            <p class="rating-stars"><span class="rating-score">4/5</span> <span class="stars">★★★★★</span></p>
-                        </div>
-                    </div>
-
-                    <div class="project-main-card-content">
-                        <h4 class="project-main-title">CMS Medical System</h4>
-                        <p class="project-main-description">Plataforma SaaS modular para la gestión integral de clínicas, consultorios y profesionales de la salud.</p>
-                    </div>
-
-                    <div class="languages-tag-container">
-                        <span class="language-tag">HTML</span>
-                        <span class="language-tag">CSS</span>
-                        <span class="language-tag">PYTHON</span>
-                        <span class="language-tag">SQL</span>
-                    </div>
-
-                    <div class="card-footer">
-                        <p class="card-published">Publicado: <span>Fecha</span></p>
-                        <div class="card-actions">
-                            <a href="portfolio-details.html">
-                                <button class="preview-link" type="button">Ver detalles</button>
-                            </a>
-                            <button class="github-link" type="button">Ver preview</button>
-                        </div>
-                    </div>
-                </div>
+        </section>
 
 
-                <div class="card">
+        <!-- Seccion Redes sociales -->
 
-                    <div class="rate-condition-container">
-                        <div class="condition-tag">
-                            <p class="in-progress-tag">En Proceso</p>
-                        </div>
-                    </div>
-
-                    <div class="project-main-card-content">
-                        <h4 class="project-main-title">CMS Medical System</h4>
-                        <p class="project-main-description">Plataforma SaaS modular para la gestión integral de clínicas, consultorios y profesionales de la salud.</p>
-                    </div>
-
-                    <div class="languages-tag-container">
-                        <span class="language-tag">HTML</span>
-                        <span class="language-tag">CSS</span>
-                        <span class="language-tag">PYTHON</span>
-                        <span class="language-tag">SQL</span>
-                    </div>
-
-                    <div class="card-footer">
-                        <p class="card-published">Publicado: <span>Fecha</span></p>
-                        <div class="card-actions">
-                            <a href="portfolio-details.html">
-                                <button class="preview-link" type="button">Ver detalles</button>
-                            </a>
-                            <button class="github-link" type="button">Ver preview</button>
-                        </div>
-                    </div>
-                </div>
-
+        <section>
+            <div class="showcase-container">
+                <h4 class="portfolio-showcase-title">Redes sociales</h4>
+                <p class="detailed-projects-description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
             </div>
+        </section>
+
+        <section class="work-showcase-gallery" id="social">
+
         </section>
 
         <section class="view-more-container">
@@ -468,6 +203,7 @@
         });
     </script>
 
-    <script src="index.js"></script>
+    <script src="design_portfolio.js" defer></script>
+    <script src="design-main.js" defer></script>
 </body>
 </html>
