@@ -50,70 +50,32 @@
 
         <section>
             <div class="main-banner-container">
-
-                <div class="banner">
-                    <img src="https://placehold.co/2375x700" alt="">
+                <div id="detail-cover-container" class="banner" hidden>
+                    <img id="detail-cover-image" src="" alt="">
+                    <video id="detail-cover-video" controls playsinline preload="metadata" hidden>
+                        Tu navegador no admite la reproducción de video.
+                    </video>
                 </div>
-
             </div>
         </section>
 
-        <section>
-            <div class="main-showcase-description-main">
-
+        <section id="details-container" class="banner">
+            <p id="details-status" class="details-status" role="status" hidden></p>
+            <p id="details-links" class="details-links" hidden>
+                <a href="web-portfolio.html">Portfolio web</a> |
+                <a href="design-portfolio.html">Portfolio diseño</a>
+            </p>
+            <div id="details-content" class="main-showcase-description-main" hidden>
                 <div class="description-section">
-                    <h5 class="detail-category">Motion Graphics</h5>
-                    <h4 class="detail-headline">Voluntariado corporativo Cruz Roja</h4>
-                    <p class="detail-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias pariatur consectetur amet commodi repellat! Non pariatur ab voluptatum maiores, rem quo fugit repudiandae dolor, fuga illo labore repellat! Vero, quae! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias pariatur consectetur amet commodi repellat! Non pariatur ab voluptatum maiores, rem quo fugit repudiandae dolor, fuga illo labore repellat! Vero, quae! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias pariatur consectetur amet commodi repellat! Non pariatur ab voluptatum maiores, rem quo fugit repudiandae dolor, fuga illo labore repellat! Vero, quae!
-                    <br>
-                    <br>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias pariatur consectetur amet commodi repellat! Non pariatur ab voluptatum maiores, rem quo fugit repudiandae dolor, fuga illo labore repellat! Vero, quae! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias pariatur consectetur amet commodi repellat! Non pariatur ab voluptatum maiores, rem quo fugit repudiandae dolor, fuga illo labore repellat! Vero, quae! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias pariatur consectetur amet commodi repellat! Non pariatur ab voluptatum maiores, rem quo fugit repudiandae dolor, fuga illo labore repellat! Vero, quae!
-                    </p>
-
+                    <h5 id="detail-category" class="detail-category"></h5>
+                    <h4 id="detail-headline" class="detail-headline"></h4>
+                    <div id="detail-description" class="detail-description"></div>
                     <div class="tech-icons-container">
-
-                        <div class="tech-icons-section">
-
-                            <div class="icon-area">
-                                <img src="https://placehold.co/70x70" alt="">
-                                <h5 class="headline">Software:</h5>
-                                <p class="description">Adobe After Effects</p>
-                            </div>
-
-                            <div class="icon-area">
-                                <img src="https://placehold.co/70x70" alt="">
-                                <h5 class="headline">Software:</h5>
-                                <p class="description">Adobe After Effects</p>
-                            </div>
-
-                            <div class="icon-area">
-                                <img src="https://placehold.co/70x70" alt="">
-                                <h5 class="headline">Software:</h5>
-                                <p class="description">Adobe After Effects</p>
-                            </div>
-
-                            <div class="icon-area">
-                                <img src="https://placehold.co/70x70" alt="">
-                                <h5 class="headline">Software:</h5>
-                                <p class="description">Adobe After Effects</p>
-                            </div>
-
-                        </div>
-
+                        <div id="detail-tech-stack" class="tech-icons-section"></div>
                     </div>
-                    
+                    <a id="detail-project-link" class="detail-project-link github-link" hidden></a>
                 </div>
-                <div class="showcase-section">
-                    <img src="https://placehold.co/200x200" alt="">
-                    <img src="https://placehold.co/200x200" alt="">
-                    <img src="https://placehold.co/200x200" alt="">
-                    <img src="https://placehold.co/200x200" alt="">
-                    <img src="https://placehold.co/200x200" alt="">
-                    <img src="https://placehold.co/200x200" alt="">
-                    <img src="https://placehold.co/200x200" alt="">
-                    <img src="https://placehold.co/200x200" alt="">
-                </div>
-
+                <div id="detail-gallery" class="showcase-section" hidden></div>
             </div>
         </section>
 
@@ -143,7 +105,6 @@
         <section>
 
             <nav>
-                div
             </nav>
 
         </section>
@@ -169,6 +130,6 @@
         </div>
     </footer>
 
-    <script src="index.js"></script>
+    <script src="portfolio-details.js" defer></script>
 </body>
 </html>

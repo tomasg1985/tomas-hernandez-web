@@ -1,0 +1,131 @@
+[
+    {
+        "id": 1,
+        "section": "motion",
+        "project_tag": "Motion Graphics",
+        "title": "RapiPago",
+        "description": "<p>Proyecto final correspondiente al cuarto cuatrimestre  de carrera de especializacion en diseño multimedial para la institución DaVinci Escuela de arte multimedia</p>",
+        "view_project": "https://res.cloudinary.com/hkraa2l3/video/upload/v1794357991/Motion_Graphic_Muestra_Publicidad_Rapipago.mp4",
+        "tech_tags": [
+            "AFTER EFFECTS",
+            "ILLUSTRATOR"
+        ],
+        "cover_image": "",
+        "gallery_images": [],
+        "video_url": "https://res.cloudinary.com/hkraa2l3/video/upload/v1794357991/Motion_Graphic_Muestra_Publicidad_Rapipago.mp4"
+    },
+    {
+        "id": 2,
+        "section": "motion",
+        "project_tag": "Motion Graphics",
+        "title": "PetCare App",
+        "description": "<p>App realizada para la gestión de trámites desde veterinarios y busqueda de mascotas extraviadas, campañas de vacunación entre otras.</p>",
+        "view_project": "https://res.cloudinary.com/hkraa2l3/video/upload/v1794357864/Motion_Graphic_Pet_Care_App.mp4",
+        "tech_tags": [
+            "AFTER EFFECTS",
+            "ILLUSTRATOR"
+        ],
+        "cover_image": "",
+        "gallery_images": [],
+        "video_url": "https://res.cloudinary.com/hkraa2l3/video/upload/v1794357864/Motion_Graphic_Pet_Care_App.mp4"
+    },
+    {
+        "id": 3,
+        "section": "video",
+        "project_tag": "Edicion de video",
+        "title": "Dunas de un cuerpo",
+        "description": "<p>Proyecto realizado por un cliente que desempeño la carrera de Negocios de la Universiad de Monterrey en México el cual desarrollo junto a su equipo una bebida típica del pais.</p>",
+        "view_project": "https://res.cloudinary.com/hkraa2l3/video/upload/v1794860922/Proyecto_Mezcal_Dunas_de_un_Cuerpo.mp4",
+        "tech_tags": [
+            "PREMIERE PRO"
+        ],
+        "cover_image": "",
+        "gallery_images": [],
+        "video_url": "https://res.cloudinary.com/hkraa2l3/video/upload/v1794860922/Proyecto_Mezcal_Dunas_de_un_Cuerpo.mp4"
+    },
+    {
+        "id": 4,
+        "section": "video",
+        "project_tag": "Edicion de video",
+        "title": "Video Inspiracional",
+        "description": "<p>Video realizado como parte de un proyecto personal destinado para formar parte de una campaña en redes sociales.</p>",
+        "view_project": "https://res.cloudinary.com/hkraa2l3/video/upload/v1794863914/Video_Motivacional.mp4",
+        "tech_tags": [
+            "AFTER EFFECTS",
+            "PREMIERE PRO"
+        ],
+        "cover_image": "",
+        "gallery_images": [],
+        "video_url": "https://res.cloudinary.com/hkraa2l3/video/upload/v1794863914/Video_Motivacional.mp4"
+    },
+    {
+        "id": 5,
+        "section": "branding",
+        "project_tag": "Branding de marca",
+        "title": "Industrial Hub Torreón",
+        "description": "<p>Branding de marca realizado para un cliente en la ciudad de torreón en México, la empresa se enfoca en el alquiler y compra de propiedades para su uso empresarial.</p>",
+        "view_project": "#",
+        "tech_tags": [
+            "ILLUSTRATOR",
+            "INDESIGN",
+            "PHOTOSHOP"
+        ],
+        "cover_image": "",
+        "gallery_images": []
+    },
+    {
+        "id": 6,
+        "section": "branding",
+        "project_tag": "Branding de marca",
+        "title": "Menelmec Solutions",
+        "description": "<p>Branding de marca realizado para una empresa argentina dedicada al rubro eléctrico dedicado al montaje y desmontaje de instalaciones elctricas para fabricas automotrices entre otros.</p>",
+        "view_project": "#",
+        "tech_tags": [
+            "ILLUSTRATOR",
+            "INDESIGN",
+            "PHOTOSHOP"
+        ],
+        "cover_image": "",
+        "gallery_images": []
+    },
+    {
+        "id": 7,
+        "section": "branding",
+        "project_tag": "Branding de marca",
+        "title": "Marmol Laguna",
+        "description": "<p>Video realizado como parte de un proyecto personal destinado para formar parte de una campaña en redes sociales.</p>",
+        "view_project": "#",
+        "tech_tags": [
+            "AFTER EFFECTS",
+            "PREMIERE PRO"
+        ],
+        "cover_image": "",
+        "gallery_images": []
+    },
+    {
+        "id": 8,
+        "section": "social",
+        "project_tag": "Redes Sociales",
+        "title": "Deportones",
+        "description": "<p>Redes sociales de empresa argentina dedicada al rubro construcción, venta e instalación de productos fabricados en hierro forjado como portones elevadizos, parrillas y otros productos de alta calidad.</p>",
+        "view_project": "https://www.instagram.com/de.portones/",
+        "tech_tags": [
+            "INSTAGRAM"
+        ],
+        "cover_image": "",
+        "gallery_images": []
+    },
+    {
+        "id": 9,
+        "section": "social",
+        "project_tag": "Redes Sociales",
+        "title": "Mafensa MX",
+        "description": "<p>Redes sociales de empresa mexicana dedicada al rubro ferretero, venta y alquiler de equipos para construcción y labore profesionales (albañilería, plomería, entre otros)</p>",
+        "view_project": "https://www.instagram.com/mafensamx/",
+        "tech_tags": [
+            "INSTAGRAM"
+        ],
+        "cover_image": "",
+        "gallery_images": []
+    }
+]

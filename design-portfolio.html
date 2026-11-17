@@ -196,6 +196,16 @@
             </div>
         </div>
     </footer>
+
+    <dialog id="video-player-dialog" class="video-player-dialog" aria-label="Reproductor de video">
+        <form method="dialog">
+            <button class="video-player-close" type="submit" aria-label="Cerrar reproductor">×</button>
+        </form>
+        <p id="video-player-status" class="video-player-status" role="status" hidden></p>
+        <video id="portfolio-video-player" controls playsinline preload="none">
+            Tu navegador no admite la reproducción de video.
+        </video>
+    </dialog>
     
     <script>
         document.querySelector(".top-header-close").addEventListener("click", () => {

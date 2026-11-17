@@ -1,0 +1,181 @@
+[
+    {
+        "id": 1,
+        "section": "web",
+        "project_tag": "E-Commerce",
+        "title": "TechStore",
+        "description": "<strong>Resumen del proyecto</strong>\n<p>Tecnostore es una tienda online moderna orientada a la venta de productos tecnológicos, hardware y artículos para el hogar inteligente. El proyecto está diseñado para ofrecer una experiencia de compra intuitiva, rápida y atractiva, combinando una arquitectura de información clara con estrategias de fidelización de usuarios.</p> \n <strong>El desafio</strong>\n<p>Los sitios de comercio electrónico en el rubro tecnológico suelen manejar catálogos muy extensos que pueden abrumar al comprador. El objetivo principal de este desarrollo fue organizar múltiples familias de productos bajo una navegación limpia, agilizar el descubrimiento de ofertas y crear un ecosistema que incentive la recurrencia mediante un programa de beneficios.</p>",
+        "view_project": "https://tomasg1985.github.io/",
+        "tech_tags": [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "cover_image": "",
+        "gallery_images": []
+    },
+    {
+        "id": 2,
+        "section": "web",
+        "project_tag": "E-Commerce",
+        "title": "EduTech",
+        "description": "<p>Plataforma de comercio electrónico enfocada a la venta y distribución de textos educativos de varias temáticas en formatos PDF y libros fisicos con envios a todo el país.</p>",
+        "view_project": "#",
+        "tech_tags": [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "cover_image": "",
+        "gallery_images": []
+    },
+    {
+        "id": 3,
+        "section": "web",
+        "project_tag": "E-Commerce",
+        "title": "De Portones",
+        "description": "<p>Sitio web para una empresa argentina dedicada al rubro de la construcción, empresa dedicada al diseño y construcción de portones, parrillas, y otros productos fabricados en acero forjado y aluminio.</p>",
+        "view_project": "https://deportones.com/",
+        "tech_tags": [
+            "WORDPRESS",
+            "WOOCOMMERCE"
+        ],
+        "cover_image": "",
+        "gallery_images": []
+    },
+    {
+        "id": 4,
+        "section": "web",
+        "project_tag": "Sitio Web corporativo",
+        "title": "Menelmec Solutions",
+        "description": "<p>Plataforma de comercio electrónico enfocada a la venta y distribución de textos educativos de varias temáticas en formatos PDF y libros fisicos con envios a todo el país.</p>",
+        "view_project": "https://menelmec.com.ar/",
+        "tech_tags": [
+            "WORDPRESS",
+            "ELEMENTOR"
+        ],
+        "cover_image": "",
+        "gallery_images": []
+    },
+    {
+        "id": 5,
+        "section": "web",
+        "project_tag": "Landing Page",
+        "title": "Maquinaria Centro",
+        "description": "<p>Landing page realizada para dar a conocer los servicios de esta empresa argentina prestadora de servicios para la construccion y empresas con el alquiler de autoelevadores.</p>",
+        "view_project": "https://menelmec.com.ar/",
+        "tech_tags": [
+            "WORDPRESS",
+            "ELEMENTOR"
+        ],
+        "cover_image": "",
+        "gallery_images": []
+    },
+    {
+        "id": 6,
+        "section": "software",
+        "project_tag": "Software as a Service",
+        "title": "Medical CMS",
+        "description": "<p>Plataforma plataforma SaaS orientada inicialmente al mercado argentino para la gestión de clínicas, consultorios y profesionales de la salud.</p>",
+        "view_project": "#",
+        "tech_tags": [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT",
+            "PYTHON",
+            "POSTGRESQL",
+            "APIREST",
+            "DOCKER"
+        ],
+        "cover_image": "",
+        "gallery_images": []
+    },
+    {
+        "id": 7,
+        "section": "software",
+        "project_tag": "Calculadora Data Center",
+        "title": "PhysaFlow",
+        "description": "<p>PhysaFlow es una aplicación web que ayuda a los operadores de centros de datos a estimar cuánta capacidad de computación están desperdiciando («capacidad ociosa») y cuánto les cuesta anualmente.</p>",
+        "view_project": "#",
+        "tech_tags": [
+            "REACT",
+            "NOJEJS",
+            "APIREST",
+            "TAILWIND",
+            "POSTGRESQL",
+            "VITE",
+            "CSS"
+        ],
+        "cover_image": "",
+        "gallery_images": []
+    },
+    {
+        "id": 8,
+        "section": "software",
+        "project_tag": "Gestión de transporte",
+        "title": "NautiFlow",
+        "description": "<p>NautiFlow es una plataforma que ayuda a los lancheros del del delta de tigre a registrar su embarcación con su documentacion en regla permitiendo a los pasajeros tambien a dejar sus reseñas.</p>",
+        "view_project": "#",
+        "tech_tags": [
+            "EXPRESS",
+            "NOJEJS",
+            "APIREST",
+            "TAILWIND",
+            "JWT",
+            "POSTGRESQL",
+            "VITE",
+            "CSS"
+        ],
+        "cover_image": "",
+        "gallery_images": []
+    },
+    {
+        "id": 9,
+        "section": "software",
+        "project_tag": "Gestión de transporte",
+        "title": "FitFlow",
+        "description": "<p>NautiFlow es una plataforma que ayuda a los lancheros del del delta de tigre a registrar su embarcación con su documentacion en regla permitiendo a los pasajeros tambien a dejar sus reseñas.</p>",
+        "view_project": "#",
+        "tech_tags": [
+            "EXPRESS",
+            "NOJEJS",
+            "APIREST",
+            "TAILWIND",
+            "JWT",
+            "POSTGRESQL",
+            "VITE",
+            "CSS"
+        ],
+        "cover_image": "",
+        "gallery_images": []
+    },
+    {
+        "id": 10,
+        "section": "uxui",
+        "project_tag": "Software as a Service",
+        "title": "Medical CMS",
+        "description": "<p>Plataforma plataforma SaaS orientada inicialmente al mercado argentino para la gestión de clínicas, consultorios y profesionales de la salud..</p>",
+        "view_project": "#",
+        "tech_tags": [
+            "FIGMA"
+        ],
+        "cover_image": "",
+        "gallery_images": []
+    },
+    {
+        "id": 11,
+        "section": "ai",
+        "project_tag": "Agentes IA",
+        "title": "Agentes para agencia",
+        "description": "<p>Sistema multiagente diseñado para la gestión de contenido y la automatizacion para redes sociales</p>",
+        "view_project": "#",
+        "tech_tags": [
+            "PYTHON",
+            "APIREST",
+            "FASTAPI",
+            "SERPER.DEV"
+        ],
+        "cover_image": "",
+        "gallery_images": []
+    }
+]

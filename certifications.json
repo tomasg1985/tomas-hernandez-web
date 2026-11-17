@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "section": "programming",
+        "project_tag": "Talento Tech",
+        "rating": "4/5",
+        "title": "Iniciación a la programación con Python",
+        "description": "Proyecto final correspondiente al cuarto cuatrimestre  de carrera de especializacion...",
+        "published": "Publicado: Jul 2026",
+        "view_project": "#",
+        "tech_tags": ["PYTHON"],
+        "keywords": ["pagos", "tecnologia", "motion graphics", "after effects", "illustrator"]
+    },
+    {
+        "id": 2,
+        "section": "programming",
+        "project_tag": "Talento Tech",
+        "rating": "4/5",
+        "title": "Front-End JS",
+        "description": "Proyecto final correspondiente al cuarto cuatrimestre  de carrera de especializacion...",
+        "published": "Publicado: Dic 2026",
+        "view_project": "#",
+        "tech_tags": ["HTML", "CSS", "JAVASCRIPT"],
+        "keywords": ["pagos", "tecnologia", "motion graphics", "after effects", "illustrator"]
+    },
+    {
+        "id": 3,
+        "section": "ai",
+        "project_tag": "Agentes de IA",
+        "rating": "4/5",
+        "title": "ONE | Inmersión: Agentes IA para Negocios",
+        "description": "Proyecto final correspondiente al cuarto cuatrimestre  de carrera de especializacion...",
+        "published": "Publicado: Oct 2026",
+        "view_project": "#",
+        "tech_tags": ["INTELIGENCIA ARTIFICIAL"],
+        "keywords": ["pagos", "tecnologia", "motion graphics", "after effects", "illustrator"]
+    },
+    {
+        "id": 4,
+        "section": "ai",
+        "project_tag": "Agentes de IA",
+        "rating": "4/5",
+        "title": "ONE | AI Builder",
+        "description": "Proyecto final correspondiente al cuarto cuatrimestre  de carrera de especializacion...",
+        "published": "Publicado: Oct 2026",
+        "view_project": "#",
+        "tech_tags": ["INTELIGENCIA ARTIFICIAL"],
+        "keywords": ["pagos", "tecnologia", "motion graphics", "after effects", "illustrator"]
+    },
+    {
+        "id": 5,
+        "section": "aws",
+        "project_tag": "Computación en la nube",
+        "rating": "4/5",
+        "title": "Job Roles in the Cloud",
+        "description": "Proyecto final correspondiente al cuarto cuatrimestre  de carrera de especializacion...",
+        "published": "Publicado: Ago 2026",
+        "view_project": "#",
+        "tech_tags": ["CLOUD COMPUTING"],
+        "keywords": ["pagos", "tecnologia", "motion graphics", "after effects", "illustrator"]
+    },
+    {
+        "id": 6,
+        "section": "aws",
+        "project_tag": "Computación en la nube",
+        "rating": "4/5",
+        "title": "AWS Cloud Ops: Provisioning and Orchestration",
+        "description": "Proyecto final correspondiente al cuarto cuatrimestre  de carrera de especializacion...",
+        "published": "Publicado: Ago 2026",
+        "view_project": "#",
+        "tech_tags": ["INTELIGENCIA ARTIFICIAL"],
+        "keywords": ["pagos", "tecnologia", "motion graphics", "after effects", "illustrator"]
+    },
+    {
+        "id": 7,
+        "section": "uxui",
+        "project_tag": "UX/UI",
+        "rating": "4/5",
+        "title": "Introducción al diseño de experiencia de usuario (UX)",
+        "description": "Proyecto final correspondiente al cuarto cuatrimestre  de carrera de especializacion...",
+        "published": "Publicado: Sep 2025",
+        "view_project": "#",
+        "tech_tags": ["INTELIGENCIA ARTIFICIAL"],
+        "keywords": ["pagos", "tecnologia", "motion graphics", "after effects", "illustrator"]
+    },
+    {
+        "id": 8,
+        "section": "languages",
+        "project_tag": "Ciudad Bilingue",
+        "rating": "4/5",
+        "title": "English Pre-Intermiediate 1",
+        "description": "Proyecto final correspondiente al cuarto cuatrimestre  de carrera de especializacion...",
+        "published": "Publicado: May 2025",
+        "view_project": "#",
+        "tech_tags": ["INGLES"],
+        "keywords": ["pagos", "tecnologia", "motion graphics", "after effects", "illustrator"]
+    }
+]
