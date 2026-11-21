@@ -11,6 +11,8 @@ const keywordSearchInput = document.getElementById('design-keyword-search');
 const showAllProjectsButton = document.getElementById('show-all-certifications');
 
 let allProjects = [];
+const expandedCertificationSections = new Set();
+const initialCertificationLimit = 5;
 
 
 function normalizeSearchText(value) {
@@ -21,6 +23,56 @@ function normalizeSearchText(value) {
         .trim();
 }
 
+function updateMoreCertificationsControl(section, projectCount) {
+    const control = document.querySelector(
+        `.view-more-link[data-project-section="${section}"]`
+    );
+    if (!control) {
+        return;
+    }
+
+    const hiddenCount = Math.max(projectCount - initialCertificationLimit, 0);
+    const isExpanded = hiddenCount > 0 && expandedCertificationSections.has(section);
+    control.dataset.hiddenCount = String(hiddenCount);
+    control.textContent = isExpanded
+        ? 'ver menos certificados'
+        : `ver mas certificados (${hiddenCount})`;
+    control.setAttribute('aria-expanded', String(isExpanded));
+    control.classList.toggle('is-disabled', hiddenCount === 0);
+}
+
+function updateCertificationCarouselButtons(carousel) {
+    const track = carousel.querySelector('.showcase-cards-container');
+    const previousButton = carousel.querySelector('.project-carousel-arrow-prev');
+    const nextButton = carousel.querySelector('.project-carousel-arrow-next');
+    const maxScrollLeft = track.scrollWidth - track.clientWidth;
+
+    previousButton.disabled = track.scrollLeft <= 1;
+    nextButton.disabled = track.scrollLeft >= maxScrollLeft - 1;
+}
+
+function initializeCertificationCarousel(certificationsShowcase) {
+    const carousel = certificationsShowcase.querySelector('.project-section-carousel.has-arrows');
+    if (!carousel) {
+        return;
+    }
+
+    const track = carousel.querySelector('.showcase-cards-container');
+    const previousButton = carousel.querySelector('.project-carousel-arrow-prev');
+    const nextButton = carousel.querySelector('.project-carousel-arrow-next');
+
+    previousButton.addEventListener('click', () => {
+        track.scrollBy({ left: -track.clientWidth, behavior: 'smooth' });
+    });
+    nextButton.addEventListener('click', () => {
+        track.scrollBy({ left: track.clientWidth, behavior: 'smooth' });
+    });
+    track.addEventListener('scroll', () => {
+        window.requestAnimationFrame(() => updateCertificationCarouselButtons(carousel));
+    }, { passive: true });
+    updateCertificationCarouselButtons(carousel);
+}
+
 function showProjectCards(projects, section) {
     const certificationsShowcase = certificationsSections[section];
 
@@ -28,14 +80,24 @@ function showProjectCards(projects, section) {
         throw new Error(`No se encontró la sección para los proyectos: ${section}`);
     }
 
+    updateMoreCertificationsControl(section, projects.length);
+
     if (projects.length === 0) {
         certificationsShowcase.innerHTML = '<p>No se encontraron proyectos.</p>';
         return;
     }
 
+    const isExpanded = projects.length > initialCertificationLimit
+        && expandedCertificationSections.has(section);
     certificationsShowcase.innerHTML = `
-        <div class="showcase-cards-container">
-            ${projects.map(project => {
+        <div class="project-section-carousel${projects.length > 1 ? ' has-arrows' : ''}${isExpanded ? ' is-expanded' : ''}">
+            ${projects.length > 1 ? `
+                <button class="project-carousel-arrow project-carousel-arrow-prev" type="button" aria-label="Certificación anterior">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 18l-6-6 6-6"></path></svg>
+                </button>
+            ` : ''}
+            <div class="showcase-cards-container">
+            ${projects.map((project, index) => {
                 const projectDetailsUrl = `portfolio-details.html?id=${encodeURIComponent(project.id)}&type=design&section=${encodeURIComponent(project.section)}`;
                 const isVideoProject = typeof project.view_project === 'string'
                     && /\.mp4(?:$|[?#])/i.test(project.view_project);
@@ -46,9 +108,14 @@ function showProjectCards(projects, section) {
                     </a>`;
 
                 return `
-            <div class="card">
-                <div class="rate-condition-container">
-                    <div class="condition-tag">
+            <div class="card${index >= initialCertificationLimit ? ' project-card-overflow' : ''}">
+                <div class="rate-condition-container certificate-card-header">
+                    <div class="certificate-institution">
+                        <div class="certificate-logo">
+                            ${project.institution_logo
+                                ? `<img src="${project.institution_logo}" alt="Logo de ${project.project_tag}" loading="lazy">`
+                                : '<span>Agregar logo</span>'}
+                        </div>
                         <p class="category">${project.project_tag}</p>
                     </div>
                     <div class="rating">
@@ -80,6 +147,12 @@ function showProjectCards(projects, section) {
             </div>
             `;
             }).join('')}
+            </div>
+            ${projects.length > 1 ? `
+                <button class="project-carousel-arrow project-carousel-arrow-next" type="button" aria-label="Siguiente certificación">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18l6-6-6-6"></path></svg>
+                </button>
+            ` : ''}
         </div>
     `;
 
@@ -96,6 +169,8 @@ function showProjectCards(projects, section) {
             openProjectVideo(button.dataset.videoUrl);
         });
     });
+
+    initializeCertificationCarousel(certificationsShowcase);
 }
 
 function renderProjects() {
@@ -130,6 +205,27 @@ function renderProjects() {
 
 searchInput.addEventListener('input', renderProjects);
 keywordSearchInput.addEventListener('input', renderProjects);
+document.querySelectorAll('.view-more-link[data-project-section]').forEach(control => {
+    control.addEventListener('click', event => {
+        event.preventDefault();
+        const section = control.dataset.projectSection;
+        const hiddenCount = Number(control.dataset.hiddenCount || 0);
+
+        if (hiddenCount === 0) {
+            return;
+        }
+
+        if (expandedCertificationSections.has(section)) {
+            expandedCertificationSections.delete(section);
+        } else {
+            expandedCertificationSections.add(section);
+        }
+        renderProjects();
+    });
+});
+window.addEventListener('resize', () => {
+    document.querySelectorAll('.project-section-carousel.has-arrows').forEach(updateCertificationCarouselButtons);
+});
 showAllProjectsButton.addEventListener('click', () => {
     searchInput.value = '';
     keywordSearchInput.value = '';

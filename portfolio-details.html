@@ -6,6 +6,7 @@
     <title>Portfolio | Detalles</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://googleapis.com">
+    <script src="navigation.js" defer></script>
 </head>
 <body>
     
@@ -52,9 +53,6 @@
             <div class="main-banner-container">
                 <div id="detail-cover-container" class="banner" hidden>
                     <img id="detail-cover-image" src="" alt="">
-                    <video id="detail-cover-video" controls playsinline preload="metadata" hidden>
-                        Tu navegador no admite la reproducción de video.
-                    </video>
                 </div>
             </div>
         </section>
@@ -65,18 +63,7 @@
                 <a href="web-portfolio.html">Portfolio web</a> |
                 <a href="design-portfolio.html">Portfolio diseño</a>
             </p>
-            <div id="details-content" class="main-showcase-description-main" hidden>
-                <div class="description-section">
-                    <h5 id="detail-category" class="detail-category"></h5>
-                    <h4 id="detail-headline" class="detail-headline"></h4>
-                    <div id="detail-description" class="detail-description"></div>
-                    <div class="tech-icons-container">
-                        <div id="detail-tech-stack" class="tech-icons-section"></div>
-                    </div>
-                    <a id="detail-project-link" class="detail-project-link github-link" hidden></a>
-                </div>
-                <div id="detail-gallery" class="showcase-section" hidden></div>
-            </div>
+            <div id="details-content" class="main-showcase-description-main" hidden></div>
         </section>
 
         <section>
@@ -130,6 +117,7 @@
         </div>
     </footer>
 
+    <script src="project-ratings.js" defer></script>
     <script src="portfolio-details.js" defer></script>
 </body>
 </html>

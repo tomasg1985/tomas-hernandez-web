@@ -61,7 +61,7 @@
         "title": "Maquinaria Centro",
         "description": "Landing page realizada para dar a conocer los servicios de esta empresa argentina...",
         "published": "Publicado: 15 Mar 2024",
-        "view_project": "https://menelmec.com.ar/",
+        "view_project": "https://maquinariascentro.com.ar/",
         "tech_tags": ["WORDPRESS", "ELEMENTOR"],
         "keywords": ["ecommerce", "educacion"]
     },
@@ -81,7 +81,7 @@
     {
         "id": 7,
         "section": "software",
-        "project_tag": "Calculadora Data Center",
+        "project_tag": "Calculo Data Center",
         "condition": "Nuevo",
         "rating": "4/5",
         "title": "PhysaFlow",

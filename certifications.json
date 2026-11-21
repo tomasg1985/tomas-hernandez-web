@@ -3,96 +3,156 @@
         "id": 1,
         "section": "programming",
         "project_tag": "Talento Tech",
+        "institution_logo": "./assets/logos/talento-tech-01.png",
         "rating": "4/5",
-        "title": "Iniciación a la programación con Python",
+        "title": "Programación con Python",
         "description": "Proyecto final correspondiente al cuarto cuatrimestre  de carrera de especializacion...",
         "published": "Publicado: Jul 2026",
         "view_project": "#",
         "tech_tags": ["PYTHON"],
-        "keywords": ["pagos", "tecnologia", "motion graphics", "after effects", "illustrator"]
+        "keywords": ["lenguaje de programacion", "python", "proyectos", "certificacion"]
     },
     {
         "id": 2,
         "section": "programming",
         "project_tag": "Talento Tech",
+        "institution_logo": "./assets/logos/talento-tech-01.png",
         "rating": "4/5",
         "title": "Front-End JS",
         "description": "Proyecto final correspondiente al cuarto cuatrimestre  de carrera de especializacion...",
         "published": "Publicado: Dic 2026",
         "view_project": "#",
         "tech_tags": ["HTML", "CSS", "JAVASCRIPT"],
-        "keywords": ["pagos", "tecnologia", "motion graphics", "after effects", "illustrator"]
+        "keywords": ["lenguaje de programacion", "javascript", "html", "css", "proyectos", "certificacion", "front end", "web", "e-commerce"]
     },
     {
         "id": 3,
+        "section": "programming",
+        "project_tag": "Talento Tech",
+        "institution_logo": "./assets/logos/talento-tech-01.png",
+        "rating": "4/5",
+        "title": "React JS",
+        "description": "Proyecto final correspondiente al cuarto cuatrimestre  de carrera de especializacion...",
+        "published": "Publicado: Jun 2027",
+        "view_project": "#",
+        "tech_tags": ["REACTJS", "JSX", "VITE"],
+        "keywords": ["lenguaje de programacion", "javascript", "react js", "jsx", "vite", "proyectos", "certificacion", "front end", "web"]
+    },
+    {
+        "id": 4,
+        "section": "programming",
+        "project_tag": "Talento Tech",
+        "institution_logo": "./assets/logos/talento-tech-01.png",
+        "rating": "4/5",
+        "title": "Backend / Java",
+        "description": "Proyecto final correspondiente al cuarto cuatrimestre  de carrera de especializacion...",
+        "published": "Publicado: --",
+        "view_project": "#",
+        "tech_tags": ["JAVA"],
+        "keywords": ["lenguaje de programacion", "java", "proyectos", "certificacion", "back end"]
+    },
+    {
+        "id": 5,
+        "section": "programming",
+        "project_tag": "Talento Tech",
+        "institution_logo": "./assets/logos/talento-tech-01.png",
+        "rating": "4/5",
+        "title": "Backend / Node JS",
+        "description": "Proyecto final correspondiente al cuarto cuatrimestre  de carrera de especializacion...",
+        "published": "Publicado: --",
+        "view_project": "#",
+        "tech_tags": ["NODE JS"],
+        "keywords": ["lenguaje de programacion", "node js", "proyectos", "certificacion", "back end"]
+    },
+    {
+        "id": 6,
         "section": "ai",
         "project_tag": "Agentes de IA",
+        "institution_logo": "./assets/logos/icons8-oracle-logo-48.png",
         "rating": "4/5",
-        "title": "ONE | Inmersión: Agentes IA para Negocios",
+        "title": "Agentes IA para Negocios",
         "description": "Proyecto final correspondiente al cuarto cuatrimestre  de carrera de especializacion...",
         "published": "Publicado: Oct 2026",
         "view_project": "#",
         "tech_tags": ["INTELIGENCIA ARTIFICIAL"],
-        "keywords": ["pagos", "tecnologia", "motion graphics", "after effects", "illustrator"]
+        "keywords": ["inteligencia artificial", "negocios", "agentes ia", "inmesion a la ia"]
     },
     {
-        "id": 4,
+        "id": 7,
         "section": "ai",
         "project_tag": "Agentes de IA",
+        "institution_logo": "./assets/logos/icons8-oracle-logo-48.png",
         "rating": "4/5",
         "title": "ONE | AI Builder",
         "description": "Proyecto final correspondiente al cuarto cuatrimestre  de carrera de especializacion...",
         "published": "Publicado: Oct 2026",
         "view_project": "#",
         "tech_tags": ["INTELIGENCIA ARTIFICIAL"],
-        "keywords": ["pagos", "tecnologia", "motion graphics", "after effects", "illustrator"]
+        "keywords": ["ia", "negocios", "marketing", "finanzas", "prompts", "emprendimientos"]
     },
     {
-        "id": 5,
+        "id": 8,
         "section": "aws",
         "project_tag": "Computación en la nube",
+        "institution_logo": "./assets/logos/icons8-aws-logo-48.png",
         "rating": "4/5",
         "title": "Job Roles in the Cloud",
         "description": "Proyecto final correspondiente al cuarto cuatrimestre  de carrera de especializacion...",
         "published": "Publicado: Ago 2026",
         "view_project": "#",
         "tech_tags": ["CLOUD COMPUTING"],
-        "keywords": ["pagos", "tecnologia", "motion graphics", "after effects", "illustrator"]
+        "keywords": ["computacion en la nube", "amazon web services", "trabajar en la nube"]
     },
     {
-        "id": 6,
+        "id": 9,
         "section": "aws",
         "project_tag": "Computación en la nube",
+        "institution_logo": "./assets/logos/icons8-aws-logo-48.png",
         "rating": "4/5",
-        "title": "AWS Cloud Ops: Provisioning and Orchestration",
+        "title": "AWS Cloud Ops",
         "description": "Proyecto final correspondiente al cuarto cuatrimestre  de carrera de especializacion...",
         "published": "Publicado: Ago 2026",
         "view_project": "#",
         "tech_tags": ["INTELIGENCIA ARTIFICIAL"],
-        "keywords": ["pagos", "tecnologia", "motion graphics", "after effects", "illustrator"]
+        "keywords": ["computacion en la nube", "amazon web services", "trabajar en la nube", "orquestacion"]
     },
     {
-        "id": 7,
+        "id": 10,
+        "section": "ai",
+        "project_tag": "Especializacion IA",
+        "institution_logo": "./assets/logos/icons8-aws-logo-48.png",
+        "rating": "4/5",
+        "title": "AWS IA Practitioner",
+        "description": "Proyecto final correspondiente al cuarto cuatrimestre  de carrera de especializacion...",
+        "published": "Publicado: Ago --",
+        "view_project": "#",
+        "tech_tags": ["INTELIGENCIA ARTIFICIAL"],
+        "keywords": ["computacion en la nube", "amazon web services", "trabajar en la nube", "orquestacion"]
+    },
+    {
+        "id": 11,
         "section": "uxui",
         "project_tag": "UX/UI",
+        "institution_logo": "",
         "rating": "4/5",
-        "title": "Introducción al diseño de experiencia de usuario (UX)",
+        "title": "Introducción al diseño (UX)",
         "description": "Proyecto final correspondiente al cuarto cuatrimestre  de carrera de especializacion...",
         "published": "Publicado: Sep 2025",
         "view_project": "#",
         "tech_tags": ["INTELIGENCIA ARTIFICIAL"],
-        "keywords": ["pagos", "tecnologia", "motion graphics", "after effects", "illustrator"]
+        "keywords": ["experiencia de usuarios", "web", "aps", "design system", "sistemas de diseño"]
     },
     {
-        "id": 8,
+        "id": 12,
         "section": "languages",
         "project_tag": "Ciudad Bilingue",
+        "institution_logo": "",
         "rating": "4/5",
         "title": "English Pre-Intermiediate 1",
         "description": "Proyecto final correspondiente al cuarto cuatrimestre  de carrera de especializacion...",
         "published": "Publicado: May 2025",
         "view_project": "#",
         "tech_tags": ["INGLES"],
-        "keywords": ["pagos", "tecnologia", "motion graphics", "after effects", "illustrator"]
+        "keywords": ["ingles", "idiomas", "idiomas para la empleabilidad"]
     }
 ]

@@ -6,8 +6,10 @@
     <title>Portfolio Profesional - Sobre mi</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://googleapis.com">
+    <script src="navigation.js" defer></script>
+    <script src="about.js" defer></script>
 </head>
-<body>
+<body class="about-page">
     
     <nav class="navbar-main">
         <button class="nav-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="primary-navigation">
@@ -47,11 +49,8 @@
                     <h4 class="about-headline">Sobre mi</h4>
                     <h2 class="intro">Hola soy <span class="name">Tomas Hernandez</span></h2>
                     <h3 class="about-description">Diseñador Gráfico & Desarrollador Frontend enfocado en el futuro digital.</h3>
-                    <p class="about-bio">Con 12 años de trayectoria, fusiono la estrategia de marca con la innovación técnica para crear experiencias visuales memorables. Mi experiencia abarca desde el branding y la narrativa audiovisual (motion graphics y edición de video) hasta el desarrollo de sitios web altamente efectivos, optimizados para convertir y destacar.
-                    <br><br>
-                    Me apasiona la intersección entre el arte y la tecnología. Por eso, integro de forma activa herramientas de Inteligencia Artificial y me mantengo a la vanguardia de las últimas tendencias de TI. No solo diseño interfaces o creo contenido visual de alto impacto para redes sociales; construyo soluciones digitales sólidas, escalables y orientadas a resultados.
-                    </p>
-                    
+                    <p class="about-bio">Llevo 12 años trabajando en diseño y comunicación digital, ayudando a marcas a verse bien y a funcionar mejor. Mi experiencia va desde el branding, los motion graphics y la edición de video, hasta el desarrollo de sitios web pensados para atraer clientes y generar resultados.</p>
+                    <p class="about-bio">Me gusta estar siempre aprendiendo y probando herramientas nuevas. Por eso hoy combino mi base de diseño con desarrollo web e Inteligencia Artificial para agilizar procesos y lograr mejores acabados. No me quedo solo en lo estético: busco que cada pieza, video o web tenga un propósito claro y le sirva de verdad al negocio.</p>
                 </div>
                 <div class="about-image-section">
                     <img class="about-me-image" src="assets/responsive/about/about-image (2).png" alt="">
@@ -63,26 +62,33 @@
 
         <section>
 
-            <div class="feature-container">
+            <div class="feature-slider">
+                <button class="feature-slider-arrow feature-slider-arrow-prev" type="button" aria-label="Ver tarjeta anterior" data-feature-prev disabled>
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg>
+                </button>
+                <div class="feature-container" role="region" aria-label="Trayectoria y especialidades" tabindex="0">
                 
-                <div class="feature-column">
-                    <h4 class="feature-heading">Trayectoria en identidad y movimiento</h4>
-                    <h3 class="feature-title">Estrategia y Contenido Visual</h3>
-                    <p class="feature-description">12 años creando identidades de marca (branding), animaciones fluidas (motion graphics) y videos de alta conversión para redes sociales.</p>
-                </div>
+                    <div class="feature-column" role="group" aria-roledescription="diapositiva" aria-label="1 de 3">
+                        <h4 class="feature-heading">Trayectoria en identidad y movimiento</h4>
+                        <h3 class="feature-title">Estrategia y Contenido Visual</h3>
+                        <p class="feature-description">12 años creando identidades de marca (branding), animaciones fluidas (motion graphics) y videos de alta conversión para redes sociales.</p>
+                    </div>
 
-                <div class="feature-column">
-                    <h4 class="feature-heading">Desarrollo centrado en el usuario</h4>
-                    <h3 class="feature-title">Desarrollo Web Efectivo</h3>
-                    <p class="feature-description">Creación de sitios web pensados para el usuario, logrando el equilibrio perfecto entre estética y rendimiento.</p>
-                </div>
+                    <div class="feature-column" role="group" aria-roledescription="diapositiva" aria-label="2 de 3">
+                        <h4 class="feature-heading">Desarrollo centrado en el usuario</h4>
+                        <h3 class="feature-title">Desarrollo Web Efectivo</h3>
+                        <p class="feature-description">Creación de sitios web pensados para el usuario, logrando el equilibrio perfecto entre estética y rendimiento.</p>
+                    </div>
 
-                <div class="feature-column">
-                    <h4 class="feature-heading">Mi filosofía de trabajo</h4>
-                    <h3 class="feature-title">Mentalidad Future-Proof</h3>
-                    <p class="feature-description">Aprendizaje constante en soluciones de Inteligencia Artificial y tecnologías IT para optimizar flujos de trabajo y crear proyectos vanguardistas.</p>
+                    <div class="feature-column" role="group" aria-roledescription="diapositiva" aria-label="3 de 3">
+                        <h4 class="feature-heading">Mi filosofía de trabajo</h4>
+                        <h3 class="feature-title">Mentalidad Future-Proof</h3>
+                        <p class="feature-description">Aprendizaje constante en soluciones de Inteligencia Artificial y tecnologías IT para optimizar flujos de trabajo y crear proyectos vanguardistas.</p>
+                    </div>
                 </div>
-
+                <button class="feature-slider-arrow feature-slider-arrow-next" type="button" aria-label="Ver tarjeta siguiente" data-feature-next>
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>
+                </button>
             </div>
 
         </section>
@@ -123,7 +129,7 @@
                         <p class="country">Venezuela</p>
                         <p class="timelapse-description">Desarrollo de piezas gráficas para puntos de venta en establecimientos comerciales enfocados al rubro deportes.</p>
                         <a href="#">
-                            <input class="view-more-disabled" type="button" value="No disponible">
+                            <input class="view-more-disabled" type="button" value="Red Social no disponible">
                         </a>
                     </div>
 
@@ -189,7 +195,7 @@
                         <p class="country-actual">México (Remoto)</p>
                         <p class="timelapse-description-actual">Desarrollo de activos digitales y multimedia para clientes corporativos de la agencia.</p>
                         <a href="#">
-                            <input class="view-more-actual" type="button" value="No disponible">
+                            <input class="view-more-actual" type="button" value="Red Social no disponible">
                         </a>
                     </div>
     

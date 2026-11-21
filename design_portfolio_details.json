@@ -3,15 +3,25 @@
         "id": 1,
         "section": "motion",
         "project_tag": "Motion Graphics",
-        "title": "RapiPago",
-        "description": "<p>Proyecto final correspondiente al cuarto cuatrimestre  de carrera de especializacion en diseño multimedial para la institución DaVinci Escuela de arte multimedia</p>",
+        "title": "RapiPago - Pago de servicios con criptomonedas",
+        "description": "<p>Este proyecto de motion graphics se desarrolló como parte de una entrega cuatrimestral de la carrera de Diseño Multimedial. La consigna proponía comunicar un nuevo servicio de RapiPago: la posibilidad de pagar servicios utilizando criptomonedas.<br><br>La pieza audiovisual presenta esta modalidad de pago de forma clara y atractiva. Su objetivo fue ayudar a explicar un servicio financiero novedoso mediante recursos visuales y animación, acercando la propuesta al público de una manera comprensible.</p>",
+        "challenge_title": "El Desafío",
+        "challenge_description": "<p>El desafío consistía en traducir una propuesta vinculada con las criptomonedas y los pagos de servicios a un lenguaje visual accesible. Para lograrlo, era necesario organizar la información y presentarla de manera que el servicio pudiera entenderse a través de la pieza audiovisual.<br><br>El proyecto exploró cómo utilizar el movimiento y los elementos gráficos para acompañar la explicación, captar la atención y facilitar la comprensión de la nueva modalidad de pago.</p>",
+        "visual_title": "Desarrollo visual",
+        "visual_description": "<p>La propuesta se construyó a partir de recursos gráficos trabajados para comunicar el servicio y acompañar su presentación. La animación permitió dar ritmo a la pieza y articular los distintos elementos visuales en una experiencia audiovisual.<br><br>El enfoque estuvo puesto en presentar la idea de forma directa y atractiva, utilizando el lenguaje del motion graphics para explicar una alternativa de pago diferente a las formas tradicionales.</p>",
+        "tools_title": "Herramientas y proceso",
+        "tools_description": "<p>Para desarrollar la pieza se utilizaron Adobe Illustrator y Adobe After Effects. Illustrator se empleó para trabajar los elementos gráficos, mientras que After Effects se utilizó para animarlos y dar forma a la presentación audiovisual.<br><br>La combinación de ambas herramientas permitió integrar el diseño de los recursos visuales con su animación, construyendo una pieza enfocada en comunicar la propuesta del servicio.</p>",
+        "result_title": "Resultado",
+        "result_description": "<p>El resultado fue una pieza de motion graphics orientada a presentar el servicio de pago de servicios con criptomonedas de RapiPago. A través de la combinación de recursos gráficos y animación, el proyecto buscó hacer más clara y atractiva la comunicación de esta nueva modalidad.<br><br>La combinación de ambas herramientas permitió integrar el diseño de los recursos visuales con su animación, construyendo una pieza enfocada en comunicar la propuesta del servicio.</p>",
         "view_project": "https://res.cloudinary.com/hkraa2l3/video/upload/v1794357991/Motion_Graphic_Muestra_Publicidad_Rapipago.mp4",
         "tech_tags": [
             "AFTER EFFECTS",
             "ILLUSTRATOR"
         ],
-        "cover_image": "",
-        "gallery_images": [],
+        "banner_image": "./assets/banner-placeholder.svg",
+        "gallery_images": [
+            ""
+        ],
         "video_url": "https://res.cloudinary.com/hkraa2l3/video/upload/v1794357991/Motion_Graphic_Muestra_Publicidad_Rapipago.mp4"
     },
     {
@@ -19,14 +29,26 @@
         "section": "motion",
         "project_tag": "Motion Graphics",
         "title": "PetCare App",
-        "description": "<p>App realizada para la gestión de trámites desde veterinarios y busqueda de mascotas extraviadas, campañas de vacunación entre otras.</p>",
+        "description": "<p>PetCare App es un proyecto enfocado en explorar las necesidades del público en torno a las mascotas. La propuesta surgió durante una investigación sobre la falta, en ese momento, de aplicaciones centradas en facilitar la búsqueda de mascotas y promover campañas en su beneficio.</p>",
+        "challenge_title": "El Desafío",
+        "challenge_description": "<p>El desafío consistió en comprender las necesidades del público y traducirlas en una experiencia digital clara. Para evaluar la propuesta, se asignaron distintas tareas a participantes durante la etapa de pruebas, con el propósito de observar cómo navegaban y detectar oportunidades de mejora.</p>",
+        "visual_title": "Desarrollo visual",
+        "visual_description": "<p>Figma se utilizó para realizar pruebas con el público y trabajar en distintas iteraciones de la propuesta. A partir de los comentarios y observaciones obtenidos, se ajustó la experiencia hasta definir un modelo UX-UI final orientado a las necesidades identificadas y a facilitar la navegación.</p>",
+        "tools_title": "Herramientas y proceso",
+        "tools_description": "<p>El proceso incluyó investigación de necesidades, pruebas con usuarios, iteraciones y mejoras posteriores a la evaluación. Figma fue empleado para las pruebas y el desarrollo de la propuesta. Illustrator y After Effects también forman parte de las herramientas indicadas para el proyecto, aunque no se detalló qué tareas se realizaron con cada una.</p>",
+        "result_title": "Resultado",
+        "result_description": "<p>El trabajo culminó en un diseño final de la aplicación, refinado a partir de las pruebas y las mejoras realizadas. La propuesta busca ofrecer una navegación sencilla y responder a las necesidades identificadas en torno a la búsqueda y las campañas en beneficio de las mascotas.</p>",
         "view_project": "https://res.cloudinary.com/hkraa2l3/video/upload/v1794357864/Motion_Graphic_Pet_Care_App.mp4",
         "tech_tags": [
             "AFTER EFFECTS",
-            "ILLUSTRATOR"
+            "PREMIERE PRO",
+            "ILLUSTRATOR",
+            "FIGMA"
         ],
-        "cover_image": "",
-        "gallery_images": [],
+        "banner_image": "./assets/banner-placeholder.svg",
+        "gallery_images": [
+
+        ],
         "video_url": "https://res.cloudinary.com/hkraa2l3/video/upload/v1794357864/Motion_Graphic_Pet_Care_App.mp4"
     },
     {
@@ -34,13 +56,23 @@
         "section": "video",
         "project_tag": "Edicion de video",
         "title": "Dunas de un cuerpo",
-        "description": "<p>Proyecto realizado por un cliente que desempeño la carrera de Negocios de la Universiad de Monterrey en México el cual desarrollo junto a su equipo una bebida típica del pais.</p>",
+        "description": "<p>Dunas de un cuerpo es una pieza audiovisual realizada para un cliente mexicano que, junto a su equipo, presentó una bebida tradicional del país: el mezcal. El video recorre el origen de la idea, el proceso de investigación y el camino que llevó a convertir ese trabajo en un producto final con calidad de exportación. <br><br>A través de una narración visual dinámica, la pieza presenta las distintas etapas del proyecto y acerca al espectador a la historia detrás de la bebida. El resultado busca comunicar tanto el producto como el trabajo que hizo posible su desarrollo.</p>",
+        "challenge_title": "El Desafío",
+        "challenge_description": "<p>El proyecto requería contar una historia que conectara la investigación previa con la presentación del producto terminado. El desafío consistía en organizar ese recorrido en una pieza audiovisual clara y atractiva, mostrando cómo nació la propuesta y cómo evolucionó hasta convertirse en un producto listo para la exportación.</p>",
+        "visual_title": "Desarrollo visual",
+        "visual_description": "<p>El video utiliza tomas dinámicas para acompañar el relato y dar ritmo a la presentación. La edición articula el origen de la idea, su desarrollo y el resultado de la investigación, construyendo un recorrido audiovisual que culmina en la presentación del mezcal como producto final.</p>",
+        "tools_title": "Herramientas y proceso",
+        "tools_description": "<p>La edición se realizó en Adobe Premiere Pro. El proceso partió de la historia del proyecto y de los resultados de la investigación previa para estructurar una narración que conectara las distintas etapas: desde el surgimiento de la idea hasta la presentación del producto.</p>",
+        "result_title": "Resultado",
+        "result_description": "<p>El proyecto culminó en una pieza audiovisual que presenta la historia y el desarrollo de la propuesta de mezcal, y comunica el resultado del trabajo realizado por el cliente y su equipo. El video muestra el recorrido hasta llegar a un producto final con calidad de exportación.</p>",
         "view_project": "https://res.cloudinary.com/hkraa2l3/video/upload/v1794860922/Proyecto_Mezcal_Dunas_de_un_Cuerpo.mp4",
         "tech_tags": [
             "PREMIERE PRO"
         ],
-        "cover_image": "",
-        "gallery_images": [],
+        "banner_image": "./assets/banner-placeholder.svg",
+        "gallery_images": [
+
+        ],
         "video_url": "https://res.cloudinary.com/hkraa2l3/video/upload/v1794860922/Proyecto_Mezcal_Dunas_de_un_Cuerpo.mp4"
     },
     {
@@ -48,14 +80,24 @@
         "section": "video",
         "project_tag": "Edicion de video",
         "title": "Video Inspiracional",
-        "description": "<p>Video realizado como parte de un proyecto personal destinado para formar parte de una campaña en redes sociales.</p>",
+        "description": "<p>Pieza audiovisual motivacional creada para sumar valor a la experiencia profesional y al portfolio de trabajos. El proyecto combina imágenes dinámicas, una selección cuidadosa de videos de stock y un guion elegido para transmitir su mensaje.</p>",
+        "challenge_title": "El Desafío",
+        "challenge_description": "<p>El reto consistió en encontrar imágenes de stock que representaran el guion y sostuvieran el tono motivacional del video. También se buscó diferenciar algunas escenas mediante recursos visuales que reforzaran la relación entre las imágenes y el texto en pantalla.</p>",
+        "visual_title": "Desarrollo visual",
+        "visual_description": "<p>Las imágenes cambian dinámicamente para acompañar el guion. En determinadas secciones se aplicó rotoscopia para crear la ilusión de profundidad tridimensional entre la imagen y el texto, aportando una estética distintiva a la pieza.</p>",
+        "tools_title": "Herramientas y proceso",
+        "tools_description": "<p>El trabajo se realizó en Adobe After Effects. El proceso incluyó la selección detallada de videos de stock representativos del guion y la aplicación de rotoscopia en algunas escenas para desarrollar el efecto visual entre imagen y texto.</p>",
+        "result_title": "Resultado",
+        "result_description": "<p>El resultado es un video motivacional que combina imágenes de stock, cambios dinámicos y efectos de rotoscopia. La pieza fue creada para ampliar el portfolio profesional y mostrar el uso de recursos audiovisuales y visuales en la edición.</p>",
         "view_project": "https://res.cloudinary.com/hkraa2l3/video/upload/v1794863914/Video_Motivacional.mp4",
         "tech_tags": [
             "AFTER EFFECTS",
             "PREMIERE PRO"
         ],
-        "cover_image": "",
-        "gallery_images": [],
+        "banner_image": "./assets/banner-placeholder.svg",
+        "gallery_images": [
+
+        ],
         "video_url": "https://res.cloudinary.com/hkraa2l3/video/upload/v1794863914/Video_Motivacional.mp4"
     },
     {
@@ -63,69 +105,196 @@
         "section": "branding",
         "project_tag": "Branding de marca",
         "title": "Industrial Hub Torreón",
-        "description": "<p>Branding de marca realizado para un cliente en la ciudad de torreón en México, la empresa se enfoca en el alquiler y compra de propiedades para su uso empresarial.</p>",
+        "description": "<p>Industrial Hub Torreón es un proyecto de branding desarrollado desde cero para una empresa mexicana dedicada al alquiler y la venta de propiedades inmobiliarias para empresas. La identidad se construyó a partir de un briefing inicial, que permitió establecer el tono de marca, la paleta de colores y otros aspectos necesarios para definir su personalidad.</p>",
+        "challenge_title": "El Desafío",
+        "challenge_description": "<p>El proyecto debía representar los valores de la empresa y, al mismo tiempo, establecer una identidad visual vinculada con su lugar de origen. Como parte del proceso, se prepararon distintas propuestas de logotipo para que el cliente pudiera revisarlas y elegir la dirección más adecuada para la marca.</p>",
+        "visual_title": "Desarrollo visual",
+        "visual_description": "<p>El logotipo se planteó para comunicar la identidad y los valores de Industrial Hub Torreón. En su composición se incorporó un monumento icónico de la zona donde nació la empresa, conectando la marca con su contexto local.</p>",
+        "tools_title": "Herramientas y proceso",
+        "tools_description": "<p>El desarrollo partió de un briefing con el cliente, en el que se definieron el tono de marca, la paleta cromática y otros criterios de identidad. Luego se exploraron diversas propuestas de logotipo para su evaluación y selección. Para desarrollar y presentar el proyecto se utilizaron Adobe Illustrator, Adobe InDesign y Adobe Photoshop.</p>",
+        "result_title": "Resultado",
+        "result_description": "<p>El proceso dio forma a una identidad de marca creada para Industrial Hub Torreón, con un logotipo que representa los valores de la empresa e integra una referencia icónica de su lugar de origen. El manual de marca acompaña el proyecto como guía de identidad visual.</p>",
         "view_project": "#",
         "tech_tags": [
             "ILLUSTRATOR",
             "INDESIGN",
             "PHOTOSHOP"
         ],
-        "cover_image": "",
-        "gallery_images": []
+        "banner_image": "./assets/banner-placeholder.svg",
+        "gallery_images": [
+
+        ]
     },
     {
         "id": 6,
         "section": "branding",
         "project_tag": "Branding de marca",
         "title": "Menelmec Solutions",
-        "description": "<p>Branding de marca realizado para una empresa argentina dedicada al rubro eléctrico dedicado al montaje y desmontaje de instalaciones elctricas para fabricas automotrices entre otros.</p>",
+        "description": "<p>Menelmec Solutions es una empresa especializada en instalaciones eléctricas de gran escala para compañías automotrices y en sistemas eléctricos complejos para líneas de ensamblaje. También realiza el desmontaje de instalaciones eléctricas de gran escala previamente instaladas.<br><br> El proyecto consistió en desarrollar desde cero una identidad de marca que representara mejor a la empresa y sus valores. Además, se preparó un manual para orientar el uso del logotipo en distintos formatos y establecer normas de aplicación de la identidad.</p>",
+        "challenge_title": "El Desafío",
+        "challenge_description": "<p>La empresa ya contaba con un logotipo, pero, según lo indicado, este no representaba adecuadamente a la marca ni sus valores. El desafío fue crear un activo visual coherente con la actividad de Menelmec Solutions y definir criterios para el uso consistente de la identidad.</p>",
+        "visual_title": "Desarrollo visual",
+        "visual_description": "<p>La nueva identidad se diseñó considerando los valores de la empresa y el sector en el que opera. El desarrollo buscó traducir esos criterios en una propuesta visual que representara a la marca y pudiera aplicarse de forma coherente en sus distintos formatos.</p>",
+        "tools_title": "Herramientas y proceso",
+        "tools_description": "<p>El proceso se realizó con Adobe Illustrator y Adobe InDesign. A partir de distintas variables y de los criterios definidos para la marca, se desarrolló la identidad visual y se documentaron las pautas de uso del logotipo y las normas que deben respetarse al aplicarlo.</p>",
+        "result_title": "Resultado",
+        "result_description": "<p>El proyecto dio como resultado una identidad de marca creada para Menelmec Solutions y un manual que reúne las normas de uso del logotipo en diferentes formatos. Estos recursos establecen una guía para mantener la coherencia visual de la empresa.</p>",
         "view_project": "#",
         "tech_tags": [
             "ILLUSTRATOR",
             "INDESIGN",
             "PHOTOSHOP"
         ],
-        "cover_image": "",
-        "gallery_images": []
+        "banner_image": "./assets/banner-placeholder.svg",
+        "gallery_images": [
+
+        ]
     },
     {
         "id": 7,
         "section": "branding",
         "project_tag": "Branding de marca",
         "title": "Marmol Laguna",
-        "description": "<p>Video realizado como parte de un proyecto personal destinado para formar parte de una campaña en redes sociales.</p>",
+        "description": "<p>Marmol Laguna es una empresa dedicada a la ingeniería y transformación de piedra, especializada en el suministro, procesamiento y montaje de revestimientos de mármol de alta gama. El proyecto consistió en desarrollar su branding desde cero para establecer una identidad gráfica más coherente con lo que representa la empresa en el mercado.</p>",
+        "challenge_title": "El Desafío",
+        "challenge_description": "<p>La empresa no contaba con una identidad gráfica consistente. El desafío fue comprender sus necesidades mediante un briefing exploratorio y, a partir de esa información, plantear una identidad visual alineada con lo que la empresa necesitaba comunicar.</p>",
+        "visual_title": "Desarrollo visual",
+        "visual_description": "<p>La identidad se desarrolló considerando la actividad de la empresa y su especialización en revestimientos de mármol de alta gama. El trabajo buscó darle coherencia visual a la marca y establecer una base gráfica que pudiera utilizarse de manera consistente.</p>",
+        "tools_title": "Herramientas y proceso",
+        "tools_description": "<p>El proceso comenzó con un briefing exploratorio para conocer las necesidades del cliente. A partir de la información obtenida y de distintas estrategias de diseño, se desarrolló la identidad gráfica. También se elaboró un manual de marca con pautas sobre los usos permitidos y no permitidos del logotipo en sus diferentes formatos. <br><br>Para el proyecto se utilizaron Adobe Illustrator y Adobe InDesign.</p>",
+        "result_title": "Resultado",
+        "result_description": "<p>El proyecto entregó una identidad gráfica para Marmol Laguna y un manual de marca que define criterios para aplicar el logotipo en distintos formatos. Estos recursos ofrecen una guía para mantener la consistencia visual de la empresa.</p>",
         "view_project": "#",
         "tech_tags": [
-            "AFTER EFFECTS",
-            "PREMIERE PRO"
+            "ILLUSTRATOR",
+            "INDESIGN",
+            "PHOTOSHOP"
         ],
-        "cover_image": "",
-        "gallery_images": []
+        "banner_image": "./assets/banner-placeholder.svg",
+        "gallery_images": [
+
+        ]
     },
     {
         "id": 8,
+        "section": "branding",
+        "project_tag": "Branding de marca",
+        "title": "Correa Crawford",
+        "description": "<p>Correa Crawford & Associates es una empresa mexicana de servicios financieros que ofrece soluciones personalizadas para personas y empresas en Estados Unidos y México. Su actividad abarca herramientas y estrategias para la gestión financiera, el acceso a créditos, las inversiones y la planeación patrimonial. <br><br>El proyecto consistió en desarrollar la identidad completa de la marca y su manual, tomando como punto de partida un briefing realizado con el cliente.</p>",
+        "challenge_title": "El Desafío",
+        "challenge_description": "<p>La identidad debía comunicar cómo quería presentarse la empresa ante sus clientes y qué debía representar el logotipo. El briefing permitió establecer esos criterios antes de desarrollar la propuesta visual.</p>",
+        "visual_title": "Desarrollo visual",
+        "visual_description": "<p>La identidad se diseñó a partir de los lineamientos acordados con el cliente durante el briefing. El trabajo buscó reflejar la actividad de Correa Crawford & Associates y la manera en que la empresa quiere relacionarse con sus clientes.</p>",
+        "tools_title": "Herramientas y proceso",
+        "tools_description": "<p>El proceso comenzó con un briefing para conocer las necesidades del cliente y definir qué debía representar el logotipo. Con esos criterios se desarrolló la identidad de marca completa y se preparó el manual correspondiente. Para el trabajo se utilizaron Adobe Illustrator y Adobe InDesign.</p>",
+        "result_title": "Resultado",
+        "result_description": "<p>El proyecto dio como resultado una identidad de marca para Correa Crawford & Associates y un manual que documenta sus lineamientos. Ambos recursos se desarrollaron a partir de los criterios establecidos con el cliente.</p>",
+        "view_project": "#",
+        "tech_tags": [
+            "ILLUSTRATOR",
+            "INDESIGN"
+        ],
+        "banner_image": "./assets/banner-placeholder.svg",
+        "gallery_images": [
+
+        ]
+    },
+    {
+        "id": 9,
+        "section": "branding",
+        "project_tag": "Branding de marca",
+        "title": "Modamex",
+        "description": "<p>MODAMEX es una empresa mexicana dedicada a la venta y distribución de uniformes para los sectores corporativo, industrial, educativo y hospitalario. Su oferta combina funcionalidad, durabilidad y estilo para responder a las necesidades de cada cliente. <br><br>El proyecto partió de un briefing de marca realizado junto al cliente. A partir de este trabajo se desarrollaron recursos para organizar la identidad y apoyar la promoción de sus productos textiles.</p>",
+        "challenge_title": "El Desafío",
+        "challenge_description": "<p>MODAMEX no contaba con un manual de marca, un recurso que el cliente consideraba importante para su empresa. Además, necesitaba un catálogo de productos textiles que pudiera utilizarse para promocionarlos a través de su red de distribuidores en todo el país.</p>",
+        "visual_title": "Desarrollo visual",
+        "visual_description": "<p>La propuesta de diseño se orientó a presentar la oferta textil de MODAMEX de forma clara y facilitar su promoción. El catálogo se desarrolló como material para que los distribuidores pudieran mostrar los productos a sus clientes.</p>",
+        "tools_title": "Herramientas y proceso",
+        "tools_description": "<p>Después del briefing de marca, se elaboró el manual de marca y, en conjunto con la propuesta de diseño, el catálogo de productos textiles. Para desarrollar ambos materiales se utilizaron Adobe Illustrator y Adobe InDesign.</p>",
+        "result_title": "Resultado",
+        "result_description": "<p>El proyecto dio como resultado un manual de marca y un catálogo de productos textiles para MODAMEX. El catálogo quedó destinado a la promoción de productos mediante su red de distribuidores en todo el país.</p>",
+        "view_project": "#",
+        "tech_tags": [
+            "ILLUSTRATOR",
+            "INDESIGN"
+        ],
+        "banner_image": "./assets/banner-placeholder.svg",
+        "gallery_images": [
+
+        ]
+    },
+    {
+        "id": 10,
         "section": "social",
         "project_tag": "Redes Sociales",
         "title": "Deportones",
-        "description": "<p>Redes sociales de empresa argentina dedicada al rubro construcción, venta e instalación de productos fabricados en hierro forjado como portones elevadizos, parrillas y otros productos de alta calidad.</p>",
+        "description": "<p>Deportones es una empresa argentina del rubro de la construcción, dedicada a la fabricación a medida de portones eléctricos, parrillas y diversos utensilios de acero y metal. El proyecto se centró en rediseñar la identidad de la marca en redes sociales y extender una línea visual coherente a su sitio web.</p>",
+        "challenge_title": "El Desafío",
+        "challenge_description": "<p>La comunicación de la marca en redes sociales presentaba una estructura inconsistente y una combinación de colores que, según lo indicado, no la representaba. El sitio web también tenía problemas de coherencia y organización: incluía secciones duplicadas e información irrelevante. Estos aspectos se abordaron junto con el cliente para definir el rediseño.</p>",
+        "visual_title": "Desarrollo visual",
+        "visual_description": "<p>Se rediseñó la línea gráfica para redes sociales y se estableció un manual de identidad corporativa. La identidad renovada también se aplicó al sitio web, con el objetivo de mantener una presentación visual consistente entre los distintos canales de la marca.</p>",
+        "tools_title": "Herramientas y proceso",
+        "tools_description": "<p>El trabajo incluyó el análisis de la identidad en redes sociales y del diseño y contenido del sitio web. Luego se desarrolló una nueva línea gráfica, se documentaron sus pautas en un manual de identidad corporativa y se adaptó la propuesta al sitio web. Para las piezas gráficas se utilizaron Adobe Illustrator y Adobe Photoshop.</p>",
+        "result_title": "Resultado",
+        "result_description": "<p>De acuerdo con la información proporcionada, después de los cambios la marca mejoró su posicionamiento en el mercado y aumentó sus ventas al público. El rediseño alineó la comunicación visual de sus redes sociales con la de su sitio web.</p>",
         "view_project": "https://www.instagram.com/de.portones/",
         "tech_tags": [
             "INSTAGRAM"
         ],
-        "cover_image": "",
-        "gallery_images": []
+        "banner_image": "./assets/banner-placeholder.svg",
+        "gallery_images": [
+
+        ]
     },
     {
-        "id": 9,
+        "id": 11,
         "section": "social",
         "project_tag": "Redes Sociales",
         "title": "Mafensa MX",
-        "description": "<p>Redes sociales de empresa mexicana dedicada al rubro ferretero, venta y alquiler de equipos para construcción y labore profesionales (albañilería, plomería, entre otros)</p>",
+        "description": "<p>Mafensa MX es una empresa mexicana del rubro ferretero que ofrece productos al por mayor y al detalle, además de alquiler de equipos. El proyecto reúne trabajos de comunicación visual para sus redes sociales y materiales editoriales desarrollados para la empresa.</p>",
+        "challenge_title": "El Desafío",
+        "challenge_description": "<p>La comunicación de Mafensa abarca distintos formatos y canales: publicaciones estáticas para redes sociales, historias y reels, además de piezas editoriales como manuales, catálogos y calendarios. El trabajo consistió en atender estas necesidades con recursos gráficos y audiovisuales adecuados a cada formato.</p>",
+        "visual_title": "Desarrollo visual",
+        "visual_description": "<p>Para redes sociales se diseñaron publicaciones mensuales, incluidas piezas estáticas para posts e historias, y reels. También se realizaron trabajos editoriales, como la diagramación de manuales de empresa, catálogos y calendarios.</p>",
+        "tools_title": "Herramientas y proceso",
+        "tools_description": "<p>El trabajo comprendió diseño gráfico, motion graphics, edición de video y diagramación editorial. Se utilizaron Adobe Illustrator y Adobe After Effects para desarrollar las piezas correspondientes.</p>",
+        "result_title": "Resultado",
+        "result_description": "<p>El proyecto produjo contenido mensual para las redes sociales de Mafensa MX y materiales editoriales para la empresa, incluyendo manuales, catálogos y calendarios. Se cubrieron formatos estáticos y audiovisuales para sus canales de comunicación.</p>",
         "view_project": "https://www.instagram.com/mafensamx/",
         "tech_tags": [
-            "INSTAGRAM"
+            "INSTAGRAM",
+            "AFTER EFFECTS",
+            "ILLUSTRATOR"
+
         ],
-        "cover_image": "",
-        "gallery_images": []
+        "banner_image": "./assets/banner-placeholder.svg",
+        "gallery_images": [
+            
+        ]
+    },
+    {
+        "id": 12,
+        "section": "social",
+        "project_tag": "Redes Sociales",
+        "title": "Heker de México",
+        "description": "<p>Heker de México es una empresa mexicana del sector agrícola y distribuidora de fertilizantes para el agro. El proyecto comprendió la creación mensual de contenido para sus redes sociales, con publicaciones destinadas a presentar y promocionar sus productos.</p>",
+        "challenge_title": "El Desafío",
+        "challenge_description": "<p>El trabajo debía cubrir distintos formatos de comunicación para redes: publicaciones estáticas, historias y reels. También incluía etiquetas para los productos, preparadas para presentarse en ambientes visuales simulados e integrarse en las publicaciones.</p>",
+        "visual_title": "Desarrollo visual",
+        "visual_description": "<p>Se diseñaron piezas estáticas para posts e historias, además de reels. Las etiquetas de producto se mostraron mediante composiciones visuales simuladas para que pudieran incluirse en el contenido de redes sociales.</p>",
+        "tools_title": "Herramientas y proceso",
+        "tools_description": "<p>El proyecto combinó diseño gráfico y edición de video. Se utilizaron Adobe Illustrator para desarrollar las piezas gráficas y etiquetas, y Adobe Premiere Pro para la edición de video.</p>",
+        "result_title": "Resultado",
+        "result_description": "<p>El trabajo generó contenido mensual para las redes sociales de Heker de México, incluyendo publicaciones estáticas, historias, reels y etiquetas de productos presentadas en ambientes visuales simulados.</p>",
+        "view_project": "https://www.instagram.com/hekerdemexico/",
+        "tech_tags": [
+            "INSTAGRAM",
+            "PREMIERE PRO",
+            "ILLUSTRATOR"
+        ],
+        "banner_image": "./assets/banner-placeholder.svg",
+        "gallery_images": [
+            
+        ]
     }
 ]

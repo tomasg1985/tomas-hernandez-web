@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2375 700" role="img" aria-labelledby="title description">
+  <title id="title">Placeholder de banner principal</title>
+  <desc id="description">Reemplaza banner_image en el JSON por la ruta del banner estatico del proyecto.</desc>
+  <rect width="2375" height="700" fill="#1c1c1c"/>
+  <rect x="36" y="36" width="2303" height="628" rx="18" fill="none" stroke="#f5b400" stroke-width="4" stroke-dasharray="18 14"/>
+  <path d="M1187.5 180v145m-58-58 58 58 58-58" fill="none" stroke="#f5b400" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+  <text x="1187.5" y="420" fill="#f1f1f1" font-family="Arial, sans-serif" font-size="54" font-weight="700" text-anchor="middle">BANNER PRINCIPAL</text>
+  <text x="1187.5" y="490" fill="#bdbdbd" font-family="Arial, sans-serif" font-size="30" text-anchor="middle">Reemplaza banner_image en el JSON por tu imagen estatica</text>
+</svg>
