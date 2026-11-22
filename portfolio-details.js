@@ -13,6 +13,10 @@ const selectedPortfolioType = detailParams.get('type')
     || localStorage.getItem('selectedPortfolioType');
 const selectedProjectSection = detailParams.get('section')
     || localStorage.getItem('selectedProjectSection');
+let returnToPortfolioUrl = `web-portfolio.html`;
+if (selectedPortfolioType === 'design') {
+    returnToPortfolioUrl = `design-portfolio.html`;
+}
 const allowedDescriptionTags = new Set([
     'p',
     'br',
@@ -264,9 +268,9 @@ function renderProjectDetails(project) {
     const galleryImages = Array.isArray(project.gallery_images)
         ? project.gallery_images.filter(image => typeof image === 'string' && image.trim())
         : [];
-    const galleryItems = galleryImages.length
+    const galleryItems = galleryImages.length > 0
         ? galleryImages
-        : Array.from({ length: 8 }, () => 'https://placehold.co/200x200');
+        : Array.from({ length: 3 }, (_, i) => `https://placehold.co/200x250?text=Proyecto+${i + 1}`);
     const galleryHtml = galleryItems.map((image, index) => `
         <img src="${escapeHtml(image)}" alt="${galleryImages.length
             ? `${escapeHtml(project.title)} - imagen ${index + 1}`
@@ -300,11 +304,21 @@ function renderProjectDetails(project) {
     const bannerImageSource = project.banner_image
         || project.cover_image
         || project.image
+        || project.capture-image
         || './assets/banner-placeholder.svg';
+    const captureImageSource = project.capture_image
+        || project['capture-image']
+        || project.captureImage
+        || './assets/banner-placeholder-2.svg';
     const projectLinkHtml = project.view_project && project.view_project !== '#'
-        ? `<a id="detail-project-link" class="detail-project-link github-link"
+        ? `<a id="detail-project-link" class="detail-project-link github-link live-preview-btn social-btn"
                 href="${escapeHtml(project.view_project)}" target="_blank"
-                rel="noopener noreferrer">Ver proyecto</a>`
+                rel="noopener noreferrer">Previsualizar</a>`
+        : '';
+    const socialLinkHtml = project.social && project.social !== '#'
+        ? `<a id="social-btn" class="social-btn"
+                href="${escapeHtml(project.social)}" target="_blank"
+                rel="noopener noreferrer">Ver Red Social</a>`
         : '';
 
     detailCoverContainer.hidden = false;
@@ -324,12 +338,28 @@ function renderProjectDetails(project) {
                 <div class="tech-icons-container">
                     <div class="tech-icons-section">${techStackHtml}</div>
                 </div>
+                <div class="social-btn-container">
+                    ${socialLinkHtml}
+                </div>
                 
             </div>
             <div class="showcase-section">${galleryHtml}</div>
         </div>
-        ${projectRatingHtml}
         ${extraDetailsCarouselHtml}
+        <div class="screen-capture-section">
+                <div class="capture">
+                    <div>
+                        <img src="${escapeHtml(captureImageSource)}" alt="Captura de pantalla de ${escapeHtml(project.title || 'proyecto')}">
+                    </div>
+                    <div class="button-container">
+                        <div class="live-preview-main">
+                            <a>${projectLinkHtml}</a>
+                            <a class="return-to-main" href="${returnToPortfolioUrl}">Volver a proyectos</a>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        ${projectRatingHtml}
     `;
 
     initializeProjectRating(project);

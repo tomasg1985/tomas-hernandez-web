@@ -18,7 +18,8 @@
             "AFTER EFFECTS",
             "ILLUSTRATOR"
         ],
-        "banner_image": "./assets/banner-placeholder.svg",
+        "banner_image": "./assets/banners/rapipago_banner_2375x700.jpg",
+        "capture-image": "./assets/banners/rapipago-motion-redesign.svg",
         "gallery_images": [
             ""
         ],
@@ -46,6 +47,7 @@
             "FIGMA"
         ],
         "banner_image": "./assets/banner-placeholder.svg",
+        "capture-image": "./assets/banners/banner-carne-seca-02-01.jpg",
         "gallery_images": [
 
         ],
@@ -53,6 +55,31 @@
     },
     {
         "id": 3,
+        "section": "motion",
+        "project_tag": "Motion Graphics",
+        "title": "Branding Bs. As",
+        "description": "<p>Branding Buenos Aires es un video turístico creado para mostrar algunos de los lugares y monumentos más emblemáticos de la ciudad de Buenos Aires, Argentina. La propuesta busca acercar al público a distintos puntos representativos de la ciudad mediante una pieza audiovisual pensada para su difusión en Instagram. <br><br>El proyecto reúne el interés por los espacios icónicos de Buenos Aires con el formato dinámico del motion graphics. Su propósito es presentar visualmente lugares y monumentos de la ciudad, ofreciendo al público un recorrido breve por algunos de sus referentes.</p>",
+        "challenge_title": "El Desafío",
+        "challenge_description": "<p>El desafío consistió en comunicar la identidad turística de Buenos Aires a través de una pieza audiovisual que captara la atención y presentara sus lugares emblemáticos de forma atractiva. Para ello, el video debía organizar visualmente distintos sitios y monumentos dentro de un mismo recorrido.</p>",
+        "visual_title": "Desarrollo visual",
+        "visual_description": "<p>La pieza se construyó alrededor de la presentación de lugares y monumentos reconocibles de la ciudad. El uso de motion graphics permite dar dinamismo al contenido y acompañar la sucesión de imágenes para crear un recorrido visual pensado para el público de Instagram.</p>",
+        "tools_title": "Herramientas y proceso",
+        "tools_description": "<p>Adobe After Effects se utilizó para desarrollar el video. Instagram fue la plataforma indicada para su difusión. La información disponible no especifica qué monumentos aparecen, los recursos gráficos empleados ni la duración de la pieza, por lo que no agrego esos detalles.</p>",
+        "result_title": "Resultado",
+        "result_description": "<p>El resultado es un video turístico sobre Buenos Aires, creado para mostrar algunos de los lugares y monumentos más emblemáticos de la ciudad. La pieza está destinada a Instagram y utiliza motion graphics para presentar el recorrido de forma audiovisual.</p>",
+        "view_project": "https://res.cloudinary.com/hkraa2l3/video/upload/v1795310980/Reel_Experiencia_BS_AS.mp4",
+        "tech_tags": [
+            "AFTER EFFECTS"
+        ],
+        "banner_image": "./assets/banner-placeholder.svg",
+        "capture-image": "./assets/banners/banner-carne-seca-02-01.jpg",
+        "gallery_images": [
+
+        ],
+        "video_url": "https://res.cloudinary.com/hkraa2l3/video/upload/v1795310980/Reel_Experiencia_BS_AS.mp4"
+    },
+    {
+        "id": 4,
         "section": "video",
         "project_tag": "Edicion de video",
         "title": "Dunas de un cuerpo",
@@ -70,13 +97,14 @@
             "PREMIERE PRO"
         ],
         "banner_image": "./assets/banner-placeholder.svg",
+        "capture-image": "./assets/banners/banner-carne-seca-02-01.jpg",
         "gallery_images": [
 
         ],
         "video_url": "https://res.cloudinary.com/hkraa2l3/video/upload/v1794860922/Proyecto_Mezcal_Dunas_de_un_Cuerpo.mp4"
     },
     {
-        "id": 4,
+        "id": 5,
         "section": "video",
         "project_tag": "Edicion de video",
         "title": "Video Inspiracional",
@@ -95,13 +123,89 @@
             "PREMIERE PRO"
         ],
         "banner_image": "./assets/banner-placeholder.svg",
+        "capture-image": "./assets/banners/banner-carne-seca-02-01.jpg",
         "gallery_images": [
 
         ],
         "video_url": "https://res.cloudinary.com/hkraa2l3/video/upload/v1794863914/Video_Motivacional.mp4"
     },
     {
-        "id": 5,
+        "id": 6,
+        "section": "video",
+        "project_tag": "Edicion de video",
+        "title": "Jazz Boozz Sessions",
+        "description": "<p>Jazz Boozz Sessions es un proyecto audiovisual creado para promocionar la presentación de una banda mexicana en una serie de sesiones realizadas en el establecimiento que da nombre al proyecto. La pieza también se enmarca en una iniciativa que busca dar a conocer a otras bandas de la escena local. <br><br>El contenido conecta la presentación musical con el espacio donde se realiza, y ofrece una oportunidad para acercar al público tanto a la banda participante como a la propuesta de las sesiones. De este modo, el proyecto cumple una función promocional y se vincula con la difusión de artistas locales.</p>",
+        "challenge_title": "El Desafío",
+        "challenge_description": "<p>El proyecto debía comunicar la participación de una banda mexicana en Jazz Boozz Sessions y, al mismo tiempo, contribuir a que el público conociera la iniciativa como un espacio para presentar otras bandas locales. El desafío consistía en reunir ambos aspectos en una pieza audiovisual promocional.</p>",
+        "visual_title": "Desarrollo visual",
+        "visual_description": "<p>La edición se planteó para presentar la sesión y destacar la participación de la banda. El material audiovisual sirve como recurso para promocionar el evento y acercar la propuesta de Jazz Boozz Sessions a quienes siguen la música y la escena local. <br><br>No se especificaron detalles sobre las tomas, el estilo de montaje, la música utilizada ni la duración de la pieza, por lo que no atribuyo esas características al proyecto.</p>",
+        "tools_title": "Herramientas y proceso",
+        "tools_description": "<p>El proyecto se editó con Adobe Premiere Pro, como parte de la suite de Adobe. La pieza se orientó a la promoción de la presentación de la banda y a la difusión de las sesiones como una iniciativa que también busca dar visibilidad a otros grupos locales.</p>",
+        "result_title": "Resultado",
+        "result_description": "<p>El resultado es una pieza audiovisual promocional sobre la participación de una banda mexicana en Jazz Boozz Sessions. El proyecto también contribuye a comunicar la iniciativa de las sesiones y su intención de dar a conocer bandas de la escena local.</p>",
+        "view_project": "https://res.cloudinary.com/hkraa2l3/video/upload/v1795310652/Jazz_Boozz_Sesions.mp4",
+        "tech_tags": [
+            "PREMIERE PRO"
+        ],
+        "banner_image": "./assets/banner-placeholder.svg",
+        "capture-image": "./assets/banners/banner-carne-seca-02-01.jpg",
+        "gallery_images": [
+
+        ],
+        "video_url": "https://res.cloudinary.com/hkraa2l3/video/upload/v1795310652/Jazz_Boozz_Sesions.mp4"
+    },
+    {
+        "id": 7,
+        "section": "video",
+        "project_tag": "Edicion de video",
+        "title": "Delice Chocolates",
+        "description": "<p>Delice ChocDelice es una tienda de chocolatería cuyos productos son los protagonistas de esta pieza audiovisual. El video se realizó con la técnica de stop motion, elegida para aportar dinamismo a la presentación y, a la vez, permitir que el público observe los detalles de los productos. <br><br>La propuesta combina una secuencia de imágenes en movimiento con una mirada cercana a los chocolates. De este modo, el estilo elegido busca captar la atención y presentar los productos de la tienda de una forma visual y atractiva.</p>",
+        "challenge_title": "El Desafío",
+        "challenge_description": "<p>El proyecto debía mostrar los productos de chocolatería de manera dinámica sin perder de vista sus detalles. La elección del stop motion respondió a esa necesidad: aportar movimiento a la pieza mientras se mantenía el foco visual en los productos.</p>",
+        "visual_title": "Desarrollo visual",
+        "visual_description": "<p>El video utiliza el estilo stop motion para construir una presentación dinámica de los chocolates. La secuencia permite observar los productos con detalle y dar ritmo a su aparición en pantalla. <br><br>No se especificaron la duración del video, el número de productos incluidos ni los recursos visuales adicionales utilizados. Por ello, la descripción se limita al estilo y al propósito que compartiste.</p>",
+        "tools_title": "Herramientas y proceso",
+        "tools_description": "<p>La pieza se editó en Adobe Premiere Pro, como parte de la suite de Adobe. El proceso se enfocó en presentar los productos de la tienda mediante una secuencia en estilo stop motion, equilibrando dinamismo y detalle.</p>",
+        "result_title": "Resultado",
+        "result_description": "<p>El resultado es un video de estilo stop motion creado para mostrar productos de chocolatería de Delice. La pieza aporta dinamismo a su presentación y permite apreciar los productos en detalle.</p>",
+        "view_project": "https://res.cloudinary.com/hkraa2l3/video/upload/v1795316336/Reel_Chocolate.mp4",
+        "tech_tags": [
+            "PREMIERE PRO"
+        ],
+        "banner_image": "./assets/banner-placeholder.svg",
+        "capture-image": "./assets/banners/banner-carne-seca-02-01.jpg",
+        "gallery_images": [
+
+        ],
+        "video_url": "https://res.cloudinary.com/hkraa2l3/video/upload/v1795316336/Reel_Chocolate.mp4"
+    },
+    {
+        "id": 8,
+        "section": "video",
+        "project_tag": "Edicion de video",
+        "title": "Delice Muffins",
+        "description": "<p>Delice es una tienda de chocolatería cuyos productos son los protagonistas de esta pieza audiovisual. El video se realizó con la técnica de stop motion, elegida para aportar dinamismo a la presentación y, a la vez, permitir que el público observe los detalles de los productos. <br><br>La propuesta combina una secuencia de imágenes en movimiento con una mirada cercana a los chocolates. De este modo, el estilo elegido busca captar la atención y presentar los productos de la tienda de una forma visual y atractiva.</p>",
+        "challenge_title": "El Desafío",
+        "challenge_description": "<p>El proyecto debía mostrar los muffins de manera dinámica sin perder de vista sus detalles. La elección del stop motion respondió a esa necesidad: aportar movimiento a la pieza mientras se mantenía el foco visual en los productos.</p>",
+        "visual_title": "Desarrollo visual",
+        "visual_description": "<p>El video utiliza el estilo stop motion para construir una presentación dinámica de los muffins. La secuencia permite observar los productos con detalle y dar ritmo a su aparición en pantalla. <br><br>No se especificaron la duración del video, el número de productos incluidos ni los recursos visuales adicionales utilizados. Por ello, la descripción se limita al estilo y al propósito que compartiste.</p>",
+        "tools_title": "Herramientas y proceso",
+        "tools_description": "<p>La pieza se editó en Adobe Premiere Pro, como parte de la suite de Adobe. El proceso se enfocó en presentar los productos de la tienda mediante una secuencia en estilo stop motion, equilibrando dinamismo y detalle.</p>",
+        "result_title": "Resultado",
+        "result_description": "<p>El resultado es un video de estilo stop motion creado para mostrar productos de chocolatería de Delice. La pieza aporta dinamismo a su presentación y permite apreciar los productos en detalle.</p>",
+        "view_project": "https://res.cloudinary.com/hkraa2l3/video/upload/v1795316344/Reel_Delice_Muffins.mp4",
+        "tech_tags": [
+            "PREMIERE PRO"
+        ],
+        "banner_image": "./assets/banner-placeholder.svg",
+        "capture-image": "./assets/banners/banner-carne-seca-02-01.jpg",
+        "gallery_images": [
+
+        ],
+        "video_url": "https://res.cloudinary.com/hkraa2l3/video/upload/v1795316344/Reel_Delice_Muffins.mp4"
+    },
+    {
+        "id": 9,
         "section": "branding",
         "project_tag": "Branding de marca",
         "title": "Industrial Hub Torreón",
@@ -121,12 +225,13 @@
             "PHOTOSHOP"
         ],
         "banner_image": "./assets/banner-placeholder.svg",
+        "capture-image": "./assets/banners/banner-carne-seca-02-01.jpg",
         "gallery_images": [
 
         ]
     },
     {
-        "id": 6,
+        "id": 10,
         "section": "branding",
         "project_tag": "Branding de marca",
         "title": "Menelmec Solutions",
@@ -146,12 +251,13 @@
             "PHOTOSHOP"
         ],
         "banner_image": "./assets/banner-placeholder.svg",
+        "capture-image": "./assets/banners/banner-carne-seca-02-01.jpg",
         "gallery_images": [
 
         ]
     },
     {
-        "id": 7,
+        "id": 11,
         "section": "branding",
         "project_tag": "Branding de marca",
         "title": "Marmol Laguna",
@@ -171,12 +277,13 @@
             "PHOTOSHOP"
         ],
         "banner_image": "./assets/banner-placeholder.svg",
+        "capture-image": "./assets/banners/banner-carne-seca-02-01.jpg",
         "gallery_images": [
 
         ]
     },
     {
-        "id": 8,
+        "id": 12,
         "section": "branding",
         "project_tag": "Branding de marca",
         "title": "Correa Crawford",
@@ -195,12 +302,13 @@
             "INDESIGN"
         ],
         "banner_image": "./assets/banner-placeholder.svg",
+        "capture-image": "./assets/banners/banner-carne-seca-02-01.jpg",
         "gallery_images": [
 
         ]
     },
     {
-        "id": 9,
+        "id": 13,
         "section": "branding",
         "project_tag": "Branding de marca",
         "title": "Modamex",
@@ -219,12 +327,13 @@
             "INDESIGN"
         ],
         "banner_image": "./assets/banner-placeholder.svg",
+        "capture-image": "./assets/banners/banner-carne-seca-02-01.jpg",
         "gallery_images": [
 
         ]
     },
     {
-        "id": 10,
+        "id": 14,
         "section": "social",
         "project_tag": "Redes Sociales",
         "title": "Deportones",
@@ -242,12 +351,15 @@
             "INSTAGRAM"
         ],
         "banner_image": "./assets/banner-placeholder.svg",
+        "capture-image": "./assets/banners/banner-carne-seca-02-01.jpg",
         "gallery_images": [
-
+            "./assets/thumbnails/Placa 6.jpg",
+            "./assets/thumbnails/Placas sin animacion-04.jpg",
+            "./assets/thumbnails/Placas reseñas-05.jpg"
         ]
     },
     {
-        "id": 11,
+        "id": 15,
         "section": "social",
         "project_tag": "Redes Sociales",
         "title": "Mafensa MX",
@@ -268,12 +380,15 @@
 
         ],
         "banner_image": "./assets/banner-placeholder.svg",
+        "capture-image": "./assets/banners/banner-carne-seca-02-01.jpg",
         "gallery_images": [
-            
+            "./assets/thumbnails/1 de Enero_Mesa de trabajo 1.jpg",
+            "./assets/thumbnails/post surtimos tu negocio_Mesa de trabajo 1.jpg",
+            "./assets/thumbnails/21 de Enero_Mesa de trabajo 1.jpg"
         ]
     },
     {
-        "id": 12,
+        "id": 16,
         "section": "social",
         "project_tag": "Redes Sociales",
         "title": "Heker de México",
@@ -293,8 +408,147 @@
             "ILLUSTRATOR"
         ],
         "banner_image": "./assets/banner-placeholder.svg",
+        "capture-image": "./assets/banners/banner-carne-seca-02-01.jpg",
         "gallery_images": [
-            
+            "./assets/thumbnails/10 de Abril-05.jpg",
+            "./assets/thumbnails/24 de Abril_Mesa de trabajo 1.jpg",
+            "./assets/thumbnails/3 de Abril_Mesa de trabajo 1.jpg"
+        ]
+    },
+    {
+        "id": 17,
+        "section": "social",
+        "project_tag": "Redes Sociales",
+        "title": "Campoterra",
+        "description": "<p>Campoterra es una empresa inmobiliaria mexicana radicada en Torreón, Coahuila. Se dedica a promocionar lotes en comunidades cerradas tipo country y ofrece propiedades en venta y alquiler para distintos perfiles de clientes. Además, brinda servicios de remodelación y asesoramiento en diseño interior. <br><br>El proyecto se centra en la presencia de Campoterra en redes sociales. Instagram funciona como el canal de comunicación indicado para presentar la oferta inmobiliaria y dar visibilidad a los distintos servicios de la empresa, desde la promoción de lotes hasta la venta, el alquiler, la remodelación y la asesoría de interiores.</p>",
+        "challenge_title": "El Desafío",
+        "challenge_description": "<p>La variedad de servicios de Campoterra requiere comunicar propuestas diferentes dentro de una misma presencia de marca. El contenido debe permitir que los usuarios comprendan que la empresa ofrece tanto lotes y propiedades para venta o alquiler como servicios relacionados con la remodelación y el diseño interior. <br><br>La información proporcionada describe el rubro y la actividad de la empresa, pero no especifica una campaña, objetivos concretos de comunicación, frecuencia de publicaciones ni resultados obtenidos. Por eso, el texto presenta el alcance general del proyecto sin atribuirle métricas o efectos no confirmados.</p>",
+        "visual_title": "Desarrollo visual",
+        "visual_description": "<p>La comunicación visual para redes sociales se plantea alrededor de la oferta inmobiliaria y los servicios complementarios de Campoterra. El contenido puede presentar los lotes y propiedades, así como comunicar la remodelación y el asesoramiento de diseño interior que brinda la empresa. <br><br>La presencia en Instagram permite reunir estas líneas de servicio dentro de un mismo canal. Las piezas gráficas y audiovisuales se desarrollan con herramientas de diseño y edición para presentar la información de manera visual.</p>",
+        "tools_title": "Herramientas y proceso",
+        "tools_description": "<p>Instagram es la plataforma asociada al proyecto. Para la creación de contenido se utilizaron Adobe Illustrator y Adobe Premiere Pro, herramientas destinadas al desarrollo de piezas gráficas y audiovisuales. <br><br>No se especificaron formatos, campañas ni criterios particulares de producción, así que la descripción se limita a las herramientas y al canal que compartiste.</p>",
+        "result_title": "Resultado",
+        "result_description": "<p>El proyecto vincula la presencia de Campoterra en Instagram con la promoción de su actividad inmobiliaria en Torreón, Coahuila. La comunicación reúne la oferta de lotes y propiedades en venta y alquiler, junto con los servicios de remodelación y asesoramiento en diseño interior. <br><br>El contenido se apoya en recursos gráficos y audiovisuales creados con Illustrator y Premiere Pro. No se proporcionaron métricas ni resultados comerciales, por lo que no se atribuyen cambios en consultas, ventas o alcance.</p>",
+        "view_project": "#",
+        "tech_tags": [
+            "INSTAGRAM",
+            "PREMIERE PRO",
+            "ILLUSTRATOR"
+        ],
+        "banner_image": "./assets/banner-placeholder.svg",
+        "capture-image": "./assets/banners/banner-carne-seca-02-01.jpg",
+        "gallery_images": [
+            "./assets/thumbnails/2 de Febrero_Mesa de trabajo 1.jpg",
+            "./assets/thumbnails/13 de Febrero_Mesa de trabajo 1.jpg",
+            "./assets/thumbnails/27 de Febrero_Mesa de trabajo 1.jpg"
+        ]
+    },
+    {
+        "id": 18,
+        "section": "social",
+        "project_tag": "Redes Sociales",
+        "title": "Auratech Studio",
+        "description": "<p>Auratech Studio es una empresa mexicana dedicada a la publicidad en medios digitales. El proyecto aborda la evolución de su proceso de creación de publicaciones para Instagram: la agencia comenzó diseñando sus contenidos con la suite de Adobe y, posteriormente, incorporó herramientas de inteligencia artificial a su flujo de trabajo. <br><br>Esta incorporación permitió duplicar la frecuencia de publicación y optimizar los tiempos de producción, según la información proporcionada. El caso refleja cómo la agencia integró nuevas herramientas en su proceso de creación de contenido para responder con mayor agilidad a las necesidades de publicación.</p>",
+        "challenge_title": "El Desafío",
+        "challenge_description": "<p>El desafío consistía en producir publicaciones para medios digitales con mayor frecuencia y optimizar el tiempo dedicado a su desarrollo. La adopción de inteligencia artificial se incorporó al proceso que anteriormente se apoyaba en la suite de Adobe.</p>",
+        "visual_title": "Desarrollo visual",
+        "visual_description": "<p>La propuesta visual parte del trabajo de diseño de publicaciones que Auratech Studio ya realizaba con la suite de Adobe. Con la integración de herramientas de inteligencia artificial, el proceso creativo evolucionó para facilitar una mayor frecuencia de publicación, manteniendo Instagram como plataforma de difusión. <br><br>No se especificaron los tipos de contenido generados con IA, las tareas exactas en las que se aplicó ni los criterios visuales utilizados; por ello, no se atribuyen características concretas a las piezas.</p>",
+        "tools_title": "Herramientas y proceso",
+        "tools_description": "<p>Instagram es la plataforma asociada al proyecto. La suite de Adobe formó parte del proceso inicial de diseño, y posteriormente se sumaron herramientas de inteligencia artificial para optimizar los tiempos de producción y aumentar la frecuencia de las publicaciones. <br><br>No se proporcionaron los nombres de las herramientas de IA empleadas ni detalles sobre el flujo de trabajo, así que se describen de forma general.</p>",
+        "result_title": "Resultado",
+        "result_description": "<p>Según la información compartida, la incorporación de herramientas de inteligencia artificial permitió a Auratech Studio duplicar la frecuencia de sus publicaciones y optimizar los tiempos de producción. El proyecto documenta la evolución del proceso de creación de contenido de la agencia, desde el diseño con la suite de Adobe hasta la integración de IA.</p>",
+        "view_project": "https://www.instagram.com/auratechstudio/",
+        "tech_tags": [
+            "INSTAGRAM",
+            "INTELIGENCIA ARTIFICIAL"
+        ],
+        "banner_image": "./assets/banner-placeholder.svg",
+        "capture-image": "./assets/banners/banner-carne-seca-02-01.jpg",
+        "gallery_images": [
+            "./assets/thumbnails/773644160_18094412159533901_4636622424059932248_n.jpg",
+            "./assets/thumbnails/774994731_18093952346533901_6307735870474785177_n.jpg",
+            "./assets/thumbnails/779537409_1049569321161162_1349027376256184987_n.jpg"
+        ]
+    },
+    {
+        "id": 19,
+        "section": "social",
+        "project_tag": "Redes Sociales",
+        "title": "Jazz Boozz",
+        "description": "<p>Jazz Boozz es un local nocturno contemporáneo ubicado en Torreón, Coahuila, México. Está dirigido a jóvenes y adultos contemporáneos que buscan disfrutar de un ambiente diferente, tomar un cóctel y escuchar música. <br><br>El proyecto corresponde a la categoría de redes sociales y utiliza herramientas de diseño y edición de Adobe. La información proporcionada describe el establecimiento y las herramientas empleadas, pero no detalla las publicaciones, campañas o formatos creados. Por eso, esta presentación contextualiza la marca sin atribuirle piezas o acciones específicas que no fueron indicadas.</p>",
+        "challenge_title": "El Desafío",
+        "challenge_description": "<p>La comunicación de un local nocturno debe transmitir qué tipo de experiencia ofrece y a quién está dirigida. En el caso de Jazz Boozz, el contenido puede presentar su ambiente contemporáneo, la propuesta de coctelería y la música como parte de la experiencia del establecimiento. <br><br>No se especificaron objetivos concretos de comunicación, frecuencia de publicación ni necesidades particulares del cliente, así que no atribuyo al proyecto un desafío adicional.</p>",
+        "visual_title": "Desarrollo visual",
+        "visual_description": "<p>El trabajo se enmarca en la presencia de Jazz Boozz en redes sociales. La marca se relaciona con una propuesta nocturna contemporánea para jóvenes y adultos, donde la música y los cócteles forman parte de la experiencia del lugar. <br><br>No se detallaron la línea gráfica, el estilo visual ni los formatos producidos. Para completar esta sección con precisión, sería útil conocer qué tipos de publicaciones o videos se desarrollaron y qué aspectos de la identidad se buscó destacar.</p>",
+        "tools_title": "Herramientas y proceso",
+        "tools_description": "<p>Para el proyecto se utilizaron Adobe Illustrator y Adobe Premiere Pro. Estas herramientas permiten trabajar piezas gráficas y audiovisuales, aunque no se especificó qué contenido concreto se realizó con cada una.</p>",
+        "result_title": "Resultado",
+        "result_description": "<p>El proyecto está vinculado con la comunicación de Jazz Boozz en redes sociales y con la presentación de su propuesta como local nocturno contemporáneo en Torreón. No se proporcionaron métricas ni resultados específicos, por lo que no se atribuyen cambios en alcance, interacción o asistencia al establecimiento.</p>",
+        "view_project": "https://www.instagram.com/jazzboozz/",
+        "tech_tags": [
+            "INSTAGRAM"
+        ],
+        "banner_image": "./assets/banner-placeholder.svg",
+        "capture-image": "./assets/banners/banner-carne-seca-02-01.jpg",
+        "gallery_images": [
+            "./assets/thumbnails/813282608_2257357671724131_6635792657299535991_n.jpg",
+            "./assets/thumbnails/633101584_18426137497191186_5855326023610128065_n.jpg",
+            "./assets/thumbnails/825327546_2279572002836031_1637894393244595323_n.jpg"
+        ]
+    },
+    {
+        "id": 20,
+        "section": "packaging",
+        "project_tag": "Empaques",
+        "title": "Heker Fertilizantes",
+        "description": "<p>Heker de México es una empresa dedicada a la venta de fertilizantes para el sector agroindustrial. Al comenzar a comercializar productos de desarrollo propio, la empresa necesitó etiquetas para identificar y presentar sus productos. <br><br>El proyecto respondió a esa necesidad mediante el diseño de etiquetas y la representación de las botellas en 3D. Así, además de crear el recurso gráfico destinado a los productos, se preparó una visualización que permite apreciar cómo se verían las etiquetas aplicadas sobre un soporte con una apariencia cercana a la realidad.</p>",
+        "challenge_title": "El Desafío",
+        "challenge_description": "<p>El trabajo debía atender dos aspectos: desarrollar etiquetas para los fertilizantes propios de la empresa y mostrar cómo funcionarían visualmente sobre las botellas. La representación tridimensional permitió acompañar el diseño de las etiquetas con una presentación más realista del producto.</p>",
+        "visual_title": "Desarrollo visual",
+        "visual_description": "<p>Las etiquetas se diseñaron para aplicarse a los productos de Heker de México. Como complemento, se crearon modelos de botellas en 3D para representar las etiquetas sobre sus envases y ofrecer una vista más cercana a la presentación física. <br><br>No se proporcionaron detalles sobre la información incluida en las etiquetas, las dimensiones de los envases ni los criterios gráficos definidos para cada producto, por lo que no atribuyo características específicas al diseño.</p>",
+        "tools_title": "Herramientas y proceso",
+        "tools_description": "<p>Adobe Illustrator se utilizó para el diseño de las etiquetas y Blender 3D para representar las botellas y visualizar cómo se verían los diseños aplicados. El proceso combinó diseño gráfico y modelado tridimensional para presentar los productos de la empresa.</p>",
+        "result_title": "Resultado",
+        "result_description": "<p>El proyecto dio como resultado etiquetas para los fertilizantes de Heker de México y representaciones 3D de las botellas con sus diseños aplicados. Este material permite mostrar los productos en un soporte visual cercano a su apariencia real.</p>",
+        "view_project": "#",
+        "tech_tags": [
+            "BLENDER 3D",
+            "ILLUSTRATOR"
+        ],
+        "banner_image": "./assets/banner-placeholder.svg",
+        "capture-image": "./assets/banner-placeholder-2.svg",
+        "gallery_images": [
+            "./assets/thumbnails/empaques-heker_Mesa de trabajo 1.jpg",
+            "./assets/thumbnails/empaques-heker-02.jpg",
+            "./assets/thumbnails/empaques-heker-03.jpg"
+        ]
+    },
+    {
+        "id": 21,
+        "section": "packaging",
+        "project_tag": "Empaques",
+        "title": "El Arrasador",
+        "description": "<p>El Arrasador es una empresa mexicana del rubro de comestibles que lanzó un producto de carne seca en presentaciones prácticas para llevar. La propuesta incluye diferentes gustos y sabores, pensados para ofrecer variedad a sus clientes. <br><br>El proyecto se enmarca en la categoría de empaques y se desarrolló para presentar este producto de forma visual. Adobe Photoshop y un mockup editable se utilizaron como parte del trabajo. La información proporcionada no detalla si el encargo incluyó el diseño original del envase, la adaptación de una etiqueta existente o únicamente la presentación visual del producto; por eso, no atribuyo un alcance más específico.</p>",
+        "challenge_title": "El Desafío",
+        "challenge_description": "<p>La información disponible describe el producto y sus características: carne seca en presentaciones cómodas de llevar, con distintos gustos y sabores. El contenido del proyecto debía mostrar esta nueva oferta de El Arrasador y comunicar su variedad de presentaciones. <br><br>No se especificaron los requisitos del empaque, el público objetivo concreto ni los elementos visuales solicitados, así que esta sección se limita al contexto compartido.</p>",
+        "visual_title": "Desarrollo visual",
+        "visual_description": "<p>El proyecto se trabajó mediante Adobe Photoshop y un mockup editable. Estas herramientas permitieron preparar una representación visual relacionada con el empaque del producto.</p>",
+        "tools_title": "Herramientas y proceso",
+        "tools_description": "<p>Adobe Photoshop fue la herramienta concreta indicada para el proyecto, junto con un mockup editable. No se detalló el proceso de diseño ni qué elementos del empaque se desarrollaron con cada recurso.</p>",
+        "result_title": "Resultado",
+        "result_description": "<p>El proyecto está asociado a la presentación de la línea de carne seca de El Arrasador, un producto disponible en distintas presentaciones prácticas para llevar y con variedad de sabores. La información compartida no permite confirmar si el resultado final incluyó el diseño completo del empaque o una visualización en mockup.</p>",
+        "view_project": "#",
+        "tech_tags": [
+            "PHOTOSHOP",
+            "ILLUSTRATOR",
+            "MOCKUP"
+        ],
+        "banner_image": "./assets/banners/banner-carne-seca-01.jpg",
+        "capture-image": "./assets/banners/banner-carne-seca-02-01.jpg",
+        "gallery_images": [
+            "./assets/thumbnails/etiqueta-el-arrasador-01.jpg",
+            "./assets/thumbnails/etiuqeta-el-arrasador-02.jpg",
+            "./assets/thumbnails/etiuqeta-el-arrasador-03.jpg"
         ]
     }
 ]

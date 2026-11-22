@@ -1,0 +1,418 @@
+﻿[
+    {
+        "id":  1,
+        "type":  "web",
+        "section":  "web",
+        "title":  "TechStore",
+        "published":  "Publicado: 15 Mar 2024",
+        "project_tag":  "E-Commerce",
+        "description":  "Plataforma de comercio electrÃ³nico moderna orientada a la comercializaciÃ³n de...",
+        "image":  "./assets/project-card-placeholder.svg",
+        "categories":  [
+            "web"
+        ]
+    },
+    {
+        "id":  2,
+        "type":  "web",
+        "section":  "web",
+        "title":  "EduTech",
+        "published":  "Publicado: 15 Mar 2024",
+        "project_tag":  "E-Commerce",
+        "description":  "Plataforma de comercio electrÃ³nico enfocada a la venta y distribuciÃ³n de textos...",
+        "image":  "./assets/project-card-placeholder.svg",
+        "categories":  [
+            "web"
+        ]
+    },
+    {
+        "id":  3,
+        "type":  "web",
+        "section":  "web",
+        "title":  "De Portones",
+        "published":  "Publicado: 15 Mar 2024",
+        "project_tag":  "E-Commerce",
+        "description":  "Sitio web para una empresa argentina dedicada al rubro de la construcciÃ³n, empresa...",
+        "image":  "./assets/project-card-placeholder.svg",
+        "categories":  [
+            "web"
+        ]
+    },
+    {
+        "id":  4,
+        "type":  "web",
+        "section":  "web",
+        "title":  "Menelmec Solutions",
+        "published":  "Publicado: 15 Mar 2024",
+        "project_tag":  "Sitio Web corporativo",
+        "description":  "Plataforma de comercio electrÃ³nico enfocada a la venta y distribuciÃ³n de textos...",
+        "image":  "./assets/project-card-placeholder.svg",
+        "categories":  [
+            "web"
+        ]
+    },
+    {
+        "id":  5,
+        "type":  "web",
+        "section":  "web",
+        "title":  "Maquinaria Centro",
+        "published":  "Publicado: 15 Mar 2024",
+        "project_tag":  "Landing Page",
+        "description":  "Landing page realizada para dar a conocer los servicios de esta empresa argentina...",
+        "image":  "./assets/project-card-placeholder.svg",
+        "categories":  [
+            "web"
+        ]
+    },
+    {
+        "id":  6,
+        "type":  "web",
+        "section":  "software",
+        "title":  "Medical CMS",
+        "published":  "Publicado: 15 Mar 2024",
+        "project_tag":  "Software as a Service",
+        "description":  "Plataforma plataforma SaaS orientada inicialmente al mercado argentino para la gestiÃ³n...",
+        "image":  "./assets/project-card-placeholder.svg",
+        "categories":  [
+            "web"
+        ]
+    },
+    {
+        "id":  7,
+        "type":  "web",
+        "section":  "software",
+        "title":  "PhysaFlow",
+        "published":  "Publicado: 15 Mar 2024",
+        "project_tag":  "Calculo Data Center",
+        "description":  "PhysaFlow es una aplicaciÃ³n web que ayuda a los operadores de centros de datos a...",
+        "image":  "./assets/project-card-placeholder.svg",
+        "categories":  [
+            "web"
+        ]
+    },
+    {
+        "id":  8,
+        "type":  "web",
+        "section":  "software",
+        "title":  "NautiFlow",
+        "published":  "Publicado: 15 Mar 2024",
+        "project_tag":  "GestiÃ³n de transporte",
+        "description":  "NautiFlow es una plataforma que ayuda a los lancheros del del delta de tigre a...",
+        "image":  "./assets/project-card-placeholder.svg",
+        "categories":  [
+            "web"
+        ]
+    },
+    {
+        "id":  9,
+        "type":  "web",
+        "section":  "software",
+        "title":  "FitFlow",
+        "published":  "Publicado: 15 Mar 2024",
+        "project_tag":  "GestiÃ³n de transporte",
+        "description":  "NautiFlow es una plataforma que ayuda a los lancheros del del delta de tigre a...",
+        "image":  "./assets/project-card-placeholder.svg",
+        "categories":  [
+            "web"
+        ]
+    },
+    {
+        "id":  10,
+        "type":  "web",
+        "section":  "uxui",
+        "title":  "Medical CMS",
+        "published":  "Publicado: 15 Mar 2024",
+        "project_tag":  "Software as a Service",
+        "description":  "Plataforma plataforma SaaS orientada inicialmente al mercado argentino para la gestiÃ³n...",
+        "image":  "./assets/project-card-placeholder.svg",
+        "categories":  [
+            "uxui"
+        ]
+    },
+    {
+        "id":  11,
+        "type":  "web",
+        "section":  "ai",
+        "title":  "Agentes para agencia",
+        "published":  "Publicado: 15 Mar 2024",
+        "project_tag":  "Agentes IA",
+        "description":  "Sistema multiagente diseÃ±ado para la gestiÃ³n de contenido y la automatizacion para...",
+        "image":  "./assets/project-card-placeholder.svg",
+        "categories":  [
+            "web"
+        ]
+    },
+    {
+        "id":  1,
+        "type":  "design",
+        "section":  "motion",
+        "title":  "RapiPago",
+        "published":  "Publicado: 15 Mar 2024",
+        "project_tag":  "Motion Graphics",
+        "description":  "Â¿Pagar servicios con criptomonedas? Este proyecto de motion graphics explora cÃ³mo comunicar el nuevo servicio de RapiPago de forma clara y atractiva....",
+        "image":  "./assets/project-card-placeholder.svg",
+        "categories":  [
+            "multimedia"
+        ]
+    },
+    {
+        "id":  2,
+        "type":  "design",
+        "section":  "motion",
+        "title":  "PetCare App",
+        "published":  "Publicado: 15 Mar 2024",
+        "project_tag":  "Motion Graphics",
+        "description":  "Encontrar mascotas y promover campaÃ±as para ayudarlas: esa fue la necesidad que dio origen a PetCare App...",
+        "image":  "./assets/project-card-placeholder.svg",
+        "categories":  [
+            "multimedia"
+        ]
+    },
+    {
+        "id":  3,
+        "type":  "design",
+        "section":  "motion",
+        "title":  "Branding Bs. As",
+        "published":  "Publicado: 15 Mar 2024",
+        "project_tag":  "Motion Graphics",
+        "description":  "Branding Buenos Aires es un video turÃ­stico creado para mostrar algunos de los lugares y monumentos mÃ¡s emblemÃ¡ticos de la ciudad de Buenos Aires, Argentina...",
+        "image":  "./assets/project-card-placeholder.svg",
+        "categories":  [
+            "multimedia"
+        ]
+    },
+    {
+        "id":  4,
+        "type":  "design",
+        "section":  "video",
+        "title":  "Dunas de un cuerpo",
+        "published":  "Publicado: 15 Mar 2024",
+        "project_tag":  "Edicion de video",
+        "description":  "Del origen de una idea a un mezcal con calidad de exportaciÃ³n. Esta pieza audiovisual cuenta el recorrido detrÃ¡s del proyecto...",
+        "image":  "./assets/project-card-placeholder.svg",
+        "categories":  [
+            "multimedia"
+        ]
+    },
+    {
+        "id":  5,
+        "type":  "design",
+        "section":  "video",
+        "title":  "Video Inspiracional",
+        "published":  "Publicado: 15 Mar 2024",
+        "project_tag":  "Edicion de video",
+        "description":  "ImÃ¡genes dinÃ¡micas, un guion motivacional y un efecto visual que crea profundidad entre texto e imagen...",
+        "image":  "./assets/project-card-placeholder.svg",
+        "categories":  [
+            "multimedia"
+        ]
+    },
+    {
+        "id":  6,
+        "type":  "design",
+        "section":  "video",
+        "title":  "Jazz Boozz Sessions",
+        "published":  "Publicado: 15 Mar 2024",
+        "project_tag":  "Edicion de video",
+        "description":  "ImÃ¡genes dinÃ¡micas, un guion motivacional y un efecto visual que crea profundidad entre texto e imagen...",
+        "image":  "./assets/project-card-placeholder.svg",
+        "categories":  [
+            "multimedia"
+        ]
+    },
+    {
+        "id":  7,
+        "type":  "design",
+        "section":  "video",
+        "title":  "Delice Chocolates",
+        "published":  "Publicado: 15 Mar 2024",
+        "project_tag":  "Edicion de video",
+        "description":  "ImÃ¡genes dinÃ¡micas, un guion motivacional y un efecto visual que crea profundidad entre texto e imagen...",
+        "image":  "./assets/project-card-placeholder.svg",
+        "categories":  [
+            "multimedia"
+        ]
+    },
+    {
+        "id":  8,
+        "type":  "design",
+        "section":  "video",
+        "title":  "Delice Muffins",
+        "published":  "Publicado: 15 Mar 2024",
+        "project_tag":  "Edicion de video",
+        "description":  "ImÃ¡genes dinÃ¡micas, un guion motivacional y un efecto visual que crea profundidad entre texto e imagen...",
+        "image":  "./assets/project-card-placeholder.svg",
+        "categories":  [
+            "multimedia"
+        ]
+    },
+    {
+        "id":  9,
+        "type":  "design",
+        "section":  "branding",
+        "title":  "Industrial Hub TorreÃ³n",
+        "published":  "Publicado: 15 Mar 2024",
+        "project_tag":  "Branding de marca",
+        "description":  "Una identidad creada desde cero para una empresa inmobiliaria mexicana, con una marca conectada con sus valores y su lugar de origen....",
+        "image":  "./assets/project-card-placeholder.svg",
+        "categories":  [
+            "branding"
+        ]
+    },
+    {
+        "id":  10,
+        "type":  "design",
+        "section":  "branding",
+        "title":  "Menelmec Solutions",
+        "published":  "Publicado: 15 Mar 2024",
+        "project_tag":  "Branding de marca",
+        "description":  "Instalaciones elÃ©ctricas de gran escala para la industria automotriz: una empresa especializada necesitaba una identidad a la altura de su trabajo...",
+        "image":  "./assets/project-card-placeholder.svg",
+        "categories":  [
+            "branding"
+        ]
+    },
+    {
+        "id":  11,
+        "type":  "design",
+        "section":  "branding",
+        "title":  "Marmol Laguna",
+        "published":  "Publicado: 15 Mar 2024",
+        "project_tag":  "Branding de marca",
+        "description":  "Una identidad visual desarrollada desde cero para una empresa especializada en revestimientos de mÃ¡rmol de alta gama...",
+        "image":  "./assets/project-card-placeholder.svg",
+        "categories":  [
+            "branding"
+        ]
+    },
+    {
+        "id":  12,
+        "type":  "design",
+        "section":  "branding",
+        "title":  "Correa Crawford",
+        "published":  "Publicado: 15 Mar 2024",
+        "project_tag":  "Branding de marca",
+        "description":  "Servicios financieros para personas y empresas en MÃ©xico y Estados Unidos, reunidos bajo una identidad de marca diseÃ±ada a partir de un briefing...",
+        "image":  "./assets/project-card-placeholder.svg",
+        "categories":  [
+            "branding"
+        ]
+    },
+    {
+        "id":  13,
+        "type":  "design",
+        "section":  "branding",
+        "title":  "Modamex",
+        "published":  "Publicado: 15 Mar 2024",
+        "project_tag":  "Branding de marca",
+        "description":  "Uniformes para sectores diversos, con una identidad y un catÃ¡logo pensados para comunicar la oferta de MODAMEX a travÃ©s de su red de distribuidores...",
+        "image":  "./assets/project-card-placeholder.svg",
+        "categories":  [
+            "branding"
+        ]
+    },
+    {
+        "id":  14,
+        "type":  "design",
+        "section":  "social",
+        "title":  "Deportones",
+        "published":  "Publicado: 15 Mar 2024",
+        "project_tag":  "Redes Sociales",
+        "description":  "Una identidad visual mÃ¡s coherente para redes sociales y sitio web, creada para una empresa argentina que fabrica portones elÃ©ctricos y productos de metal a medida...",
+        "image":  "./assets/project-card-placeholder.svg",
+        "categories":  [
+            "graphic-design"
+        ]
+    },
+    {
+        "id":  15,
+        "type":  "design",
+        "section":  "social",
+        "title":  "Mafensa MX",
+        "published":  "Publicado: 15 Mar 2024",
+        "project_tag":  "Redes Sociales",
+        "description":  "ComunicaciÃ³n visual para una empresa que equipa al sector ferretero. Mafensa MX reÃºne piezas para redes sociales y materiales editoriales desarrollados para la marca...",
+        "image":  "./assets/project-card-placeholder.svg",
+        "categories":  [
+            "graphic-design"
+        ]
+    },
+    {
+        "id":  16,
+        "type":  "design",
+        "section":  "social",
+        "title":  "Heker Mexico",
+        "published":  "Publicado: 15 Mar 2024",
+        "project_tag":  "Redes Sociales",
+        "description":  "Soluciones agrÃ­colas que merecen una comunicaciÃ³n clara. Para Heker de MÃ©xico, desarrollÃ© contenido mensual que presenta y promociona sus productos en redes sociales...",
+        "image":  "./assets/project-card-placeholder.svg",
+        "categories":  [
+            "graphic-design"
+        ]
+    },
+    {
+        "id":  17,
+        "type":  "design",
+        "section":  "social",
+        "title":  "Campoterra",
+        "published":  "Publicado: 15 Mar 2024",
+        "project_tag":  "Redes Sociales",
+        "description":  "Soluciones agrÃ­colas que merecen una comunicaciÃ³n clara. Para Heker de MÃ©xico, desarrollÃ© contenido mensual que presenta y promociona sus productos en redes sociales...",
+        "image":  "./assets/project-card-placeholder.svg",
+        "categories":  [
+            "graphic-design"
+        ]
+    },
+    {
+        "id":  18,
+        "type":  "design",
+        "section":  "social",
+        "title":  "Auratech Studio",
+        "published":  "Publicado: 15 Mar 2024",
+        "project_tag":  "Redes Sociales",
+        "description":  "Auratech Studio es una empresa mexicana dedicada a la publicidad en medios digitales. El proyecto aborda la evoluciÃ³n de su proceso de creaciÃ³n de publicaciones para Instagram: la agencia comenzÃ³ diseÃ±ando sus contenidos con la suite de Adobe y, posteriormente, incorporÃ³ herramientas de inteligencia artificial a su flujo de trabajo...",
+        "image":  "./assets/project-card-placeholder.svg",
+        "categories":  [
+            "graphic-design"
+        ]
+    },
+    {
+        "id":  19,
+        "type":  "design",
+        "section":  "social",
+        "title":  "Jazz Boozz",
+        "published":  "Publicado: 15 Mar 2024",
+        "project_tag":  "Redes Sociales",
+        "description":  "Soluciones agrÃ­colas que merecen una comunicaciÃ³n clara. Para Heker de MÃ©xico, desarrollÃ© contenido mensual que presenta y promociona sus productos en redes sociales...",
+        "image":  "./assets/project-card-placeholder.svg",
+        "categories":  [
+            "graphic-design"
+        ]
+    },
+    {
+        "id":  20,
+        "type":  "design",
+        "section":  "packaging",
+        "title":  "Heker Fertilizantes",
+        "published":  "Publicado: 15 Mar 2024",
+        "project_tag":  "Redes Sociales",
+        "description":  "Heker de MÃ©xico es una empresa dedicada a la venta de fertilizantes para el sector agroindustrial. Al comenzar a comercializar productos de desarrollo propio, la empresa necesitÃ³ etiquetas para identificar y presentar sus productos...",
+        "image":  "./assets/project-card-placeholder.svg",
+        "categories":  [
+            "graphic-design"
+        ]
+    },
+    {
+        "id":  21,
+        "type":  "design",
+        "section":  "packaging",
+        "title":  "El Arrasador",
+        "published":  "Publicado: 15 Mar 2024",
+        "project_tag":  "Redes Sociales",
+        "description":  "El Arrasador es una empresa mexicana del rubro de comestibles que lanzÃ³ un producto de carne seca en presentaciones prÃ¡cticas para llevar...",
+        "image":  "./assets/project-card-placeholder.svg",
+        "categories":  [
+            "graphic-design"
+        ]
+    }
+]

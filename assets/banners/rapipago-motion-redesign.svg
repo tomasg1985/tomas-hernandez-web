@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2375" height="700" viewBox="0 0 2375 700">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#251650"/><stop offset="1" stop-color="#130E33"/></linearGradient>
+ <linearGradient id="pink" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#E0034C"/><stop offset="1" stop-color="#F22B6A"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#E0034C" stop-opacity=".22"/><stop offset="1" stop-color="#E0034C" stop-opacity="0"/></radialGradient>
+ <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feGaussianBlur in="SourceAlpha" stdDeviation="13" result="b"/><feOffset dy="11"/><feComponentTransfer><feFuncA type="linear" slope=".24"/></feComponentTransfer><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="2375" height="700" fill="url(#bg)"/>
+<circle cx="2090" cy="60" r="265" fill="url(#glow)"/>
+<circle cx="2220" cy="585" r="180" fill="none" stroke="#E0034C" stroke-width="2" opacity=".2"/>
+<rect width="14" height="700" fill="url(#pink)"/>
+<!-- left message -->
+<path d="M128 110h132" stroke="#E0034C" stroke-width="7" stroke-linecap="round"/>
+<text x="128" y="151" font-family="Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="3" fill="#EBC4D1">PAGOS CON CRIPTOMONEDAS</text>
+<text x="128" y="274" font-family="Arial,sans-serif" font-size="88" font-weight="800" letter-spacing="-2" fill="#fff">¿CON</text>
+<text x="128" y="369" font-family="Arial,sans-serif" font-size="88" font-weight="800" letter-spacing="-2" fill="#fff">CRIPTOS?</text>
+<rect x="130" y="394" width="112" height="7" rx="3.5" fill="url(#pink)"/>
+<text x="130" y="451" font-family="Arial,sans-serif" font-size="28" font-weight="500" fill="#D8D1E8">Pagá tus facturas</text>
+<text x="130" y="493" font-family="Arial,sans-serif" font-size="34" font-weight="750" fill="#fff">en 4 pasos sencillos.</text>
+<g filter="url(#shadow)"><rect x="128" y="548" width="314" height="74" rx="18" fill="url(#pink)"/></g>
+<text x="270" y="596" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" font-weight="800" letter-spacing=".8" fill="#fff">QUIERO PAGAR</text>
+<path d="M381 585h22m-9-9 9 9-9 9" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<!-- visual storyboard panel -->
+<g filter="url(#shadow)"><rect x="850" y="50" width="1410" height="600" rx="30" fill="#FCFBFE"/></g>
+<rect x="850" y="50" width="1410" height="82" rx="30" fill="#F0EDF6"/>
+<path d="M850 102v30h1410v-30" fill="#F0EDF6"/>
+<circle cx="898" cy="91" r="7" fill="#E0034C"/><circle cx="924" cy="91" r="7" fill="#D8D3E1"/><circle cx="950" cy="91" r="7" fill="#D8D3E1"/>
+<text x="994" y="99" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#34245E">PAGÁ EN 4 PASOS</text>
+<g font-family="Arial,sans-serif" font-size="15" font-weight="800" text-anchor="middle">
+ <circle cx="1945" cy="91" r="18" fill="#E0034C"/><text x="1945" y="97" fill="#fff">1</text>
+ <path d="M1967 91h31" stroke="#D9D3E2" stroke-width="2.5"/>
+ <circle cx="2018" cy="91" r="18" fill="#E7E2ED"/><text x="2018" y="97" fill="#6E6484">2</text>
+ <path d="M2040 91h31" stroke="#D9D3E2" stroke-width="2.5"/>
+ <circle cx="2091" cy="91" r="18" fill="#E7E2ED"/><text x="2091" y="97" fill="#6E6484">3</text>
+ <path d="M2113 91h31" stroke="#D9D3E2" stroke-width="2.5"/>
+ <circle cx="2164" cy="91" r="18" fill="#E7E2ED"/><text x="2164" y="97" fill="#6E6484">4</text>
+</g>
+<!-- provider selection -->
+<text x="930" y="196" font-family="Arial,sans-serif" font-size="15" font-weight="800" letter-spacing="2" fill="#9A91A9">SERVICIOS</text>
+<text x="930" y="235" font-family="Arial,sans-serif" font-size="26" font-weight="800" fill="#30205D">Elegí el servicio</text>
+<g>
+ <rect x="930" y="255" width="245" height="70" rx="16" fill="#F4F1F8"/>
+ <rect x="1193" y="255" width="245" height="70" rx="16" fill="#F4F1F8"/>
+ <rect x="1456" y="255" width="245" height="70" rx="16" fill="#F4F1F8"/>
+ <text x="1052" y="299" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#34245E">Edenor</text>
+ <text x="1315" y="299" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#34245E">AySA</text>
+ <text x="1578" y="299" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#34245E">Naturgy</text>
+</g>
+<path d="M930 352h1250" stroke="#E9E5EF" stroke-width="2"/>
+<!-- cryptocurrency selection -->
+<text x="930" y="402" font-family="Arial,sans-serif" font-size="15" font-weight="800" letter-spacing="2" fill="#9A91A9">ELECCIÓN DE MONEDA</text>
+<text x="930" y="441" font-family="Arial,sans-serif" font-size="26" font-weight="800" fill="#30205D">Elegí tu cripto favorita</text>
+<g>
+ <rect x="930" y="460" width="318" height="92" rx="16" fill="#F4F1F8"/>
+ <rect x="1263" y="460" width="318" height="92" rx="16" fill="#F4F1F8"/>
+ <rect x="1596" y="460" width="318" height="92" rx="16" fill="#F4F1F8"/>
+ <circle cx="988" cy="506" r="26" fill="#F7931A"/>
+ <text x="988" y="516" text-anchor="middle" font-family="Arial,sans-serif" font-size="29" font-weight="800" fill="#fff">₿</text>
+ <text x="1031" y="514" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#34245E">Bitcoin</text>
+ <circle cx="1321" cy="506" r="26" fill="#627EEA"/>
+ <path d="M1321 482l-14 24 14 8 14-8zM1321 530l-14-30 14 8 14-8z" fill="#fff"/>
+ <text x="1364" y="514" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#34245E">Ethereum</text>
+ <circle cx="1654" cy="506" r="26" fill="#53AE94"/>
+ <text x="1654" y="514" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" font-weight="800" fill="#fff">₮</text>
+ <text x="1697" y="514" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#34245E">Más opciones</text>
+</g>
+<rect x="930" y="580" width="1250" height="2" fill="#F0EDF6"/>
+<text x="930" y="616" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#8A819A">FLUJO VISUAL</text>
+<g><circle cx="1082" cy="610" r="7" fill="#E0034C"/><circle cx="1114" cy="610" r="7" fill="#D8D2E1"/><circle cx="1146" cy="610" r="7" fill="#D8D2E1"/><circle cx="1178" cy="610" r="7" fill="#D8D2E1"/></g>
+<text x="1210" y="616" font-family="Arial,sans-serif" font-size="16" font-weight="600" fill="#8A819A">Una escena clara para cada paso</text>
+</svg>

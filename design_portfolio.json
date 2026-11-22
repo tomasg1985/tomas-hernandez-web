@@ -10,7 +10,7 @@
         "published": "Publicado: 15 Mar 2024",
         "view_project": "https://res.cloudinary.com/hkraa2l3/video/upload/v1794357991/Motion_Graphic_Muestra_Publicidad_Rapipago.mp4",
         "tech_tags": ["AFTER EFFECTS", "ILLUSTRATOR"],
-        "keywords": ["pagos", "tecnologia", "motion graphics", "after effects", "illustrator"]
+        "keywords": ["pagos", "tecnologia", "motion graphics", "after effects", "illustrator", "criptomonedas", "servicios"]
     },
     {
         "id": 2,
@@ -19,14 +19,27 @@
         "condition": "Nuevo",
         "rating": "4/5",
         "title": "PetCare App",
-        "description": "Encontrar mascotas y promover campañas para ayudarlas: esa fue la necesidad que dio origen a PetCare App....",
+        "description": "Encontrar mascotas y promover campañas para ayudarlas: esa fue la necesidad que dio origen a PetCare App...",
         "published": "Publicado: 15 Mar 2024",
         "view_project": "https://res.cloudinary.com/hkraa2l3/video/upload/v1794357864/Motion_Graphic_Pet_Care_App.mp4",
         "tech_tags": ["AFTER EFFECTS", "ILLUSTRATOR", "FIGMA"],
-        "keywords": ["mascotas", "tecnologia", "apps", "anumación", "after effects", "illustrator"]
+        "keywords": ["mascotas", "tecnologia", "apps", "animación", "after effects", "illustrator", "motion graphics"]
     },
     {
         "id": 3,
+        "section": "motion",
+        "project_tag": "Motion Graphics",
+        "condition": "Nuevo",
+        "rating": "4/5",
+        "title": "Branding Bs. As",
+        "description": "Branding Buenos Aires es un video turístico creado para mostrar algunos de los lugares y monumentos más emblemáticos de la ciudad de Buenos Aires, Argentina...",
+        "published": "Publicado: 15 Mar 2024",
+        "view_project": "https://res.cloudinary.com/hkraa2l3/video/upload/v1795310980/Reel_Experiencia_BS_AS.mp4",
+        "tech_tags": ["AFTER EFFECTS"],
+        "keywords": ["buenos aires", "turismo", "motion graphics", "animación", "after effects", "illustrator", "redes sociales"]
+    },
+    {
+        "id": 4,
         "section": "video",
         "project_tag": "Edicion de video",
         "condition": "Nuevo",
@@ -36,10 +49,10 @@
         "published": "Publicado: 15 Mar 2024",
         "view_project": "https://res.cloudinary.com/hkraa2l3/video/upload/v1794860922/Proyecto_Mezcal_Dunas_de_un_Cuerpo.mp4",
         "tech_tags": ["PREMIERE PRO"],
-        "keywords": ["proyecto", "bebidas", "mexico"]
+        "keywords": ["proyecto", "bebidas", "mexico", "edicion de video", "mezcal", "video"]
     },
     {
-        "id": 4,
+        "id": 5,
         "section": "video",
         "project_tag": "Edicion de video",
         "condition": "Nuevo",
@@ -48,11 +61,50 @@
         "description": "Imágenes dinámicas, un guion motivacional y un efecto visual que crea profundidad entre texto e imagen...",
         "published": "Publicado: 15 Mar 2024",
         "view_project": "https://res.cloudinary.com/hkraa2l3/video/upload/v1794863914/Video_Motivacional.mp4",
-        "tech_tags": ["AFTER EFFECTS", "PREMIERE PRO"],
-        "keywords": ["inspiracional", "social media"]
+        "tech_tags": ["PREMIERE PRO"],
+        "keywords": ["inspiracional", "social media", "premiere pro", "after effects", "rotoscopia", "video"]
     },
     {
-        "id": 5,
+        "id": 6,
+        "section": "video",
+        "project_tag": "Edicion de video",
+        "condition": "Nuevo",
+        "rating": "4/5",
+        "title": "Jazz Boozz Sessions",
+        "description": "Imágenes dinámicas, un guion motivacional y un efecto visual que crea profundidad entre texto e imagen...",
+        "published": "Publicado: 15 Mar 2024",
+        "view_project": "https://res.cloudinary.com/hkraa2l3/video/upload/v1795310652/Jazz_Boozz_Sesions.mp4",
+        "tech_tags": ["PREMIERE PRO"],
+        "keywords": ["inspiracional", "social media", "redes sociales", "musica", "en vivo", "video"]
+    },
+    {
+        "id": 7,
+        "section": "video",
+        "project_tag": "Edicion de video",
+        "condition": "Nuevo",
+        "rating": "4/5",
+        "title": "Delice Chocolates",
+        "description": "Imágenes dinámicas, un guion motivacional y un efecto visual que crea profundidad entre texto e imagen...",
+        "published": "Publicado: 15 Mar 2024",
+        "view_project": "https://res.cloudinary.com/hkraa2l3/video/upload/v1795316336/Reel_Chocolate.mp4",
+        "tech_tags": ["PREMIERE PRO"],
+        "keywords": ["inspiracional", "social media", "redes sociales", "musica", "en vivo", "video"]
+    },
+    {
+        "id": 8,
+        "section": "video",
+        "project_tag": "Edicion de video",
+        "condition": "Nuevo",
+        "rating": "4/5",
+        "title": "Delice Muffins",
+        "description": "Imágenes dinámicas, un guion motivacional y un efecto visual que crea profundidad entre texto e imagen...",
+        "published": "Publicado: 15 Mar 2024",
+        "view_project": "https://res.cloudinary.com/hkraa2l3/video/upload/v1795316344/Reel_Delice_Muffins.mp4",
+        "tech_tags": ["PREMIERE PRO"],
+        "keywords": ["inspiracional", "social media", "redes sociales", "musica", "en vivo", "video"]
+    },
+    {
+        "id": 9,
         "section": "branding",
         "project_tag": "Branding de marca",
         "condition": "Nuevo",
@@ -62,10 +114,10 @@
         "published": "Publicado: 15 Mar 2024",
         "view_project": "#",
         "tech_tags": ["ILLUSTRATOR", "INDESIGN", "PHOTOSHOP"],
-        "keywords": ["inspiracional", "social media"]
+        "keywords": ["inspiracional", "social media", "branding", "marca", "editorial", "logotipo"]
     },
     {
-        "id": 6,
+        "id": 10,
         "section": "branding",
         "project_tag": "Branding de marca",
         "condition": "Nuevo",
@@ -75,10 +127,10 @@
         "published": "Publicado: 15 Mar 2024",
         "view_project": "#",
         "tech_tags": ["ILLUSTRATOR", "INDESIGN", "PHOTOSHOP"],
-        "keywords": ["inspiracional", "social media"]
+        "keywords": ["inspiracional", "social media", "branding", "marca", "editorial", "logotipo"]
     },
     {
-        "id": 7,
+        "id": 11,
         "section": "branding",
         "project_tag": "Branding de marca",
         "condition": "Nuevo",
@@ -88,10 +140,10 @@
         "published": "Publicado: 15 Mar 2024",
         "view_project": "#",
         "tech_tags": ["ILLUSTRATOR", "INDESIGN", "PHOTOSHOP"],
-        "keywords": ["inspiracional", "social media"]
+        "keywords": ["inspiracional", "social media", "branding", "marca", "editorial", "logotipo"]
     },
     {
-        "id": 8,
+        "id": 12,
         "section": "branding",
         "project_tag": "Branding de marca",
         "condition": "Nuevo",
@@ -101,10 +153,10 @@
         "published": "Publicado: 15 Mar 2024",
         "view_project": "#",
         "tech_tags": ["ILLUSTRATOR", "INDESIGN", "PHOTOSHOP"],
-        "keywords": ["inspiracional", "social media"]
+        "keywords": ["inspiracional", "social media", "branding", "marca", "editorial", "logotipo"]
     },
     {
-        "id": 9,
+        "id": 13,
         "section": "branding",
         "project_tag": "Branding de marca",
         "condition": "Nuevo",
@@ -114,10 +166,10 @@
         "published": "Publicado: 15 Mar 2024",
         "view_project": "#",
         "tech_tags": ["ILLUSTRATOR", "INDESIGN", "PHOTOSHOP"],
-        "keywords": ["inspiracional", "social media"]
+        "keywords": ["inspiracional", "social media", "branding", "marca", "editorial", "logotipo"]
     },
     {
-        "id": 10,
+        "id": 14,
         "section": "social",
         "project_tag": "Redes Sociales",
         "condition": "Nuevo",
@@ -127,10 +179,10 @@
         "published": "Publicado: 15 Mar 2024",
         "view_project": "https://www.instagram.com/de.portones/",
         "tech_tags": ["INSTAGRAM"],
-        "keywords": ["inspiracional", "social media"]
+        "keywords": ["social media", "construccion", "empresa", "argentina"]
     },
     {
-        "id": 11,
+        "id": 15,
         "section": "social",
         "project_tag": "Redes Sociales",
         "condition": "Nuevo",
@@ -140,10 +192,10 @@
         "published": "Publicado: 15 Mar 2024",
         "view_project": "https://www.instagram.com/mafensamx/",
         "tech_tags": ["INSTAGRAM"],
-        "keywords": ["inspiracional", "social media"]
+        "keywords": ["social media", "construccion", "empresa", "ferreteria", "mexico"]
     },
     {
-        "id": 12,
+        "id": 16,
         "section": "social",
         "project_tag": "Redes Sociales",
         "condition": "Nuevo",
@@ -153,6 +205,71 @@
         "published": "Publicado: 15 Mar 2024",
         "view_project": "https://www.instagram.com/hekerdemexico/",
         "tech_tags": ["INSTAGRAM"],
-        "keywords": ["inspiracional", "social media"]
+        "keywords": ["social media", "mexico", "fertilizantes", "agricola", "agroindustrias"]
+    },
+    {
+        "id": 17,
+        "section": "social",
+        "project_tag": "Redes Sociales",
+        "condition": "Nuevo",
+        "rating": "4/5",
+        "title": "Campoterra",
+        "description": "Soluciones agrícolas que merecen una comunicación clara. Para Heker de México, desarrollé contenido mensual que presenta y promociona sus productos en redes sociales...",
+        "published": "Publicado: 15 Mar 2024",
+        "view_project": "#",
+        "tech_tags": ["INSTAGRAM"],
+        "keywords": ["social media", "real state", "construccion", "mexico"]
+    },
+    {
+        "id": 18,
+        "section": "social",
+        "project_tag": "Redes Sociales",
+        "condition": "Nuevo",
+        "rating": "4/5",
+        "title": "Auratech Studio",
+        "description": "Auratech Studio es una empresa mexicana dedicada a la publicidad en medios digitales. El proyecto aborda la evolución de su proceso de creación de publicaciones para Instagram: la agencia comenzó diseñando sus contenidos con la suite de Adobe y, posteriormente, incorporó herramientas de inteligencia artificial a su flujo de trabajo...",
+        "published": "Publicado: 15 Mar 2024",
+        "view_project": "https://www.instagram.com/auratechstudio/",
+        "tech_tags": ["INSTAGRAM"],
+        "keywords": ["social media", "mexico", "publicidad", "inteligencia artificial", "ia"]
+    },
+    {
+        "id": 19,
+        "section": "social",
+        "project_tag": "Redes Sociales",
+        "condition": "Nuevo",
+        "rating": "4/5",
+        "title": "Jazz Boozz",
+        "description": "Soluciones agrícolas que merecen una comunicación clara. Para Heker de México, desarrollé contenido mensual que presenta y promociona sus productos en redes sociales...",
+        "published": "Publicado: 15 Mar 2024",
+        "view_project": "https://www.instagram.com/jazzboozz/",
+        "tech_tags": ["INSTAGRAM"],
+        "keywords": ["social media", "bar", "mexico", "cocketeles", "bebidas"]
+    },
+    {
+        "id": 20,
+        "section": "packaging",
+        "project_tag": "Redes Sociales",
+        "condition": "Nuevo",
+        "rating": "4/5",
+        "title": "Heker Fertilizantes",
+        "description": "Heker de México es una empresa dedicada a la venta de fertilizantes para el sector agroindustrial. Al comenzar a comercializar productos de desarrollo propio, la empresa necesitó etiquetas para identificar y presentar sus productos...",
+        "published": "Publicado: 15 Mar 2024",
+        "view_project": "#",
+        "tech_tags": ["ILLUSTRATOR", "BLENDER 3D"],
+        "keywords": ["fertilizantes", "agicultura", "empaques", "mexico"]
+    },
+    {
+        "id": 21,
+        "section": "packaging",
+        "project_tag": "Redes Sociales",
+        "condition": "Nuevo",
+        "rating": "4/5",
+        "title": "El Arrasador",
+        "description": "El Arrasador es una empresa mexicana del rubro de comestibles que lanzó un producto de carne seca en presentaciones prácticas para llevar...",
+        "published": "Publicado: 15 Mar 2024",
+        "view_project": "#",
+        "tech_tags": ["PHOTOSHOP","ILLUSTRATOR", "MOCKUP"],
+        "keywords": ["comestibles", "carne seca", "empaques", "mexico"]
     }
 ]

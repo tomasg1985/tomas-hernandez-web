@@ -2,7 +2,8 @@ const projectSections = {
     motion: document.getElementById('motion-graphics-projects'),
     video: document.getElementById('video-projects'),
     branding: document.getElementById('branding-projects'),
-    social: document.getElementById('social')
+    social: document.getElementById('social'),
+    packaging: document.getElementById('packaging-projects')
 };
 
 const searchInput = document.getElementById('design-project-search');

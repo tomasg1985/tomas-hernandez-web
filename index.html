@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://googleapis.com">
     <script src="navigation.js" defer></script>
+    <script src="index-projects.js?v=1" defer></script>
 </head>
 <body>
     <header>
@@ -23,7 +24,7 @@
                 <a class="nav-link" href="about.html">
                     <li class="nav-list-item">SOBRE MI</li>
                 </a>
-                <a class="nav-link" href="web-portfolio.html">
+                <a class="nav-link" href="portfolio.html">
                     <li class="nav-list-item">PORTFOLIO</li>
                 </a>
                 <a class="nav-link" href="certifications.html">
@@ -43,13 +44,13 @@
                 <a href="web-portfolio.html">
                     <button class="coding-btn" type="button">PORTFOLIO WEB</button>
                 </a>
-                <a class="resume-download-link" href="#">DESCARGAR CV</a>
+                <a class="resume-download-link" href="./assets/docs/Desarrollador de Software Junior - Tomas Hernandez.pdf" download>DESCARGAR CV</a>
             </div>
             <div class="design-portfolio">
                 <a href="design-portfolio.html">
                     <button class="design-btn" type="button">PORTFOLIO DISEÑO</button>
                 </a>
-                <a class="resume-download-link" href="#">DESCARGAR CV</a>
+                <a class="resume-download-link" href="./assets/docs/Disñador Grafico Senior - Tomas Hernandez.pdf" download>DESCARGAR CV</a>
             </div>
         </div>
 
@@ -111,11 +112,6 @@
                         </button>
                     </a>
                 </div>
-                <div class="resume-download">
-                    <a class="nav-link" href="#">
-                        <button class="resume-button-1" type="button">DESCARGAR CV<svg class="download-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0 5-5m-5 5-5-5M5 17v4h14v-4"/></svg></button>
-                    </a>
-                </div>
             </div>
         </section>
     </main>
@@ -147,176 +143,21 @@
             </div>
 
             <div class="filter-nav">
-                <ul class="filter-list">
-                    <a class="filter-nav-link" href="#">
-                        <li class="filter-nav-list-item">
-                            WEB
-                        </li>
-                    </a>
-                    <a class="filter-nav-link" href="#">
-                        <li class="filter-nav-list-item">
-                            UX/UI
-                        </li>
-                    </a>
-                    <a class="filter-nav-link" href="#">
-                        <li class="filter-nav-list-item">
-                            MULTIMEDIA
-                        </li>
-                    </a>
-                    <a class="filter-nav-link" href="#">
-                        <li class="filter-nav-list-item">
-                            BRANDING
-                        </li>
-                    </a>
-                    <a class="filter-nav-link" href="#">
-                        <li class="filter-nav-list-item">
-                            DISEÑO GRÁFICO
-                        </li>
-                    </a>
+                <ul class="filter-list" aria-label="Filtrar proyectos">
+                    <li><button class="filter-nav-link is-active" type="button" data-project-filter="web" aria-pressed="true">WEB</button></li>
+                    <li><button class="filter-nav-link" type="button" data-project-filter="uxui" aria-pressed="false">UX/UI</button></li>
+                    <li><button class="filter-nav-link" type="button" data-project-filter="multimedia" aria-pressed="false">MULTIMEDIA</button></li>
+                    <li><button class="filter-nav-link" type="button" data-project-filter="branding" aria-pressed="false">BRANDING</button></li>
+                    <li><button class="filter-nav-link" type="button" data-project-filter="graphic-design" aria-pressed="false">DISE&Ntilde;O GR&Aacute;FICO</button></li>
                 </ul>
             </div>
-
             <div class="projects-thumbnails-container">
-
-                <div class="thumbnail-showcase">
-
-                    <div class="thumbnail">
-                        <div class="thumbnail-header">
-                            <p class="date">Publicado:  Sep 2026</p>
-                        </div>
-                        <div class="thumbnail-title">
-                            <p class="title">Lorem ipsum</p>
-                        </div>
-                        <div class="thumbnail-footer">
-                            <input class="button" type="button" value="Ver proyecto">
-                        </div>
-                    </div>
-                    
-
-                    <div class="thumbnail">
-                        <div class="thumbnail-header">
-                            <p class="date">Publicado:  Sep 2026</p>
-                        </div>
-                        <div class="thumbnail-title">
-                            <p class="title">Lorem ipsum</p>
-                        </div>
-                        <div class="thumbnail-footer">
-                            <input class="button" type="button" value="Ver proyecto">
-                        </div>
-                    </div>
-
-
-                    <div class="thumbnail">
-                        <div class="thumbnail-header">
-                            <p class="date">Publicado:  Sep 2026</p>
-                        </div>
-                        <div class="thumbnail-title">
-                            <p class="title">Lorem ipsum</p>
-                        </div>
-                        <div class="thumbnail-footer">
-                            <input class="button" type="button" value="Ver proyecto">
-                        </div>
-                    </div>
-
-
-                    <div class="thumbnail">
-                        <div class="thumbnail-header">
-                            <p class="date">Publicado:  Sep 2026</p>
-                        </div>
-                        <div class="thumbnail-title">
-                            <p class="title">Lorem ipsum</p>
-                        </div>
-                        <div class="thumbnail-footer">
-                            <input class="button" type="button" value="Ver proyecto">
-                        </div>
-                    </div>
-
-
-                    <div class="thumbnail">
-                        <div class="thumbnail-header">
-                            <p class="date">Publicado:  Sep 2026</p>
-                        </div>
-                        <div class="thumbnail-title">
-                            <p class="title">Lorem ipsum</p>
-                        </div>
-                        <div class="thumbnail-footer">
-                            <input class="button" type="button" value="Ver proyecto">
-                        </div>
-                    </div>
-
-
-                    <div class="thumbnail">
-                        <div class="thumbnail-header">
-                            <p class="date">Publicado:  Sep 2026</p>
-                        </div>
-                        <div class="thumbnail-title">
-                            <p class="title">Lorem ipsum</p>
-                        </div>
-                        <div class="thumbnail-footer">
-                            <input class="button" type="button" value="Ver proyecto">
-                        </div>
-                    </div>
-
-
-                    <div class="thumbnail">
-                        <div class="thumbnail-header">
-                            <p class="date">Publicado:  Sep 2026</p>
-                        </div>
-                        <div class="thumbnail-title">
-                            <p class="title">Lorem ipsum</p>
-                        </div>
-                        <div class="thumbnail-footer">
-                            <input class="button" type="button" value="Ver proyecto">
-                        </div>
-                    </div>
-
-
-                    <div class="thumbnail">
-                        <div class="thumbnail-header">
-                            <p class="date">Publicado:  Sep 2026</p>
-                        </div>
-                        <div class="thumbnail-title">
-                            <p class="title">Lorem ipsum</p>
-                        </div>
-                        <div class="thumbnail-footer">
-                            <input class="button" type="button" value="Ver proyecto">
-                        </div>
-                    </div>
-
-
-                    <div class="thumbnail">
-                        <div class="thumbnail-header">
-                            <p class="date">Publicado:  Sep 2026</p>
-                        </div>
-                        <div class="thumbnail-title">
-                            <p class="title">Lorem ipsum</p>
-                        </div>
-                        <div class="thumbnail-footer">
-                            <input class="button" type="button" value="Ver proyecto">
-                        </div>
-                    </div>
-
-
-                    <div class="thumbnail">
-                        <div class="thumbnail-header">
-                            <p class="date">Publicado:  Sep 2026</p>
-                        </div>
-                        <div class="thumbnail-title">
-                            <p class="title">Lorem ipsum</p>
-                        </div>
-                        <div class="thumbnail-footer">
-                            <input class="button" type="button" value="Ver proyecto">
-                        </div>
-                    </div>
-
+                <div class="thumbnail-showcase" id="home-projects" aria-live="polite">
+                    <p class="home-projects-status">Cargando proyectos&hellip;</p>
                 </div>
-                
             </div>
-
             <div class="contact-button">
-                <a href="web-portfolio.html">
-                    <button class="view-more-btn" type="button">Ver más<svg class="view-more-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></button>
-                </a>
+                <button class="view-more-btn" id="home-projects-more" type="button">Ver m&aacute;s<svg class="view-more-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></button>
             </div>
 
 
