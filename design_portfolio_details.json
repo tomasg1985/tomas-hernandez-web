@@ -19,9 +19,11 @@
             "ILLUSTRATOR"
         ],
         "banner_image": "./assets/banners/rapipago_banner_2375x700.jpg",
-        "capture-image": "./assets/banners/rapipago-motion-redesign.svg",
+        "capture-image": "./assets/banners/Gemini_Generated_Image_b82p06b82p06b82p.jpeg",
         "gallery_images": [
-            ""
+            "./assets/thumbnails/rapipago-thumbnails-01.jpg",
+            "./assets/thumbnails/rapipago-thumbnails-02.jpg",
+            "./assets/thumbnails/rapipago-thumbnails-04.jpg"
         ],
         "video_url": "https://res.cloudinary.com/hkraa2l3/video/upload/v1794357991/Motion_Graphic_Muestra_Publicidad_Rapipago.mp4"
     },
@@ -46,10 +48,12 @@
             "ILLUSTRATOR",
             "FIGMA"
         ],
-        "banner_image": "./assets/banner-placeholder.svg",
-        "capture-image": "./assets/banners/banner-carne-seca-02-01.jpg",
+        "banner_image": "./assets/banners/PetCare-banner-rediseno.png",
+        "capture-image": "./assets/banners/PetCare-banner-portada-video-02.png",
         "gallery_images": [
-
+            "./assets/thumbnails/pet-care-app_Mesa de trabajo 1.jpg",
+            "./assets/thumbnails/pet-care-app-02.jpg",
+            "./assets/thumbnails/pet-care-app-03.jpg"
         ],
         "video_url": "https://res.cloudinary.com/hkraa2l3/video/upload/v1794357864/Motion_Graphic_Pet_Care_App.mp4"
     },
@@ -71,10 +75,12 @@
         "tech_tags": [
             "AFTER EFFECTS"
         ],
-        "banner_image": "./assets/banner-placeholder.svg",
-        "capture-image": "./assets/banners/banner-carne-seca-02-01.jpg",
+        "banner_image": "./assets/banners/Gemini_Generated_Image_zcb222zcb222zcb2.jpeg",
+        "capture-image": "./assets/banners/Gemini_Generated_Image_k2hvmbk2hvmbk2hv.jpeg",
         "gallery_images": [
-
+            "./assets/thumbnails/palermo.jpeg",
+            "./assets/thumbnails/caminito.jpeg",
+            "./assets/thumbnails/san-telmo.jpeg"
         ],
         "video_url": "https://res.cloudinary.com/hkraa2l3/video/upload/v1795310980/Reel_Experiencia_BS_AS.mp4"
     },

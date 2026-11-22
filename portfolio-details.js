@@ -272,9 +272,27 @@ function renderProjectDetails(project) {
         ? galleryImages
         : Array.from({ length: 3 }, (_, i) => `https://placehold.co/200x250?text=Proyecto+${i + 1}`);
     const galleryHtml = galleryItems.map((image, index) => `
-        <img src="${escapeHtml(image)}" alt="${galleryImages.length
-            ? `${escapeHtml(project.title)} - imagen ${index + 1}`
-            : ''}">
+        <figure class="gallery-item" data-gallery-index="${index}">
+            <button class="gallery-image-button" type="button"
+                    data-gallery-image="${escapeHtml(image)}"
+                    aria-label="Ver ${escapeHtml(project.title)} - imagen ${index + 1} en tamaño grande">
+                <img src="${escapeHtml(image)}" alt="${galleryImages.length
+                    ? `${escapeHtml(project.title)} - imagen ${index + 1}`
+                    : ''}">
+                <span class="gallery-expand-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24"><path d="M8 3H3v5M16 3h5v5M8 21H3v-5M16 21h5v-5"/></svg>
+                </span>
+            </button>
+            <button class="gallery-like-button" type="button"
+                    data-gallery-like="${index}"
+                    aria-label="Me gusta esta imagen"
+                    aria-pressed="false">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 0 0 0-7.78Z"/>
+                </svg>
+                <span class="gallery-like-label">Me gusta</span>
+            </button>
+        </figure>
     `).join('');
     const extraDetails = getExtraDetails(project);
     const extraDetailsHtml = extraDetails.map(section => `
@@ -363,9 +381,150 @@ function renderProjectDetails(project) {
     `;
 
     initializeProjectRating(project);
+    initializeGalleryInteractions(project);
     initializeExtraDetailsCarousel();
 
     document.title = `Portfolio | ${project.title || ''}`;
+}
+
+function getGalleryLikeKey(project, image) {
+    return [
+        'portfolio-gallery-likes-v1',
+        encodeURIComponent(selectedPortfolioType),
+        encodeURIComponent(project.section),
+        encodeURIComponent(project.id),
+        encodeURIComponent(image)
+    ].join(':');
+}
+
+function readGalleryLike(project, image) {
+    try {
+        return localStorage.getItem(getGalleryLikeKey(project, image)) === 'true';
+    } catch (error) {
+        console.error('No se pudo leer el Me gusta de la imagen.', error);
+        return false;
+    }
+}
+
+function writeGalleryLike(project, image, liked) {
+    try {
+        localStorage.setItem(getGalleryLikeKey(project, image), String(liked));
+        return true;
+    } catch (error) {
+        console.error('No se pudo guardar el Me gusta de la imagen.', error);
+        return false;
+    }
+}
+
+function initializeGalleryInteractions(project) {
+    const galleryItems = Array.from(detailsContent.querySelectorAll('.gallery-item'));
+    if (galleryItems.length === 0) {
+        return;
+    }
+
+    let lightbox = detailsContent.querySelector('.gallery-lightbox');
+    if (!lightbox) {
+        lightbox = document.createElement('div');
+        lightbox.className = 'gallery-lightbox';
+        lightbox.hidden = true;
+        lightbox.innerHTML = `
+            <div class="gallery-lightbox-dialog" role="dialog" aria-modal="true" aria-label="Vista ampliada de imagen">
+                <button class="gallery-lightbox-close" type="button" aria-label="Cerrar vista ampliada">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+                </button>
+                <button class="gallery-lightbox-arrow gallery-lightbox-prev" type="button" aria-label="Imagen anterior">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg>
+                </button>
+                <img class="gallery-lightbox-image" src="" alt="">
+                <button class="gallery-lightbox-arrow gallery-lightbox-next" type="button" aria-label="Imagen siguiente">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>
+                </button>
+                <p class="gallery-lightbox-counter" aria-live="polite"></p>
+            </div>
+        `;
+        detailsContent.appendChild(lightbox);
+    }
+
+    const lightboxImage = lightbox.querySelector('.gallery-lightbox-image');
+    const lightboxCounter = lightbox.querySelector('.gallery-lightbox-counter');
+    const closeButton = lightbox.querySelector('.gallery-lightbox-close');
+    const previousButton = lightbox.querySelector('.gallery-lightbox-prev');
+    const nextButton = lightbox.querySelector('.gallery-lightbox-next');
+    let activeIndex = 0;
+    let previousFocus = null;
+
+    const showLightboxImage = index => {
+        activeIndex = (index + galleryItems.length) % galleryItems.length;
+        const item = galleryItems[activeIndex];
+        const source = item.querySelector('.gallery-image-button').dataset.galleryImage;
+        const image = item.querySelector('img');
+        lightboxImage.src = source;
+        lightboxImage.alt = image.alt;
+        lightboxCounter.textContent = `${activeIndex + 1} / ${galleryItems.length}`;
+        previousButton.hidden = galleryItems.length < 2;
+        nextButton.hidden = galleryItems.length < 2;
+    };
+
+    const closeLightbox = () => {
+        lightbox.hidden = true;
+        document.body.classList.remove('gallery-lightbox-open');
+        lightboxImage.src = '';
+        if (previousFocus) {
+            previousFocus.focus();
+        }
+    };
+
+    const openLightbox = (index, trigger) => {
+        previousFocus = trigger;
+        showLightboxImage(index);
+        lightbox.hidden = false;
+        document.body.classList.add('gallery-lightbox-open');
+        closeButton.focus();
+    };
+
+    galleryItems.forEach((item, index) => {
+        const imageButton = item.querySelector('.gallery-image-button');
+        const likeButton = item.querySelector('.gallery-like-button');
+        const imageSource = imageButton.dataset.galleryImage;
+        const liked = readGalleryLike(project, imageSource);
+
+        const updateLikeButton = isLiked => {
+            likeButton.classList.toggle('is-liked', isLiked);
+            likeButton.setAttribute('aria-pressed', String(isLiked));
+            likeButton.querySelector('.gallery-like-label').textContent = isLiked ? 'Te gusta' : 'Me gusta';
+        };
+
+        updateLikeButton(liked);
+
+        imageButton.addEventListener('click', () => openLightbox(index, imageButton));
+        likeButton.addEventListener('click', () => {
+            const nextLiked = likeButton.getAttribute('aria-pressed') !== 'true';
+            if (writeGalleryLike(project, imageSource, nextLiked)) {
+                updateLikeButton(nextLiked);
+            }
+        });
+    });
+
+    closeButton.addEventListener('click', closeLightbox);
+    previousButton.addEventListener('click', () => showLightboxImage(activeIndex - 1));
+    nextButton.addEventListener('click', () => showLightboxImage(activeIndex + 1));
+    lightbox.addEventListener('click', event => {
+        if (event.target === lightbox) {
+            closeLightbox();
+        }
+    });
+    document.addEventListener('keydown', event => {
+        if (lightbox.hidden) {
+            return;
+        }
+        if (event.key === 'Escape') {
+            closeLightbox();
+        } else if (event.key === 'ArrowLeft') {
+            showLightboxImage(activeIndex - 1);
+        } else if (event.key === 'ArrowRight') {
+            showLightboxImage(activeIndex + 1);
+        }
+    });
 }
 
 function initializeExtraDetailsCarousel() {
