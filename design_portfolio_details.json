@@ -88,7 +88,7 @@
         "id": 4,
         "section": "motion",
         "project_tag": "Motion Graphics",
-        "title": "Voluntariad Cruz Roja",
+        "title": "Voluntariado Cruz Roja",
         "description": "<p>Branding Buenos Aires es un video turístico creado para mostrar algunos de los lugares y monumentos más emblemáticos de la ciudad de Buenos Aires, Argentina. La propuesta busca acercar al público a distintos puntos representativos de la ciudad mediante una pieza audiovisual pensada para su difusión en Instagram. <br><br>El proyecto reúne el interés por los espacios icónicos de Buenos Aires con el formato dinámico del motion graphics. Su propósito es presentar visualmente lugares y monumentos de la ciudad, ofreciendo al público un recorrido breve por algunos de sus referentes.</p>",
         "challenge_title": "El Desafío",
         "challenge_description": "<p>El desafío consistió en comunicar la identidad turística de Buenos Aires a través de una pieza audiovisual que captara la atención y presentara sus lugares emblemáticos de forma atractiva. Para ello, el video debía organizar visualmente distintos sitios y monumentos dentro de un mismo recorrido.</p>",
@@ -102,12 +102,9 @@
         "tech_tags": [
             "AFTER EFFECTS"
         ],
-        "banner_image": "./assets/banners/Gemini_Generated_Image_zcb222zcb222zcb2.jpeg",
-        "capture-image": "./assets/banners/Gemini_Generated_Image_k2hvmbk2hvmbk2hv.jpeg",
+        "banner_image": "./assets/banner-placeholder.svg",
+        "capture-image": "./assets/banner-placeholder-2.svg",
         "gallery_images": [
-            "./assets/thumbnails/palermo.jpeg",
-            "./assets/thumbnails/caminito.jpeg",
-            "./assets/thumbnails/san-telmo.jpeg"
         ],
         "video_url": "https://res.cloudinary.com/hkraa2l3/video/upload/v1795386528/Video_Cruz_Roja_Argentina.mp4"
     },
