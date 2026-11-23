@@ -129,6 +129,16 @@
                 type: portfolioType,
                 visitor_id: getVisitorId()
             }, 'GET');
+            projects.forEach(project => {
+                summaryCache.set(getProjectKey(project, portfolioType), {
+                    average: null,
+                    count: 0,
+                    likeCount: 0,
+                    visitorRating: null,
+                    liked: false,
+                    synced: true
+                });
+            });
             rows.forEach(row => setSummary(portfolioType, row));
             remoteAvailable = true;
             return true;
@@ -257,11 +267,6 @@
                 rating
             });
             rows.forEach(row => setSummary(portfolioType, row));
-            projects.forEach(project => {
-                const key = getProjectKey(project, portfolioType);
-                const summary = summaryCache.get(key);
-                if (summary) summaryCache.set(key, { ...summary, synced: true });
-            });
             remoteAvailable = true;
             return getSummary(project, portfolioType);
         } catch (error) {
@@ -360,6 +365,7 @@
     });
 
     global.addEventListener('storage', event => {
+        if (remoteAvailable) return;
         if (!event.key || !event.key.startsWith(`${likesStoragePrefix}:`)) return;
 
         const liked = event.newValue === 'true';

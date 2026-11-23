@@ -157,7 +157,9 @@
         "banner_image": "./assets/banners/video-motivacional-principal.jpeg.png",
         "capture-image": "./assets/banners/video-motivacional-portada video.jpeg",
         "gallery_images": [
-
+            "./assets/thumbnails/poster-video-motivacional_Mesa de trabajo 1.jpg",
+            "./assets/thumbnails/poster-video-motivacional-02.jpg",
+            "./assets/thumbnails/poster-video-motivacional-03.jpg"
         ],
         "video_url": "https://res.cloudinary.com/hkraa2l3/video/upload/v1794863914/Video_Motivacional.mp4"
     },
