@@ -89,22 +89,27 @@
         "section": "motion",
         "project_tag": "Motion Graphics",
         "title": "Voluntariado Cruz Roja",
-        "description": "<p>Branding Buenos Aires es un video turístico creado para mostrar algunos de los lugares y monumentos más emblemáticos de la ciudad de Buenos Aires, Argentina. La propuesta busca acercar al público a distintos puntos representativos de la ciudad mediante una pieza audiovisual pensada para su difusión en Instagram. <br><br>El proyecto reúne el interés por los espacios icónicos de Buenos Aires con el formato dinámico del motion graphics. Su propósito es presentar visualmente lugares y monumentos de la ciudad, ofreciendo al público un recorrido breve por algunos de sus referentes.</p>",
+        "description": "<p>Voluntariado Cruz Roja es un proyecto audiovisual desarrollado mediante técnicas de motion graphics, orientado a promover la participación en el voluntariado y generar conciencia sobre la importancia de saber cómo actuar ante una situación de emergencia. <br><br>La propuesta consiste en una pieza audiovisual informativa dirigida tanto a empresas como a particulares en Argentina, con el propósito de acercar información relevante sobre la prevención y la respuesta ante emergencias, destacando el valor de la preparación y el compromiso social. <br><br>A través de una composición dinámica que combina animaciones, recursos gráficos y elementos audiovisuales, el proyecto busca transmitir un mensaje claro y accesible, adaptado al consumo de contenidos digitales en redes sociales.</p>",
         "challenge_title": "El Desafío",
-        "challenge_description": "<p>El desafío consistió en comunicar la identidad turística de Buenos Aires a través de una pieza audiovisual que captara la atención y presentara sus lugares emblemáticos de forma atractiva. Para ello, el video debía organizar visualmente distintos sitios y monumentos dentro de un mismo recorrido.</p>",
+        "challenge_description": "<p>El principal desafío consistió en desarrollar una pieza audiovisual breve e informativa que permitiera comunicar un mensaje de concientización sobre cómo actuar ante una emergencia real.<br><br>La necesidad planteada requería un contenido capaz de captar la atención de diferentes públicos, incluyendo usuarios particulares y empresas, acercándoles información relacionada con la importancia de estar preparados para responder ante situaciones de emergencia. <br><br>En este contexto, el motion graphics se utilizó como recurso de comunicación audiovisual para organizar y presentar el mensaje de manera dinámica, facilitando su comprensión y favoreciendo su adaptación a los formatos de difusión digital.</p>",
         "visual_title": "Desarrollo visual",
-        "visual_description": "<p>La pieza se construyó alrededor de la presentación de lugares y monumentos reconocibles de la ciudad. El uso de motion graphics permite dar dinamismo al contenido y acompañar la sucesión de imágenes para crear un recorrido visual pensado para el público de Instagram.</p>",
+        "visual_description": "<p>La propuesta visual se construyó mediante la combinación de diferentes recursos gráficos y audiovisuales, buscando generar una experiencia comunicacional dinámica y atractiva. <br><br>El desarrollo incorporó animaciones tipográficas, ilustraciones vectoriales, personajes animados e iconografía, integrados mediante transiciones y efectos visuales que acompañan la narrativa de la pieza. <br><br>La incorporación de estos elementos permitió construir una composición audiovisual en la que el movimiento y los recursos gráficos cumplen un papel fundamental en la presentación del mensaje. Además, se integraron recursos sonoros mediante locución, música y efectos de sonido, complementando la experiencia visual y acompañando el desarrollo del contenido informativo.</p>",
         "tools_title": "Herramientas y proceso",
-        "tools_description": "<p>Adobe After Effects se utilizó para desarrollar el video. Instagram fue la plataforma indicada para su difusión. La información disponible no especifica qué monumentos aparecen, los recursos gráficos empleados ni la duración de la pieza, por lo que no agrego esos detalles.</p>",
+        "tools_description": "<p>Para llevar adelante el proyecto se utilizó Adobe Creative Cloud, integrando distintas herramientas especializadas en diseño gráfico, animación y edición audiovisual. <br><br> <strong>Adobe Illustrator</strong> <br><br>Utilizado como herramienta de diseño vectorial para la creación y preparación de recursos gráficos e ilustraciones que forman parte de la composición visual. <br><br> <strong>Adobe After Effects</strong> <br><br>Empleada para el desarrollo de las animaciones, el movimiento de elementos gráficos, la animación tipográfica y la incorporación de transiciones y efectos visuales. <br><br> <strong>Adobe Premiere Pro</strong> <br><br>Integrado dentro del entorno de producción audiovisual para trabajar en la edición y composición final del contenido. La combinación de estas herramientas permitió desarrollar una pieza de motion graphics de entre 30 y 60 segundos, incorporando recursos visuales y sonoros en una producción orientada a la comunicación digital.</p>",
         "result_title": "Resultado",
-        "result_description": "<p>El resultado es un video turístico sobre Buenos Aires, creado para mostrar algunos de los lugares y monumentos más emblemáticos de la ciudad. La pieza está destinada a Instagram y utiliza motion graphics para presentar el recorrido de forma audiovisual.</p>",
+        "result_description": "<p>El resultado fue una pieza audiovisual de motion graphics finalizada y entregada, diseñada para su utilización en redes sociales como recurso de comunicación y concientización sobre el voluntariado y la importancia de saber cómo actuar ante una emergencia. <br><br>Mediante la integración de animaciones tipográficas, ilustraciones, personajes, elementos gráficos y recursos sonoros, el proyecto reúne diferentes lenguajes audiovisuales para presentar un mensaje informativo en un formato breve y dinámico. <br><br>La producción responde al propósito comunicacional planteado: acercar la temática de las emergencias a empresas y particulares en Argentina, utilizando el diseño y la animación como herramientas para transmitir información de manera visual.</p>",
         "view_project": "https://res.cloudinary.com/hkraa2l3/video/upload/v1795386528/Video_Cruz_Roja_Argentina.mp4",
         "tech_tags": [
-            "AFTER EFFECTS"
+            "AFTER EFFECTS",
+            "PREMIERE PRO",
+            "ILLUSTRATOR"
         ],
-        "banner_image": "./assets/banner-placeholder.svg",
-        "capture-image": "./assets/banner-placeholder-2.svg",
+        "banner_image": "./assets/banners/banner-principal-cruz-roja.jpg",
+        "capture-image": "./assets/banners/banner- portada-video-cruz-roja.jpg",
         "gallery_images": [
+            "./assets/thumbnails/post-cruz-roja-1.jpg",
+            "./assets/thumbnails/post-cruz-roja-2.jpg",
+            "./assets/thumbnails/post-cruz-roja-3.jpg"
         ],
         "video_url": "https://res.cloudinary.com/hkraa2l3/video/upload/v1795386528/Video_Cruz_Roja_Argentina.mp4"
     },
@@ -181,10 +186,12 @@
         "tech_tags": [
             "PREMIERE PRO"
         ],
-        "banner_image": "./assets/banner-placeholder.svg",
-        "capture-image": "./assets/banners/banner-carne-seca-02-01.jpg",
+        "banner_image": "./assets/banners/jazz-boozz-banner-principal.jpg",
+        "capture-image": "./assets/banners/jazz-boozz-portada-video.jpg",
         "gallery_images": [
-
+            "./assets/thumbnails/image_3d2ad642.jpg",
+            "./assets/thumbnails/image_952c6378.jpg",
+            "./assets/thumbnails/image_98ed116c.jpg"
         ],
         "video_url": "https://res.cloudinary.com/hkraa2l3/video/upload/v1795310652/Jazz_Boozz_Sesions.mp4"
     },
@@ -193,7 +200,7 @@
         "section": "video",
         "project_tag": "Edicion de video",
         "title": "Delice Chocolates",
-        "description": "<p>Delice ChocDelice es una tienda de chocolatería cuyos productos son los protagonistas de esta pieza audiovisual. El video se realizó con la técnica de stop motion, elegida para aportar dinamismo a la presentación y, a la vez, permitir que el público observe los detalles de los productos. <br><br>La propuesta combina una secuencia de imágenes en movimiento con una mirada cercana a los chocolates. De este modo, el estilo elegido busca captar la atención y presentar los productos de la tienda de una forma visual y atractiva.</p>",
+        "description": "<p>Chocolates Delice es una tienda de chocolatería cuyos productos son los protagonistas de esta pieza audiovisual. El video se realizó con la técnica de stop motion, elegida para aportar dinamismo a la presentación y, a la vez, permitir que el público observe los detalles de los productos. <br><br>La propuesta combina una secuencia de imágenes en movimiento con una mirada cercana a los chocolates. De este modo, el estilo elegido busca captar la atención y presentar los productos de la tienda de una forma visual y atractiva.</p>",
         "challenge_title": "El Desafío",
         "challenge_description": "<p>El proyecto debía mostrar los productos de chocolatería de manera dinámica sin perder de vista sus detalles. La elección del stop motion respondió a esa necesidad: aportar movimiento a la pieza mientras se mantenía el foco visual en los productos.</p>",
         "visual_title": "Desarrollo visual",
@@ -206,10 +213,12 @@
         "tech_tags": [
             "PREMIERE PRO"
         ],
-        "banner_image": "./assets/banner-placeholder.svg",
-        "capture-image": "./assets/banners/banner-carne-seca-02-01.jpg",
+        "banner_image": "./assets/banners/banner-de-pasteleria-délice-principal.jpg",
+        "capture-image": "./assets/banners/portada-de-video-délice.jpg",
         "gallery_images": [
-
+            "./assets/thumbnails/Un momento dulce.jpg",
+            "./assets/thumbnails/Una pausa deliciosa.jpg",
+            "./assets/thumbnails/Pequeños placeres.jpg"
         ],
         "video_url": "https://res.cloudinary.com/hkraa2l3/video/upload/v1795316336/Reel_Chocolate.mp4"
     },
@@ -231,10 +240,12 @@
         "tech_tags": [
             "PREMIERE PRO"
         ],
-        "banner_image": "./assets/banner-placeholder.svg",
-        "capture-image": "./assets/banners/banner-carne-seca-02-01.jpg",
+        "banner_image": "./assets/banners/Capricho recién horneado.jpg",
+        "capture-image": "./assets/banners/Portada de video Délice.jpg",
         "gallery_images": [
-
+            "./assets/thumbnails/Antojo irresistible-1.jpg",
+            "./assets/thumbnails/Un placer en cada bocado.jpg",
+            "./assets/thumbnails/Un placer en cada bocado.png"
         ],
         "video_url": "https://res.cloudinary.com/hkraa2l3/video/upload/v1795316344/Reel_Delice_Muffins.mp4"
     },
