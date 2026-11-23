@@ -127,7 +127,9 @@ function getExtraDetails(project) {
 
 function getLocalVoteLabel(count) {
     const countLabel = projectRatings.getCountLabel(count);
-    return `${countLabel} local${count === 1 ? '' : 'es'} en este navegador.`;
+    return projectRatings.isRemoteAvailable()
+        ? `${countLabel} en total`
+        : `${countLabel} local${count === 1 ? '' : 'es'} en este navegador`;
 }
 
 function getDetailRatingScore(average) {
@@ -136,6 +138,8 @@ function getDetailRatingScore(average) {
 
 function getProjectRatingHtml(project) {
     const summary = projectRatings.getSummary(project, selectedPortfolioType);
+    const isLiked = projectLikes.isLiked(project, selectedPortfolioType);
+    const visitorRating = summary.visitorRating;
     const ratingLabel = projectRatings.formatAverage(summary.average);
     const accessibleRating = summary.count
         ? `${ratingLabel}, ${projectRatings.getCountLabel(summary.count)}`
@@ -148,11 +152,19 @@ function getProjectRatingHtml(project) {
                     <p class="detail-rating-eyebrow">Opinión del proyecto</p>
                     <h3 id="detail-rating-title" class="detail-rating-title">¿Qué te pareció este proyecto?</h3>
                 </div>
-                <span class="detail-rating-badge">Tu opinión cuenta</span>
+                <div class="detail-rating-header-actions">
+                    <span class="detail-rating-badge">Tu opinión cuenta</span>
+                    <button class="project-like-button detail-project-like" type="button"
+                            aria-label="Me gusta este proyecto" aria-pressed="${isLiked}">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 0 0 0-7.78Z"/></svg>
+                        <span data-project-like-label>${isLiked ? 'Te gusta' : 'Me gusta'}</span>
+                        <span class="project-like-count" data-project-like-count>${isLiked ? '1' : '0'}</span>
+                    </button>
+                </div>
             </div>
             <div class="detail-rating-content">
                 <div class="detail-rating-summary">
-                    <p class="detail-rating-summary-label">Promedio local</p>
+                    <p class="detail-rating-summary-label">Promedio del proyecto</p>
                     <div class="detail-rating-value">
                         <div class="detail-rating-score-wrap">
                             <span class="detail-rating-score" data-rating-average>${getDetailRatingScore(summary.average)}</span>
@@ -168,7 +180,7 @@ function getProjectRatingHtml(project) {
                         <div class="detail-rating-choices">
                             ${[1, 2, 3, 4, 5].map(rating => `
                                 <label class="detail-rating-choice">
-                                    <input type="radio" name="project-rating" value="${rating}" aria-label="${rating} de 5 estrellas" required>
+                                <input type="radio" name="project-rating" value="${rating}" aria-label="${rating} de 5 estrellas" ${visitorRating === rating ? 'checked' : ''} required>
                                     <span class="detail-rating-choice-star" aria-hidden="true">★</span>
                                 </label>
                             `).join('')}
@@ -177,7 +189,9 @@ function getProjectRatingHtml(project) {
                     <button class="detail-rating-submit" type="submit" disabled>Enviar calificación</button>
                 </form>
             </div>
-            <p class="detail-rating-privacy-note">Los votos se guardan en este navegador y cada envío se suma al promedio local.</p>
+            <p class="detail-rating-privacy-note">${projectRatings.isRemoteAvailable()
+                ? 'Las calificaciones se comparten entre visitantes. Este navegador recuerda tu voto para que puedas actualizarlo.'
+                : 'El servicio compartido todavía no está configurado; por ahora, las calificaciones se guardan en este navegador.'}</p>
             <p class="detail-rating-note" role="status" aria-live="polite"></p>
         </section>
     `;
@@ -218,8 +232,9 @@ function initializeProjectRating(project) {
     form.querySelectorAll('input[name="project-rating"]').forEach(input => {
         input.addEventListener('change', updateSelection);
     });
+    updateSelection();
 
-    form.addEventListener('submit', event => {
+    form.addEventListener('submit', async event => {
         event.preventDefault();
         const selectedInput = form.querySelector('input[name="project-rating"]:checked');
         if (!selectedInput) {
@@ -228,7 +243,7 @@ function initializeProjectRating(project) {
         }
 
         try {
-            const summary = projectRatings.addVote(
+            const summary = await projectRatings.addVote(
                 project,
                 selectedPortfolioType,
                 Number(selectedInput.value)
@@ -236,12 +251,21 @@ function initializeProjectRating(project) {
             updateProjectRatingSummary(summary);
             form.reset();
             updateSelection();
-            status.textContent = `¡Gracias! Tu voto se sumó al promedio. ${getLocalVoteLabel(summary.count)}`;
+            status.textContent = summary.synced
+                ? `¡Gracias! La calificación se compartió. ${getLocalVoteLabel(summary.count)}`
+                : `¡Gracias! Se guardó solo en este navegador. ${getLocalVoteLabel(summary.count)}`;
         } catch (error) {
             console.error('No se pudo guardar la calificación del proyecto:', error);
             status.textContent = 'No se pudo guardar la calificación en este navegador. Intentá nuevamente.';
         }
     });
+}
+
+function initializeProjectLike(project) {
+    const button = detailsContent.querySelector('.detail-project-like');
+    if (button) {
+        projectLikes.bindButton(button, project, selectedPortfolioType);
+    }
 }
 
 function showDetailsMessage(message) {
@@ -381,6 +405,7 @@ function renderProjectDetails(project) {
     `;
 
     initializeProjectRating(project);
+    initializeProjectLike(project);
     initializeGalleryInteractions(project);
     initializeExtraDetailsCarousel();
 
@@ -621,6 +646,7 @@ async function loadProjectDetails() {
             throw new Error(`No se encontró el proyecto relacionado en ${portfolioDataFile}.`);
         }
 
+        await projectRatings.loadSummaries([portfolioProject], selectedPortfolioType);
         renderProjectDetails(project);
     } catch (error) {
         console.error('Error al cargar los detalles del proyecto:', error);

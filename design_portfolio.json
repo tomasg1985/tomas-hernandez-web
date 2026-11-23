@@ -40,6 +40,19 @@
     },
     {
         "id": 4,
+        "section": "motion",
+        "project_tag": "Motion Graphics",
+        "condition": "Nuevo",
+        "rating": "4/5",
+        "title": "Voluntariado Cruz Roja",
+        "description": "Branding Buenos Aires es un video turístico creado para mostrar algunos de los lugares y monumentos más emblemáticos de la ciudad de Buenos Aires, Argentina...",
+        "published": "Publicado: 15 Mar 2024",
+        "view_project": "https://res.cloudinary.com/hkraa2l3/video/upload/v1795386528/Video_Cruz_Roja_Argentina.mp4",
+        "tech_tags": ["AFTER EFFECTS", "ILLUSTRATOR", "PREMIERE PRO"],
+        "keywords": ["buenos aires", "cruz roja argentina", "voluntariado", "motion graphics", "animación", "after effects", "illustrator", "redes sociales"]
+    },
+    {
+        "id": 5,
         "section": "video",
         "project_tag": "Edicion de video",
         "condition": "Nuevo",
@@ -52,7 +65,7 @@
         "keywords": ["proyecto", "bebidas", "mexico", "edicion de video", "mezcal", "video"]
     },
     {
-        "id": 5,
+        "id": 6,
         "section": "video",
         "project_tag": "Edicion de video",
         "condition": "Nuevo",
@@ -65,7 +78,7 @@
         "keywords": ["inspiracional", "social media", "premiere pro", "after effects", "rotoscopia", "video"]
     },
     {
-        "id": 6,
+        "id": 7,
         "section": "video",
         "project_tag": "Edicion de video",
         "condition": "Nuevo",
@@ -78,7 +91,7 @@
         "keywords": ["inspiracional", "social media", "redes sociales", "musica", "en vivo", "video"]
     },
     {
-        "id": 7,
+        "id": 8,
         "section": "video",
         "project_tag": "Edicion de video",
         "condition": "Nuevo",
@@ -91,7 +104,7 @@
         "keywords": ["inspiracional", "social media", "redes sociales", "musica", "en vivo", "video"]
     },
     {
-        "id": 8,
+        "id": 9,
         "section": "video",
         "project_tag": "Edicion de video",
         "condition": "Nuevo",
@@ -104,7 +117,7 @@
         "keywords": ["inspiracional", "social media", "redes sociales", "musica", "en vivo", "video"]
     },
     {
-        "id": 9,
+        "id": 10,
         "section": "branding",
         "project_tag": "Branding de marca",
         "condition": "Nuevo",
@@ -117,7 +130,7 @@
         "keywords": ["inspiracional", "social media", "branding", "marca", "editorial", "logotipo"]
     },
     {
-        "id": 10,
+        "id": 11,
         "section": "branding",
         "project_tag": "Branding de marca",
         "condition": "Nuevo",
@@ -130,7 +143,7 @@
         "keywords": ["inspiracional", "social media", "branding", "marca", "editorial", "logotipo"]
     },
     {
-        "id": 11,
+        "id": 12,
         "section": "branding",
         "project_tag": "Branding de marca",
         "condition": "Nuevo",
@@ -143,7 +156,7 @@
         "keywords": ["inspiracional", "social media", "branding", "marca", "editorial", "logotipo"]
     },
     {
-        "id": 12,
+        "id": 13,
         "section": "branding",
         "project_tag": "Branding de marca",
         "condition": "Nuevo",
@@ -156,7 +169,7 @@
         "keywords": ["inspiracional", "social media", "branding", "marca", "editorial", "logotipo"]
     },
     {
-        "id": 13,
+        "id": 14,
         "section": "branding",
         "project_tag": "Branding de marca",
         "condition": "Nuevo",
@@ -169,7 +182,7 @@
         "keywords": ["inspiracional", "social media", "branding", "marca", "editorial", "logotipo"]
     },
     {
-        "id": 14,
+        "id": 15,
         "section": "social",
         "project_tag": "Redes Sociales",
         "condition": "Nuevo",
@@ -182,7 +195,7 @@
         "keywords": ["social media", "construccion", "empresa", "argentina"]
     },
     {
-        "id": 15,
+        "id": 16,
         "section": "social",
         "project_tag": "Redes Sociales",
         "condition": "Nuevo",
@@ -195,7 +208,7 @@
         "keywords": ["social media", "construccion", "empresa", "ferreteria", "mexico"]
     },
     {
-        "id": 16,
+        "id": 17,
         "section": "social",
         "project_tag": "Redes Sociales",
         "condition": "Nuevo",
@@ -208,7 +221,7 @@
         "keywords": ["social media", "mexico", "fertilizantes", "agricola", "agroindustrias"]
     },
     {
-        "id": 17,
+        "id": 18,
         "section": "social",
         "project_tag": "Redes Sociales",
         "condition": "Nuevo",
@@ -221,7 +234,7 @@
         "keywords": ["social media", "real state", "construccion", "mexico"]
     },
     {
-        "id": 18,
+        "id": 19,
         "section": "social",
         "project_tag": "Redes Sociales",
         "condition": "Nuevo",
@@ -234,7 +247,7 @@
         "keywords": ["social media", "mexico", "publicidad", "inteligencia artificial", "ia"]
     },
     {
-        "id": 19,
+        "id": 20,
         "section": "social",
         "project_tag": "Redes Sociales",
         "condition": "Nuevo",
@@ -247,7 +260,7 @@
         "keywords": ["social media", "bar", "mexico", "cocketeles", "bebidas"]
     },
     {
-        "id": 20,
+        "id": 21,
         "section": "packaging",
         "project_tag": "Redes Sociales",
         "condition": "Nuevo",
@@ -260,7 +273,7 @@
         "keywords": ["fertilizantes", "agicultura", "empaques", "mexico"]
     },
     {
-        "id": 21,
+        "id": 22,
         "section": "packaging",
         "project_tag": "Redes Sociales",
         "condition": "Nuevo",

@@ -11,7 +11,47 @@ const showAllProjectsButton = document.getElementById('show-all-projects');
 
 let allProjects = [];
 const expandedProjectSections = new Set();
-const initialProjectLimit = 5;
+
+function initializeProjectSectionReveal() {
+    const main = document.querySelector('.portfolio-showcase-main-info');
+    const buttonContainer = main?.querySelector('.view-more-container');
+    const button = buttonContainer?.querySelector('.view-more-btn');
+    const rows = Array.from(main?.querySelectorAll('.work-showcase-gallery') || [])
+        .map(gallery => [gallery.previousElementSibling, gallery, gallery.nextElementSibling])
+        .filter(row => row[0]?.querySelector('.showcase-container')
+            && row[2]?.classList.contains('project-section-more'));
+    const hiddenRows = rows.slice(4);
+
+    if (!buttonContainer || !button || hiddenRows.length === 0) {
+        if (buttonContainer) buttonContainer.hidden = true;
+        return;
+    }
+
+    hiddenRows.flat().forEach(element => {
+        element.hidden = true;
+    });
+
+    button.setAttribute('aria-expanded', 'false');
+    button.addEventListener('click', () => {
+        const isExpanded = button.getAttribute('aria-expanded') === 'true';
+        hiddenRows.flat().forEach(element => {
+            element.hidden = isExpanded;
+        });
+        button.setAttribute('aria-expanded', String(!isExpanded));
+        button.childNodes[0].textContent = isExpanded ? 'Ver más' : 'Ver menos';
+    });
+}
+
+initializeProjectSectionReveal();
+
+function getInitialProjectLimit() {
+    if (window.matchMedia('(max-width: 992px)').matches) return 2;
+    if (window.matchMedia('(max-width: 1200px)').matches) return 3;
+    if (window.matchMedia('(max-width: 1500px)').matches) return 4;
+    return 5;
+}
+
+let renderedInitialProjectLimit = getInitialProjectLimit();
 
 function normalizeSearchText(value) {
     return value
@@ -29,6 +69,7 @@ function updateMoreProjectsControl(section, projectCount) {
         return;
     }
 
+    const initialProjectLimit = getInitialProjectLimit();
     const hiddenCount = Math.max(projectCount - initialProjectLimit, 0);
     const isExpanded = hiddenCount > 0 && expandedProjectSections.has(section);
     control.dataset.hiddenCount = String(hiddenCount);
@@ -85,6 +126,7 @@ function showProjectCards(projects, section) {
         return;
     }
 
+    const initialProjectLimit = getInitialProjectLimit();
     const isExpanded = projects.length > initialProjectLimit && expandedProjectSections.has(section);
     projectsShowcase.innerHTML = `
         <div class="project-section-carousel${projects.length > 1 ? ' has-arrows' : ''}${isExpanded ? ' is-expanded' : ''}">
@@ -98,7 +140,8 @@ function showProjectCards(projects, section) {
                 const rating = projectRatings.getSummary(project, 'web');
                 const ratingLabel = projectRatings.formatAverage(rating.average);
                 const ratingCount = projectRatings.getCountLabel(rating.count);
-                const localCountLabel = `${ratingCount} local${rating.count === 1 ? '' : 'es'}`;
+                const ratingScope = rating.synced ? 'global' : 'local';
+                const localCountLabel = `${ratingCount} ${ratingScope}${rating.count === 1 ? '' : 'es'}`;
 
                 return `
             <div class="card${index >= initialProjectLimit ? ' project-card-overflow' : ''}">
@@ -127,6 +170,11 @@ function showProjectCards(projects, section) {
 
                 <div class="card-footer">
                     <p class="card-published">${project.published}</p>
+                    <button class="project-like-button card-project-like" type="button" aria-label="Me gusta este proyecto" aria-pressed="false">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 0 0 0-7.78Z"/></svg>
+                        <span data-project-like-label>Me gusta</span>
+                        <span class="project-like-count" data-project-like-count>0</span>
+                    </button>
                     <div class="card-actions">
                         <a class="project-details-link" href="portfolio-details.html?id=${encodeURIComponent(project.id)}&type=web&section=${encodeURIComponent(project.section)}" data-project-id="${project.id}" data-portfolio-type="web" data-project-section="${project.section}">
                             <button class="preview-link" type="button">Ver detalles</button>
@@ -147,6 +195,10 @@ function showProjectCards(projects, section) {
             ` : ''}
         </div>
     `;
+
+    projectsShowcase.querySelectorAll('.card-project-like').forEach((button, index) => {
+        projectLikes.bindButton(button, projects[index], 'web');
+    });
 
     projectsShowcase.querySelectorAll('.project-details-link').forEach(link => {
         link.addEventListener('click', () => {
@@ -213,6 +265,11 @@ document.querySelectorAll('.view-more-link[data-project-section]').forEach(contr
     });
 });
 window.addEventListener('resize', () => {
+    const nextInitialProjectLimit = getInitialProjectLimit();
+    if (nextInitialProjectLimit !== renderedInitialProjectLimit) {
+        renderedInitialProjectLimit = nextInitialProjectLimit;
+        renderProjects();
+    }
     document.querySelectorAll('.project-section-carousel.has-arrows').forEach(updateProjectCarouselButtons);
 });
 showAllProjectsButton.addEventListener('click', () => {
@@ -229,6 +286,7 @@ async function obtainProducts() {
         const localProjects = await responseLocal.json();
 
         allProjects = [...localProjects];
+        await projectRatings.loadSummaries(allProjects, 'web');
 
         renderProjects(allProjects);
     }catch (error) {
@@ -238,13 +296,17 @@ async function obtainProducts() {
 
 obtainProducts();
 
-window.addEventListener('pageshow', event => {
+window.addEventListener('pageshow', async event => {
     if (event.persisted && allProjects.length) {
+        await projectRatings.loadSummaries(allProjects, 'web');
         renderProjects();
     }
 });
 window.addEventListener('storage', event => {
-    if (event.key && event.key.startsWith('portfolio-project-ratings-v1:')) {
+    if (event.key && (
+        event.key.startsWith('portfolio-project-ratings-v1:')
+        || event.key.startsWith('portfolio-project-likes-v1:')
+    )) {
         renderProjects();
     }
 });

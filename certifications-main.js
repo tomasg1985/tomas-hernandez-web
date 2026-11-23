@@ -12,7 +12,14 @@ const showAllProjectsButton = document.getElementById('show-all-certifications')
 
 let allProjects = [];
 const expandedCertificationSections = new Set();
-const initialCertificationLimit = 5;
+function getInitialCertificationLimit() {
+    if (window.matchMedia('(max-width: 992px)').matches) return 2;
+    if (window.matchMedia('(max-width: 1200px)').matches) return 3;
+    if (window.matchMedia('(max-width: 1500px)').matches) return 4;
+    return 5;
+}
+
+let renderedInitialCertificationLimit = getInitialCertificationLimit();
 
 
 function normalizeSearchText(value) {
@@ -31,6 +38,7 @@ function updateMoreCertificationsControl(section, projectCount) {
         return;
     }
 
+    const initialCertificationLimit = getInitialCertificationLimit();
     const hiddenCount = Math.max(projectCount - initialCertificationLimit, 0);
     const isExpanded = hiddenCount > 0 && expandedCertificationSections.has(section);
     control.dataset.hiddenCount = String(hiddenCount);
@@ -87,6 +95,7 @@ function showProjectCards(projects, section) {
         return;
     }
 
+    const initialCertificationLimit = getInitialCertificationLimit();
     const isExpanded = projects.length > initialCertificationLimit
         && expandedCertificationSections.has(section);
     certificationsShowcase.innerHTML = `
@@ -224,6 +233,11 @@ document.querySelectorAll('.view-more-link[data-project-section]').forEach(contr
     });
 });
 window.addEventListener('resize', () => {
+    const nextInitialCertificationLimit = getInitialCertificationLimit();
+    if (nextInitialCertificationLimit !== renderedInitialCertificationLimit) {
+        renderedInitialCertificationLimit = nextInitialCertificationLimit;
+        renderProjects();
+    }
     document.querySelectorAll('.project-section-carousel.has-arrows').forEach(updateCertificationCarouselButtons);
 });
 showAllProjectsButton.addEventListener('click', () => {
