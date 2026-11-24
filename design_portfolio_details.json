@@ -269,10 +269,12 @@
             "INDESIGN",
             "PHOTOSHOP"
         ],
-        "banner_image": "./assets/banner-placeholder.svg",
-        "capture-image": "./assets/banners/banner-carne-seca-02-01.jpg",
+        "banner_image": "./assets/banners/banner-industrial-hub-torreon-principal.jpg",
+        "capture-image": "./assets/banners/Banner de portada.jpg",
         "gallery_images": [
-
+            "./assets/thumbnails/Nuevas posibilidades redimensionado.jpg",
+            "./assets/thumbnails/Espacio para crecer redimensionado.jpg",
+            "./assets/thumbnails/Crecer desde el espacio redimensionado.jpg"
         ]
     },
     {
@@ -295,10 +297,12 @@
             "INDESIGN",
             "PHOTOSHOP"
         ],
-        "banner_image": "./assets/banner-placeholder.svg",
-        "capture-image": "./assets/banners/banner-carne-seca-02-01.jpg",
+        "banner_image": "./assets/banners/La energía que impulsa la industria.jpg",
+        "capture-image": "./assets/banners/Precisión eléctrica para grandes desafíos.jpg",
         "gallery_images": [
-
+            "./assets/thumbnails/Cada conexión, parte de un gran sistema.jpg",
+            "./assets/thumbnails/Soluciones especializadas para la complejidad.jpg",
+            "./assets/thumbnails/Transformación de instalaciones industriales.jpg"
         ]
     },
     {
@@ -321,10 +325,12 @@
             "INDESIGN",
             "PHOTOSHOP"
         ],
-        "banner_image": "./assets/banner-placeholder.svg",
-        "capture-image": "./assets/banners/banner-carne-seca-02-01.jpg",
+        "banner_image": "./assets/banners/Presentación de marca.jpg",
+        "capture-image": "./assets/banners/Servicios y acabados.jpg",
         "gallery_images": [
-
+            "./assets/thumbnails/Redes sociales_Mesa de trabajo 1.jpg",
+            "./assets/thumbnails/Redes sociales-03.jpg",
+            "./assets/thumbnails/Redes sociales-07.jpg"
         ]
     },
     {
@@ -346,10 +352,12 @@
             "ILLUSTRATOR",
             "INDESIGN"
         ],
-        "banner_image": "./assets/banner-placeholder.svg",
-        "capture-image": "./assets/banners/banner-carne-seca-02-01.jpg",
+        "banner_image": "./assets/banners/Presentación del proyecto.jpg",
+        "capture-image": "./assets/banners/Portada institucional.jpg",
         "gallery_images": [
-
+            "./assets/thumbnails/Planeación patrimonial.jpg",
+            "./assets/thumbnails/Gestión financiera.jpg",
+            "./assets/thumbnails/Creditos.jpg"
         ]
     },
     {
@@ -371,10 +379,12 @@
             "ILLUSTRATOR",
             "INDESIGN"
         ],
-        "banner_image": "./assets/banner-placeholder.svg",
-        "capture-image": "./assets/banners/banner-carne-seca-02-01.jpg",
+        "banner_image": "./assets/banners/banner principal.jpg",
+        "capture-image": "./assets/banners/banner-portada-video.jpg",
         "gallery_images": [
-
+            "./assets/thumbnails/Uniformes corporativos e industriales.jpg",
+            "./assets/thumbnails/Uniformes hospitalarios.jpg",
+            "./assets/thumbnails/Variedad y funcionalidad.jpg"
         ]
     },
     {
@@ -395,8 +405,8 @@
         "tech_tags": [
             "INSTAGRAM"
         ],
-        "banner_image": "./assets/banner-placeholder.svg",
-        "capture-image": "./assets/banners/banner-carne-seca-02-01.jpg",
+        "banner_image": "./assets/banners/Presentación del proyecto de portones.jpg",
+        "capture-image": "./assets/banners/Portada de video de portones.jpg",
         "gallery_images": [
             "./assets/thumbnails/Placa 6.jpg",
             "./assets/thumbnails/Placas sin animacion-04.jpg",
@@ -424,8 +434,8 @@
             "ILLUSTRATOR"
 
         ],
-        "banner_image": "./assets/banner-placeholder.svg",
-        "capture-image": "./assets/banners/banner-carne-seca-02-01.jpg",
+        "banner_image": "./assets/banners/Presentación del proyecto mafensa.jpg",
+        "capture-image": "./assets/banners/Portada de video mafensa.jpg",
         "gallery_images": [
             "./assets/thumbnails/1 de Enero_Mesa de trabajo 1.jpg",
             "./assets/thumbnails/post surtimos tu negocio_Mesa de trabajo 1.jpg",
@@ -452,8 +462,8 @@
             "PREMIERE PRO",
             "ILLUSTRATOR"
         ],
-        "banner_image": "./assets/banner-placeholder.svg",
-        "capture-image": "./assets/banners/banner-carne-seca-02-01.jpg",
+        "banner_image": "./assets/banners/Nutrición para cada etapa heker.jpg",
+        "capture-image": "./assets/banners/Potencial para la cosecha heker.jpg",
         "gallery_images": [
             "./assets/thumbnails/10 de Abril-05.jpg",
             "./assets/thumbnails/24 de Abril_Mesa de trabajo 1.jpg",
@@ -480,8 +490,8 @@
             "PREMIERE PRO",
             "ILLUSTRATOR"
         ],
-        "banner_image": "./assets/banner-placeholder.svg",
-        "capture-image": "./assets/banners/banner-carne-seca-02-01.jpg",
+        "banner_image": "./assets/banners/Presentación del proyecto campoterra.jpg",
+        "capture-image": "./assets/banners/Portada de video campoterra.jpg",
         "gallery_images": [
             "./assets/thumbnails/2 de Febrero_Mesa de trabajo 1.jpg",
             "./assets/thumbnails/13 de Febrero_Mesa de trabajo 1.jpg",
@@ -507,8 +517,8 @@
             "INSTAGRAM",
             "INTELIGENCIA ARTIFICIAL"
         ],
-        "banner_image": "./assets/banner-placeholder.svg",
-        "capture-image": "./assets/banners/banner-carne-seca-02-01.jpg",
+        "banner_image": "./assets/banners/Presentación del proyecto aura tech.jpg",
+        "capture-image": "./assets/banners/Portada de video aura tech.jpg",
         "gallery_images": [
             "./assets/thumbnails/773644160_18094412159533901_4636622424059932248_n.jpg",
             "./assets/thumbnails/774994731_18093952346533901_6307735870474785177_n.jpg",
@@ -533,8 +543,8 @@
         "tech_tags": [
             "INSTAGRAM"
         ],
-        "banner_image": "./assets/banner-placeholder.svg",
-        "capture-image": "./assets/banners/banner-carne-seca-02-01.jpg",
+        "banner_image": "./assets/banners/Presentación del proyecto jazz boozz.jpg",
+        "capture-image": "./assets/banners/Portada de video jazz boozz.jpg",
         "gallery_images": [
             "./assets/thumbnails/813282608_2257357671724131_6635792657299535991_n.jpg",
             "./assets/thumbnails/633101584_18426137497191186_5855326023610128065_n.jpg",
@@ -560,8 +570,8 @@
             "BLENDER 3D",
             "ILLUSTRATOR"
         ],
-        "banner_image": "./assets/banner-placeholder.svg",
-        "capture-image": "./assets/banners/banner-carne-seca-02-01.jpg",
+        "banner_image": "./assets/banners/Portada_ una gran solución heker.jpg",
+        "capture-image": "./assets/banners/Presentación del proyecto heker.jpg",
         "gallery_images": [
             "./assets/thumbnails/empaques-heker_Mesa de trabajo 1.jpg",
             "./assets/thumbnails/empaques-heker-02.jpg",
