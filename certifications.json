@@ -33,7 +33,7 @@
         "rating": "4/5",
         "title": "React JS",
         "description": "Proyecto final correspondiente al cuarto cuatrimestre  de carrera de especializacion...",
-        "published": "Publicado: Jun 2027",
+        "published": "Publicado: --",
         "view_project": "#",
         "tech_tags": ["REACTJS", "JSX", "VITE"],
         "keywords": ["lenguaje de programacion", "javascript", "react js", "jsx", "vite", "proyectos", "certificacion", "front end", "web"]
@@ -111,7 +111,7 @@
         "rating": "4/5",
         "title": "AWS Cloud Ops",
         "description": "Proyecto final correspondiente al cuarto cuatrimestre  de carrera de especializacion...",
-        "published": "Publicado: Ago 2026",
+        "published": "Publicado: --",
         "view_project": "#",
         "tech_tags": ["INTELIGENCIA ARTIFICIAL"],
         "keywords": ["computacion en la nube", "amazon web services", "trabajar en la nube", "orquestacion"]
@@ -124,7 +124,7 @@
         "rating": "4/5",
         "title": "AWS IA Practitioner",
         "description": "Proyecto final correspondiente al cuarto cuatrimestre  de carrera de especializacion...",
-        "published": "Publicado: Ago --",
+        "published": "Publicado: --",
         "view_project": "#",
         "tech_tags": ["INTELIGENCIA ARTIFICIAL"],
         "keywords": ["computacion en la nube", "amazon web services", "trabajar en la nube", "orquestacion"]
