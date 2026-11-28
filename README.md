@@ -48,7 +48,7 @@ Actualmente complemento mi perfil creativo con desarrollo web (**HTML, CSS, Java
 
 ---
 
-## 🛠️ Tecnologías y Herramientas
+## Tecnologías y Herramientas
 
 ### **Desarrollo Web & Software**
 - **Frontend:** HTML5, CSS3, JavaScript (ES6+), Responsive Web Design, UX/UI.
