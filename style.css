@@ -11,6 +11,7 @@ html {
 
 body {
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 img {
@@ -229,12 +230,12 @@ header {
 
 .upper-title {
   width: min(650px, 100%);
-  padding: 8px;
+  padding: 18px;
   display: grid;
   grid-template-columns: max-content minmax(0, 1fr) max-content;
   border: none;
   border: 1px solid #5a5a5a;
-  border-radius: 20px;
+  border-radius: 30px;
 }
 
 .skill-title {
@@ -4446,12 +4447,14 @@ body.gallery-lightbox-open {
 }
 
 .portfolio-hub-tags span {
-  padding: 6px 9px;
+  padding: 6px 12px;
   color: #d7d7d7;
-  background: #222;
-  border: 1px solid rgba(255, 255, 255, .1);
+  background: #f5b400;
+  color: #222;
+  border: 2px solid rgb(255, 255, 255);
   border-radius: 20px;
-  font-size: 10px;
+  font-size: 11px;
+  font-weight: 600;
 }
 
 .portfolio-hub-contact {
@@ -4952,5 +4955,105 @@ textarea {
 
   .card-project-like {
     align-self: center;
+  }
+}
+
+.project-status {
+    display: flex; 
+    flex-wrap: wrap; 
+    align-items: center; 
+    gap: 4px 8px;
+    margin-top: 10px; 
+    padding: 6px 10px; 
+    border-radius: 6px;
+    background: #fff4d6; 
+    color: #7a5200; 
+    font-size: 10px; 
+    font-weight: 600;
+}
+.project-status-dot {
+    width: 8px; 
+    height: 8px; 
+    border-radius: 50%; 
+    background: #f5a300;
+    animation: project-status-pulse 1.6s ease-in-out infinite;
+}
+.project-status-note { 
+  flex-basis: 100%; 
+  font-weight: 500; 
+}
+
+@keyframes project-status-pulse { 50% { opacity: .35; } }
+@media (prefers-reduced-motion: reduce) { 
+  .project-status-dot { 
+    animation: none; 
+  } 
+}
+
+.lang-switch {
+  margin: 13px 0px;
+  display: flex; 
+  gap: 15px; 
+}
+
+.lang-switch button { 
+  width: 50px;
+  height: 30px;
+  padding: 4px 8px; 
+  border: 1px solid currentColor; 
+  border-radius: 6px;
+  background: transparent; 
+  color: #fff; 
+  cursor: pointer; 
+  font-size: 14px; 
+  font-weight: 600; 
+}
+
+.lang-switch button[aria-pressed="true"] { 
+  width: 50px;
+  height: 30px;
+  background: #f5a300; 
+  color: #1f1f1f; 
+}
+
+.lang-switch-light-background {
+  margin: 13px 0px;
+  display: flex; 
+  gap: 15px; 
+}
+
+.lang-switch-light-background button { 
+  width: 50px;
+  height: 30px;
+  padding: 4px 8px; 
+  border: 1px solid currentColor; 
+  border-radius: 6px;
+  background: transparent; 
+  color: #1f1f1f; 
+  cursor: pointer; 
+  font-size: 14px; 
+  font-weight: 600; 
+}
+
+.lang-switch-light-background button[aria-pressed="true"] { 
+  width: 50px;
+  height: 30px;
+  background: #f5a300; 
+  color: #1f1f1f; 
+}
+
+
+@media (min-width: 993px) {
+  header {
+    aspect-ratio: 1923 / 989;
+    background-size: 100% 100%;
+    background-position: center top;
+  }
+  .dual-button-container {
+    margin: 30vw 0 0;
+    padding: 0 50px;
+  }
+  .dual-experience-container {
+    padding: 10vw 30px 0;
   }
 }

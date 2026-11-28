@@ -8,9 +8,28 @@
         "title": "Programación con Python",
         "description": "Proyecto final correspondiente al cuarto cuatrimestre  de carrera de especializacion...",
         "published": "Publicado: Jul 2026",
+        "in_progress": "false",
+        "last_updated": "Actualizado: --",
+        "update_note": "Actualizado ...",
         "view_project": "#",
         "tech_tags": ["PYTHON"],
-        "keywords": ["lenguaje de programacion", "python", "proyectos", "certificacion"]
+        "keywords": ["python", "programacion", "lenguaje de programacion", "desarrollo", "backend", "codigo", "scripting", "certificacion", "curso", "talento tech"],
+        "i18n": {
+            "es": {
+                "title": "Programación con Python",
+                "description": "Proyecto final correspondiente al cuarto cuatrimestre  de carrera de especializacion...",
+                "published": "Publicado: Jul 2026",
+                "tech_tags": ["PYTHON"],
+                "keywords": ["python", "programacion", "lenguaje de programacion", "desarrollo", "backend", "codigo", "scripting", "certificacion", "curso", "talento tech"]
+            },
+            "en": {
+                "title": "Python Coding Introduction",
+                "description": "Final project for the fourth term of a specialization program...",
+                "published": "Published: Jul 2026",
+                "tech_tags": ["PYTHON"],
+                "keywords": ["python", "programming", "coding", "backend", "scripting", "development", "certification", "course", "talento tech"]
+            }
+        }
     },
     {
         "id": 2,
@@ -21,9 +40,28 @@
         "title": "Front-End JS",
         "description": "Proyecto final correspondiente al cuarto cuatrimestre  de carrera de especializacion...",
         "published": "Publicado: Dic 2026",
+        "in_progress": "false",
+        "last_updated": "Actualizado: --",
+        "update_note": "Actualizado ...",
         "view_project": "#",
         "tech_tags": ["HTML", "CSS", "JAVASCRIPT"],
-        "keywords": ["lenguaje de programacion", "javascript", "html", "css", "proyectos", "certificacion", "front end", "web", "e-commerce"]
+        "keywords": ["frontend", "front end", "javascript", "js", "html", "html5", "css", "css3", "web", "desarrollo web", "e-commerce", "tienda online", "programacion web", "certificacion", "talento tech"],
+        "i18n": {
+            "es": {
+                "title": "Front-End JS",
+                "description": "Proyecto final correspondiente al cuarto cuatrimestre  de carrera de especializacion...",
+                "published": "Publicado: Dic 2026",
+                "tech_tags": ["HTML", "CSS", "JAVASCRIPT"],
+                "keywords": ["frontend", "front end", "javascript", "js", "html", "html5", "css", "css3", "web", "desarrollo web", "e-commerce", "tienda online", "programacion web", "certificacion", "talento tech"]
+            },
+            "en": {
+                "title": "Front-End JS",
+                "description": "Final project for the fourth term of a specialization program...",
+                "published": "Published: Dic 2026",
+                "tech_tags": ["HTML", "CSS", "JAVASCRIPT"],
+                "keywords": ["frontend", "front-end", "javascript", "js", "html", "html5", "css", "css3", "web", "web development", "e-commerce", "online store", "web coding", "certification", "talento tech"]
+            }
+        }
     },
     {
         "id": 3,
@@ -34,9 +72,28 @@
         "title": "React JS",
         "description": "Proyecto final correspondiente al cuarto cuatrimestre  de carrera de especializacion...",
         "published": "Publicado: --",
+        "in_progress": "false",
+        "last_updated": "Actualizado: --",
+        "update_note": "Actualizado ...",
         "view_project": "#",
         "tech_tags": ["REACTJS", "JSX", "VITE"],
-        "keywords": ["lenguaje de programacion", "javascript", "react js", "jsx", "vite", "proyectos", "certificacion", "front end", "web"]
+        "keywords": ["react", "react js", "reactjs", "javascript", "js", "jsx", "vite", "frontend", "front end", "spa", "componentes", "desarrollo web", "ui", "certificacion", "talento tech"],
+        "i18n": {
+            "es": {
+                "title": "React JS",
+                "description": "Proyecto final correspondiente al cuarto cuatrimestre  de carrera de especializacion...",
+                "published": "Publicado: --",
+                "tech_tags": ["REACTJS", "JSX", "VITE"],
+                "keywords": ["react", "react js", "reactjs", "javascript", "js", "jsx", "vite", "frontend", "front end", "spa", "componentes", "desarrollo web", "ui", "certificacion", "talento tech"]
+            },
+            "en": {
+                "title": "React JS",
+                "description": "Final project for the fourth term of a specialization program...",
+                "published": "Published: --",
+                "tech_tags": ["REACTJS", "JSX", "VITE"],
+                "keywords": ["react", "react.js", "reactjs", "javascript", "js", "jsx", "vite", "frontend", "front-end", "spa", "components", "web development", "ui", "certification", "talento tech"]
+            }
+        }
     },
     {
         "id": 4,
@@ -47,9 +104,28 @@
         "title": "Backend / Java",
         "description": "Proyecto final correspondiente al cuarto cuatrimestre  de carrera de especializacion...",
         "published": "Publicado: --",
+        "in_progress": "false",
+        "last_updated": "Actualizado: --",
+        "update_note": "Actualizado ...",
         "view_project": "#",
         "tech_tags": ["JAVA"],
-        "keywords": ["lenguaje de programacion", "java", "proyectos", "certificacion", "back end"]
+        "keywords": ["java", "backend", "back end", "programacion orientada a objetos", "poo", "api", "servidor", "lenguaje de programacion", "desarrollo backend", "certificacion", "talento tech"],
+        "i18n": {
+            "es": {
+                "title": "Backend / Java",
+                "description": "Proyecto final correspondiente al cuarto cuatrimestre  de carrera de especializacion...",
+                "published": "Publicado: --",
+                "tech_tags": ["JAVA"],
+                "keywords": ["java", "backend", "back end", "programacion orientada a objetos", "poo", "api", "servidor", "lenguaje de programacion", "desarrollo backend", "certificacion", "talento tech"]
+            },
+            "en": {
+                "title": "Backend / Java",
+                "description": "Final project for the fourth term of a specialization program...",
+                "published": "Published: --",
+                "tech_tags": ["JAVA"],
+                "keywords": ["java", "backend", "back-end", "object-oriented programming", "oop", "api", "server", "programming language", "backend development", "certification", "talento tech"]
+            }
+        }
     },
     {
         "id": 5,
@@ -60,9 +136,28 @@
         "title": "Backend / Node JS",
         "description": "Proyecto final correspondiente al cuarto cuatrimestre  de carrera de especializacion...",
         "published": "Publicado: --",
+        "in_progress": "false",
+        "last_updated": "Actualizado: --",
+        "update_note": "Actualizado ...",
         "view_project": "#",
         "tech_tags": ["NODE JS"],
-        "keywords": ["lenguaje de programacion", "node js", "proyectos", "certificacion", "back end"]
+        "keywords": ["node", "node js", "nodejs", "javascript", "js", "backend", "back end", "express", "api rest", "servidor", "desarrollo backend", "certificacion", "talento tech"],
+        "i18n": {
+            "es": {
+                "title": "Backend / Node JS",
+                "description": "Proyecto final correspondiente al cuarto cuatrimestre  de carrera de especializacion...",
+                "published": "Publicado: --",
+                "tech_tags": ["NODE JS"],
+                "keywords": ["node", "node js", "nodejs", "javascript", "js", "backend", "back end", "express", "api rest", "servidor", "desarrollo backend", "certificacion", "talento tech"]
+            },
+            "en": {
+                "title": "Backend / Node JS",
+                "description": "Final project for the fourth term of a specialization program...",
+                "published": "Published: --",
+                "tech_tags": ["NODE JS"],
+                "keywords": ["node", "node.js", "nodejs", "javascript", "js", "backend", "back-end", "express", "rest api", "server", "backend development", "certification", "talento tech"]
+            }
+        }
     },
     {
         "id": 6,
@@ -73,9 +168,28 @@
         "title": "Agentes IA para Negocios",
         "description": "Proyecto final correspondiente al cuarto cuatrimestre  de carrera de especializacion...",
         "published": "Publicado: Oct 2026",
+        "in_progress": "false",
+        "last_updated": "Actualizado: --",
+        "update_note": "Actualizado ...",
         "view_project": "#",
         "tech_tags": ["INTELIGENCIA ARTIFICIAL"],
-        "keywords": ["inteligencia artificial", "negocios", "agentes ia", "inmesion a la ia"]
+        "keywords": ["ia", "agentes ia", "inteligencia artificial", "negocios", "automatizacion", "oracle", "one", "empresa", "flujos de trabajo", "productividad", "prompts", "inmersion ia"],
+        "i18n": {
+            "es": {
+                "title": "Agentes IA para Negocios",
+                "description": "Proyecto final correspondiente al cuarto cuatrimestre  de carrera de especializacion...",
+                "published": "Publicado: Oct 2026",
+                "tech_tags": ["INTELIGENCIA ARTIFICIAL"],
+                "keywords": ["ia", "agentes ia", "inteligencia artificial", "negocios", "automatizacion", "oracle", "one", "empresa", "flujos de trabajo", "productividad", "prompts", "inmersion ia"]
+            },
+            "en": {
+                "title": "AI Agents for Business",
+                "description": "Final project for the fourth term of a specialization program...",
+                "published": "Published: Oct 2026",
+                "tech_tags": ["ARTIFICIAL INTELLIGENCE"],
+                "keywords": ["ai", "ai agents", "artificial intelligence", "business", "automation", "oracle", "one", "enterprise", "workflows", "productivity", "prompts", "ai immersion"]
+            }
+        }
     },
     {
         "id": 7,
@@ -86,9 +200,28 @@
         "title": "ONE | AI Builder",
         "description": "Proyecto final correspondiente al cuarto cuatrimestre  de carrera de especializacion...",
         "published": "Publicado: Oct 2026",
+        "in_progress": "false",
+        "last_updated": "Actualizado: --",
+        "update_note": "Actualizado ...",
         "view_project": "#",
         "tech_tags": ["INTELIGENCIA ARTIFICIAL"],
-        "keywords": ["ia", "negocios", "marketing", "finanzas", "prompts", "emprendimientos"]
+        "keywords": ["ai builder", "one", "oracle", "ia", "inteligencia artificial", "prompts", "marketing", "finanzas", "emprendimientos", "herramientas ia", "generativa", "automatizacion"],
+        "i18n": {
+            "es": {
+                "title": "ONE | AI Builder",
+                "description": "Proyecto final correspondiente al cuarto cuatrimestre  de carrera de especializacion...",
+                "published": "Publicado: Oct 2026",
+                "tech_tags": ["INTELIGENCIA ARTIFICIAL"],
+                "keywords": ["ai builder", "one", "oracle", "ia", "inteligencia artificial", "prompts", "marketing", "finanzas", "emprendimientos", "herramientas ia", "generativa", "automatizacion"]
+            },
+            "en": {
+                "title": "ONE | AI Builder",
+                "description": "Final project for the fourth term of a specialization program...",
+                "published": "Published: Oct 2026",
+                "tech_tags": ["ARTIFICIAL INTELLIGENCE"],
+                "keywords": ["ai builder", "one", "oracle", "ai", "artificial intelligence", "prompts", "marketing", "finance", "entrepreneurship", "ai tools", "generative ai", "automation"]
+            }
+        }
     },
     {
         "id": 8,
@@ -99,9 +232,28 @@
         "title": "Job Roles in the Cloud",
         "description": "Proyecto final correspondiente al cuarto cuatrimestre  de carrera de especializacion...",
         "published": "Publicado: Ago 2026",
+        "in_progress": "false",
+        "last_updated": "Actualizado: --",
+        "update_note": "Actualizado ...",
         "view_project": "#",
-        "tech_tags": ["CLOUD COMPUTING"],
-        "keywords": ["computacion en la nube", "amazon web services", "trabajar en la nube"]
+        "tech_tags": ["COMPUTACIÓN EN LA NUBE"],
+        "keywords": ["aws", "amazon web services", "cloud", "nube", "computacion en la nube", "roles en la nube", "cloud computing", "infraestructura", "certificacion aws", "trabajo en la nube"],
+        "i18n": {
+            "es": {
+                "title": "Roles laborales en la nube",
+                "description": "Proyecto final correspondiente al cuarto cuatrimestre  de carrera de especializacion...",
+                "published": "Publicado: Ago 2026",
+                "tech_tags": ["COMPUTACIÓN EN LA NUBE"],
+                "keywords": ["aws", "amazon web services", "cloud", "nube", "computacion en la nube", "roles en la nube", "cloud computing", "infraestructura", "certificacion aws", "trabajo en la nube"]
+            },
+            "en": {
+                "title": "Job Roles in the Cloud",
+                "description": "Final project for the fourth term of a specialization program...",
+                "published": "Published: Aug 2026",
+                "tech_tags": ["CLOUD COMPUTING"],
+                "keywords": ["aws", "amazon web services", "cloud", "cloud computing", "cloud job roles", "infrastructure", "aws certification", "cloud career"]
+            }
+        }
     },
     {
         "id": 9,
@@ -112,9 +264,28 @@
         "title": "AWS Cloud Ops",
         "description": "Proyecto final correspondiente al cuarto cuatrimestre  de carrera de especializacion...",
         "published": "Publicado: --",
+        "in_progress": "false",
+        "last_updated": "Actualizado: --",
+        "update_note": "Actualizado ...",
         "view_project": "#",
-        "tech_tags": ["INTELIGENCIA ARTIFICIAL"],
-        "keywords": ["computacion en la nube", "amazon web services", "trabajar en la nube", "orquestacion"]
+        "tech_tags": ["COMPUTACIÓN EN LA NUBE"],
+        "keywords": ["aws", "cloud ops", "operaciones en la nube", "amazon web services", "devops", "cloud computing", "infraestructura", "orquestacion", "monitoreo", "servidores"],
+        "i18n": {
+            "es": {
+                "title": "AWS Cloud Ops",
+                "description": "Proyecto final correspondiente al cuarto cuatrimestre  de carrera de especializacion...",
+                "published": "Publicado: --",
+                "tech_tags": ["COMPUTACIÓN EN LA NUBE"],
+                "keywords": ["aws", "cloud ops", "operaciones en la nube", "amazon web services", "devops", "cloud computing", "infraestructura", "orquestacion", "monitoreo", "servidores"]
+            },
+            "en": {
+                "title": "AWS Cloud Ops",
+                "description": "Final project for the fourth term of a specialization program...",
+                "published": "Published: --",
+                "tech_tags": ["CLOUD COMPUTING"],
+                "keywords": ["aws", "cloud ops", "cloud operations", "amazon web services", "devops", "cloud computing", "infrastructure", "orchestration", "monitoring", "servers"]
+            }
+        }
     },
     {
         "id": 10,
@@ -125,9 +296,28 @@
         "title": "AWS IA Practitioner",
         "description": "Proyecto final correspondiente al cuarto cuatrimestre  de carrera de especializacion...",
         "published": "Publicado: --",
+        "in_progress": "false",
+        "last_updated": "Actualizado: --",
+        "update_note": "Actualizado ...",
         "view_project": "#",
         "tech_tags": ["INTELIGENCIA ARTIFICIAL"],
-        "keywords": ["computacion en la nube", "amazon web services", "trabajar en la nube", "orquestacion"]
+        "keywords": ["aws ia", "aws ai", "ia practitioner", "ai practitioner", "amazon web services", "inteligencia artificial", "ia generativa", "machine learning", "certificacion aws", "cloud ai"],
+        "i18n": {
+            "es": {
+                "title": "AWS IA Practitioner",
+                "description": "Proyecto final correspondiente al cuarto cuatrimestre  de carrera de especializacion...",
+                "published": "Publicado: --",
+                "tech_tags": ["INTELIGENCIA ARTIFICIAL"],
+                "keywords": ["aws ia", "aws ai", "ia practitioner", "ai practitioner", "amazon web services", "inteligencia artificial", "ia generativa", "machine learning", "certificacion aws", "cloud ai"]
+            },
+            "en": {
+                "title": "AWS IA Practitioner",
+                "description": "Final project for the fourth term of a specialization program...",
+                "published": "Published: --",
+                "tech_tags": ["ARTIFICIAL INTELLIGENCE"],
+                "keywords": ["aws ai", "ai practitioner", "amazon web services", "artificial intelligence", "generative ai", "machine learning", "aws certification", "cloud ai"]
+            }
+        }
     },
     {
         "id": 11,
@@ -138,21 +328,59 @@
         "title": "Introducción al diseño (UX)",
         "description": "Proyecto final correspondiente al cuarto cuatrimestre  de carrera de especializacion...",
         "published": "Publicado: Sep 2025",
+        "in_progress": "false",
+        "last_updated": "Actualizado: --",
+        "update_note": "Actualizado ...",
         "view_project": "#",
-        "tech_tags": ["INTELIGENCIA ARTIFICIAL"],
-        "keywords": ["experiencia de usuarios", "web", "aps", "design system", "sistemas de diseño"]
+        "tech_tags": ["UX/UI"],
+        "keywords": ["ux", "ui", "ux/ui", "experiencia de usuario", "interfaz de usuario", "diseño web", "apps", "figma", "wireframes", "prototipado", "design system", "sistemas de diseño"],
+        "i18n": {
+            "es": {
+                "title": "Introducción al diseño (UX)",
+                "description": "Proyecto final correspondiente al cuarto cuatrimestre  de carrera de especializacion...",
+                "published": "Publicado: Sep 2025",
+                "tech_tags": ["UX/UI"],
+                "keywords": ["ux", "ui", "ux/ui", "experiencia de usuario", "interfaz de usuario", "diseño web", "apps", "figma", "wireframes", "prototipado", "design system", "sistemas de diseño"]
+            },
+            "en": {
+                "title": "Introduction to UX design",
+                "description": "Final project for the fourth term of a specialization program...",
+                "published": "Published: Sep 2025",
+                "tech_tags": ["UX/UI"],
+                "keywords": ["ux", "ui", "ux/ui", "user experience", "user interface", "web design", "apps", "figma", "wireframes", "prototyping", "design system"]
+            }
+        }
     },
     {
         "id": 12,
         "section": "languages",
         "project_tag": "Ciudad Bilingue",
-        "institution_logo": "",
+        "institution_logo": "./assets/logos/ciudad-biligue_Mesa de trabajo 1.png",
         "rating": "4/5",
         "title": "English Pre-Intermiediate 1",
         "description": "Proyecto final correspondiente al cuarto cuatrimestre  de carrera de especializacion...",
         "published": "Publicado: May 2025",
+        "in_progress": "false",
+        "last_updated": "Actualizado: --",
+        "update_note": "Actualizado ...",
         "view_project": "#",
         "tech_tags": ["INGLES"],
-        "keywords": ["ingles", "idiomas", "idiomas para la empleabilidad"]
+        "keywords": ["ingles", "english", "idiomas", "pre intermediate", "pre-intermedio", "bilingue", "conversacion", "empleabilidad", "ingles tecnico", "certificacion"],
+        "i18n": {
+            "es": {
+                "title": "Inglés Pre-Intermedio 1",
+                "description": "Proyecto final correspondiente al cuarto cuatrimestre  de carrera de especializacion...",
+                "published": "Publicado: May 2025",
+                "tech_tags": ["INGLES"],
+                "keywords": ["ingles", "english", "idiomas", "pre intermediate", "pre-intermedio", "bilingue", "conversacion", "empleabilidad", "ingles tecnico", "certificacion"]
+            },
+            "en": {
+                "title": "English Pre-Intermiediate 1",
+                "description": "Final project for the fourth term of a specialization program...",
+                "published": "Published: May 2025",
+                "tech_tags": ["INGLES"],
+                "keywords": ["english", "languages", "pre-intermediate", "bilingual", "conversation", "employability", "technical english", "certification"]
+            }
+        }
     }
 ]

@@ -12,6 +12,7 @@ const showAllProjectsButton = document.getElementById('show-all-certifications')
 
 let allProjects = [];
 const expandedCertificationSections = new Set();
+
 function getInitialCertificationLimit() {
     if (window.matchMedia('(max-width: 992px)').matches) return 2;
     if (window.matchMedia('(max-width: 1200px)').matches) return 3;
@@ -21,6 +22,24 @@ function getInitialCertificationLimit() {
 
 let renderedInitialCertificationLimit = getInitialCertificationLimit();
 
+function getCurrentLang() {
+    return window.i18n?.getLang() || 'es';
+}
+
+function t(key, fallback = '') {
+    const val = window.i18n?.t(key);
+    return val && val !== key ? val : fallback;
+}
+
+function getLocalizedValue(item, field, fallback = '') {
+    const lang = getCurrentLang();
+    return (
+        item?.i18n?.[lang]?.[field] ??
+        item?.[field] ??
+        item?.i18n?.es?.[field] ??
+        fallback
+    );
+}
 
 function normalizeSearchText(value) {
     return value
@@ -43,8 +62,8 @@ function updateMoreCertificationsControl(section, projectCount) {
     const isExpanded = hiddenCount > 0 && expandedCertificationSections.has(section);
     control.dataset.hiddenCount = String(hiddenCount);
     control.textContent = isExpanded
-        ? 'ver menos certificados'
-        : `ver mas certificados (${hiddenCount})`;
+        ? t('nav.view_less_certs', 'ver menos certificados')
+        : `${t('nav.view_more_certs', 'ver mas certificados')} (${hiddenCount})`;
     control.setAttribute('aria-expanded', String(isExpanded));
     control.classList.toggle('is-disabled', hiddenCount === 0);
 }
@@ -91,7 +110,7 @@ function showProjectCards(projects, section) {
     updateMoreCertificationsControl(section, projects.length);
 
     if (projects.length === 0) {
-        certificationsShowcase.innerHTML = '<p>No se encontraron proyectos.</p>';
+        certificationsShowcase.innerHTML = `<p>${t('nav.no_projects_found', 'No se encontraron proyectos.')}</p>`;
         return;
     }
 
@@ -101,7 +120,7 @@ function showProjectCards(projects, section) {
     certificationsShowcase.innerHTML = `
         <div class="project-section-carousel${projects.length > 1 ? ' has-arrows' : ''}${isExpanded ? ' is-expanded' : ''}">
             ${projects.length > 1 ? `
-                <button class="project-carousel-arrow project-carousel-arrow-prev" type="button" aria-label="Certificación anterior">
+                <button class="project-carousel-arrow project-carousel-arrow-prev" type="button" aria-label="${t('nav.prev_cert', 'Certificación anterior')}">
                     <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 18l-6-6 6-6"></path></svg>
                 </button>
             ` : ''}
@@ -110,10 +129,11 @@ function showProjectCards(projects, section) {
                 const projectDetailsUrl = `portfolio-details.html?id=${encodeURIComponent(project.id)}&type=design&section=${encodeURIComponent(project.section)}`;
                 const isVideoProject = typeof project.view_project === 'string'
                     && /\.mp4(?:$|[?#])/i.test(project.view_project);
+                const localizedTag = getLocalizedValue(project, 'project_tag');
                 const moreProjectAction = isVideoProject
-                    ? `<button class="github-link project-video-play" type="button" data-video-url="${encodeURIComponent(project.view_project)}">Reproducir<svg class="view-more-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></button>`
+                    ? `<button class="github-link project-video-play" type="button" data-video-url="${encodeURIComponent(project.view_project)}">${t('nav.play_video', 'Reproducir')}<svg class="view-more-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></button>`
                     : `<a href="${project.view_project}" target="_blank" rel="noopener noreferrer">
-                        <button class="github-link" type="button">Ver más<svg class="view-more-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6"/></svg></button>
+                        <button class="github-link" type="button">${t('nav.view_more_btn', 'Ver más')}<svg class="view-more-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></button>
                     </a>`;
 
                 return `
@@ -122,10 +142,10 @@ function showProjectCards(projects, section) {
                     <div class="certificate-institution">
                         <div class="certificate-logo">
                             ${project.institution_logo
-                                ? `<img src="${project.institution_logo}" alt="Logo de ${project.project_tag}" loading="lazy">`
-                                : '<span>Agregar logo</span>'}
+                                ? `<img src="${project.institution_logo}" alt="${t('nav.logo_of', 'Logo de')} ${localizedTag}" loading="lazy">`
+                                : `<span>${t('nav.add_logo', 'Agregar logo')}</span>`}
                         </div>
-                        <p class="category">${project.project_tag}</p>
+                        <p class="category">${localizedTag}</p>
                     </div>
                     <div class="rating">
                         <p class="rating-stars">
@@ -136,8 +156,8 @@ function showProjectCards(projects, section) {
                 </div>
 
                 <div class="project-main-card-content">
-                    <h4 class="project-main-title">${project.title}</h4>
-                    <p class="project-main-description">${project.description}</p>
+                    <h4 class="project-main-title">${getLocalizedValue(project, 'title')}</h4>
+                    <p class="project-main-description">${getLocalizedValue(project, 'description')}</p>
                 </div>
 
                 <div class="languages-tag-container">
@@ -145,10 +165,10 @@ function showProjectCards(projects, section) {
                 </div>
 
                 <div class="card-footer">
-                    <p class="card-published">${project.published}</p>
+                    <p class="card-published">${getLocalizedValue(project, 'published')}</p>
                     <div class="card-actions">
                         <a class="project-details-link" href="${projectDetailsUrl}" data-project-id="${project.id}" data-portfolio-type="design" data-project-section="${project.section}">
-                            <button class="preview-link" type="button">Ver detalles</button>
+                            <button class="preview-link" type="button">${t('nav.view_details', 'Ver detalles')}</button>
                         </a>
                         ${moreProjectAction}
                     </div>
@@ -158,7 +178,7 @@ function showProjectCards(projects, section) {
             }).join('')}
             </div>
             ${projects.length > 1 ? `
-                <button class="project-carousel-arrow project-carousel-arrow-next" type="button" aria-label="Siguiente certificación">
+                <button class="project-carousel-arrow project-carousel-arrow-next" type="button" aria-label="${t('nav.next_cert', 'Siguiente certificación')}">
                     <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18l6-6-6-6"></path></svg>
                 </button>
             ` : ''}
@@ -186,18 +206,30 @@ function renderProjects() {
     const projectTerm = normalizeSearchText(searchInput.value);
     const keywordTerm = normalizeSearchText(keywordSearchInput.value);
     const visibleProjects = allProjects.filter(project => {
+        const localizedTitle = getLocalizedValue(project, 'title');
+        const localizedDescription = getLocalizedValue(project, 'description');
+        const localizedTag = getLocalizedValue(project, 'project_tag');
+        const localizedPublished = getLocalizedValue(project, 'published');
+        const localizedKeywords = getLocalizedValue(project, 'keywords', project.keywords);
+
         const searchableText = normalizeSearchText([
             project.title,
+            localizedTitle,
             project.description,
+            localizedDescription,
             project.project_tag,
+            localizedTag,
             project.condition,
             project.rating,
             project.published,
+            localizedPublished,
             project.section,
+            ...(Array.isArray(localizedKeywords) ? localizedKeywords : []),
             ...(Array.isArray(project.tech_tags) ? project.tech_tags : [])
         ].join(' '));
+
         const keywords = normalizeSearchText(
-            Array.isArray(project.keywords) ? project.keywords.join(' ') : ''
+            Array.isArray(localizedKeywords) ? localizedKeywords.join(' ') : ''
         );
 
         return (!projectTerm || searchableText.includes(projectTerm))
@@ -214,6 +246,7 @@ function renderProjects() {
 
 searchInput.addEventListener('input', renderProjects);
 keywordSearchInput.addEventListener('input', renderProjects);
+
 document.querySelectorAll('.view-more-link[data-project-section]').forEach(control => {
     control.addEventListener('click', event => {
         event.preventDefault();
@@ -232,6 +265,7 @@ document.querySelectorAll('.view-more-link[data-project-section]').forEach(contr
         renderProjects();
     });
 });
+
 window.addEventListener('resize', () => {
     const nextInitialCertificationLimit = getInitialCertificationLimit();
     if (nextInitialCertificationLimit !== renderedInitialCertificationLimit) {
@@ -240,6 +274,13 @@ window.addEventListener('resize', () => {
     }
     document.querySelectorAll('.project-section-carousel.has-arrows').forEach(updateCertificationCarouselButtons);
 });
+
+window.addEventListener('languagechange', () => {
+    if (allProjects.length) {
+        renderProjects();
+    }
+});
+
 showAllProjectsButton.addEventListener('click', () => {
     searchInput.value = '';
     keywordSearchInput.value = '';
@@ -248,14 +289,14 @@ showAllProjectsButton.addEventListener('click', () => {
 
 async function obtainProducts() {
     try {
-        const responseLocal = await fetch('certifications.json')
+        const responseLocal = await fetch('certifications.json');
         const localProjects = await responseLocal.json();
 
         allProjects = [...localProjects];
 
-        renderProjects(allProjects);
-    }catch (error) {
-        console.log("Error al cargar los proyectos:", error)
+        renderProjects();
+    } catch (error) {
+        console.log('Error al cargar los proyectos:', error);
     }
 }
 

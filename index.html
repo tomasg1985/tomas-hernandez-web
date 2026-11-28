@@ -1,56 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es-AR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Profesional - Tomas Hernandez</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://googleapis.com">
+    <script src="i18n.js" defer></script>
     <script src="navigation.js" defer></script>
     <script src="index-projects.js?v=1" defer></script>
 </head>
 <body>
     <header>
         <nav class="navbar-main">
-            <button class="nav-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="primary-navigation">
+            <button class="nav-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="primary-navigation" data-i18n-attr="aria-label:nav.openMenu">
                 <span class="nav-toggle-line" aria-hidden="true"></span>
                 <span class="nav-toggle-line" aria-hidden="true"></span>
                 <span class="nav-toggle-line" aria-hidden="true"></span>
             </button>
             <ul class="nav-list" id="primary-navigation">
                 <a class="nav-link" href="index.html">
-                    <li class="nav-list-item">INICIO</li>
+                    <li class="nav-list-item" data-i18n="nav.home">INICIO</li>
                 </a>
                 <a class="nav-link" href="about.html">
-                    <li class="nav-list-item">SOBRE MI</li>
+                    <li class="nav-list-item" data-i18n="nav.about">SOBRE MI</li>
                 </a>
                 <a class="nav-link" href="portfolio.html">
-                    <li class="nav-list-item">PORTFOLIO</li>
+                    <li class="nav-list-item" data-i18n="nav.portfolio">PORTFOLIO</li>
                 </a>
                 <a class="nav-link" href="certifications.html">
-                    <li class="nav-list-item">CERTIFICACIONES</li>
+                    <li class="nav-list-item" data-i18n="nav.certifications">CERTIFICACIONES</li>
                 </a>
                 <a class="nav-link" href="contact.html">
-                    <li class="nav-list-item">CONTACTO</li>
+                    <li class="nav-list-item" data-i18n="nav.contact">CONTACTO</li>
                 </a>
                 <!--<a class="nav-link" href="#">
                     <button class="portfolio-button-1" type="button">DESCARGAR PORTFOLIO<svg class="download-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0 5-5m-5 5-5-5M5 17v4h14v-4"/></svg></button>
                 </a>-->
+                <div class="lang-switch" role="group" aria-label="Idioma">
+                    <button type="button" data-lang-button="es" aria-pressed="true">ES</button>
+                    <button type="button" data-lang-button="en" aria-pressed="false">EN</button>
+                </div>
             </ul>
         </nav>
 
         <div class="dual-button-container">
             <div class="coding-portfolio">
                 <a href="web-portfolio.html">
-                    <button class="coding-btn" type="button">PORTFOLIO WEB</button>
+                    <button class="coding-btn" type="button" data-i18n="nav.web_portfolio">PORTFOLIO WEB</button>
                 </a>
-                <a class="resume-download-link" href="./assets/docs/Desarrollador de Software Junior - Tomas Hernandez.pdf" download>DESCARGAR CV</a>
+                <a class="resume-download-link" href="./assets/docs/Desarrollador de Software Junior - Tomas Hernandez.pdf" download data-i18n="nav.web_resume">DESCARGAR CV</a>
             </div>
             <div class="design-portfolio">
                 <a href="design-portfolio.html">
-                    <button class="design-btn" type="button">PORTFOLIO DISEÑO</button>
+                    <button class="design-btn" type="button" data-i18n="nav.design_portfolio">PORTFOLIO DISEÑO</button>
                 </a>
-                <a class="resume-download-link" href="./assets/docs/Disñador Grafico Senior - Tomas Hernandez.pdf" download>DESCARGAR CV</a>
+                <a class="resume-download-link" href="./assets/docs/Disñador Grafico Senior - Tomas Hernandez.pdf" download data-i18n="nav.design_resume">DESCARGAR CV</a>
             </div>
         </div>
 
@@ -69,26 +74,26 @@
             <div class="upper-titles-container">
                 <div class="upper-title">
                     <div class="skill-title">
-                        <p><svg class="skill-icon skill-icon-code" viewBox="0 0 24 24" aria-hidden="true"><path d="m8 5-6 7 6 7M16 5l6 7-6 7m-1-17-6 22"/></svg>PROGRAMADOR</p>
+                        <p><svg class="skill-icon skill-icon-code" viewBox="0 0 24 24" aria-hidden="true"><path d="m8 5-6 7 6 7M16 5l6 7-6 7m-1-17-6 22"/></svg><span data-i18n="nav.programmer">PROGRAMADOR</span></p>
                     </div>
                     <span class="skill-divider" aria-hidden="true"></span>
                     <div class="skill-title">
-                        <p><svg class="skill-icon skill-icon-brush" viewBox="0 0 24 24" aria-hidden="true"><path d="m14 5 5 5m-7-3 6 6m-7-4-6 6a4 4 0 0 0 0 6l1 1a4 4 0 0 0 6 0l6-6m-11 4 4 4M15 4l2-2 7 7-2 2"/></svg>DISEÑADOR GRÁFICO</p>
+                        <p><svg class="skill-icon skill-icon-brush" viewBox="0 0 24 24" aria-hidden="true"><path d="m14 5 5 5m-7-3 6 6m-7-4-6 6a4 4 0 0 0 0 6l1 1a4 4 0 0 0 6 0l6-6m-11 4 4 4M15 4l2-2 7 7-2 2"/></svg><span data-i18n="nav.designer">DISEÑADOR GRÁFICO</span></p>
                     </div>
                 </div>
             </div>
         </section>
         <section>
             <div class="about-me-headline">
-                <h4 class="headline-title">CONOCEME</h4>
+                <h4 class="headline-title" data-i18n="nav.about_me">CONOCEME</h4>
             </div>
             <div class="about-me-main-title">
-                <h2 class="about-title">QUIÉN SOY</h2>
+                <h2 class="about-title" data-i18n="nav.who_am_i">QUIÉN SOY</h2>
             </div>
             <div class="about-me-summary">
-                <p class="summary">
-                    Diseñador Gráfico Senior con más de 12 años de experiencia potenciando marcas a través de branding, sistemas visuales, motion graphics y edición de video. Con dominio avanzado de la Suite de Adobe y metodologías ágiles, transformo ideas en soluciones multimedia de alto impacto.</p>
-                    <p class="summary">
+                <p class="summary" data-i18n="nav.summary">
+                    Diseñador Gráfico Senior con más de 12 años de experiencia potenciando marcas a través de branding, sistemas visuales, motion graphics y edición de video. Con dominio avanzado de la Suite de Adobe y metodologías ágiles, transformo ideas en soluciones multimedia de alto impacto.
+                    
                     Hoy complemento mi perfil creativo con desarrollo web (HTML, CSS, JavaScript, Python y Bases de Datos) e Inteligencia Artificial, creando proyectos integrales que unen diseño, código y las últimas tendencias digitales.</p>
                 <div class="contact-container">
                     <a href="https://github.com/tomasg1985">
@@ -120,8 +125,8 @@
         <section class="portfolio-container">
 
             <div class="portfolio-heading">
-                <p class="portfolio-eyebrow">MY WORK</p>
-                <h1 class="portfolio-title">PORTFOLIO / PROYECTOS</h1>
+                <p class="portfolio-eyebrow" data-i18n="nav.my_projects_title">MIS PROYECTOS</p>
+                <h1 class="portfolio-title" data-i18n="nav.my_projects_title_headline">PORTFOLIO / PROYECTOS</h1>
             </div>
 
             <div class="social-container">
@@ -148,16 +153,16 @@
                     <li><button class="filter-nav-link" type="button" data-project-filter="uxui" aria-pressed="false">UX/UI</button></li>
                     <li><button class="filter-nav-link" type="button" data-project-filter="multimedia" aria-pressed="false">MULTIMEDIA</button></li>
                     <li><button class="filter-nav-link" type="button" data-project-filter="branding" aria-pressed="false">BRANDING</button></li>
-                    <li><button class="filter-nav-link" type="button" data-project-filter="graphic-design" aria-pressed="false">DISE&Ntilde;O GR&Aacute;FICO</button></li>
+                    <li><button class="filter-nav-link" type="button" data-project-filter="graphic-design" aria-pressed="false" data-i18n="nav.design_title">DISE&Ntilde;O GR&Aacute;FICO</button></li>
                 </ul>
             </div>
             <div class="projects-thumbnails-container">
                 <div class="thumbnail-showcase" id="home-projects" aria-live="polite">
-                    <p class="home-projects-status">Cargando proyectos&hellip;</p>
+                    <p class="home-projects-status" data-i18n="nav.loading_projects">Cargando proyectos&hellip;</p>
                 </div>
             </div>
             <div class="contact-button">
-                <button class="view-more-btn" id="home-projects-more" type="button">Ver m&aacute;s<svg class="view-more-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></button>
+                <button class="view-more-btn" id="home-projects-more" type="button" data-i18n="nav.view_more">Ver m&aacute;s<svg class="view-more-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></button>
             </div>
 
 
@@ -169,9 +174,9 @@
         <section>
             <div class="contact-section">
                 <div class="contact-info">
-                    <p class="contact-headline">Contactame</p>
-                    <h3 class="contact-main-title">Hablemos</h3>
-                    <p class="contact-description">Si tienes una idea o proyecto en mente. Hablemos, estoy abierto a nuevas oportunidades.</p>
+                    <p class="contact-headline" data-i18n="nav.contact_me">Contactame</p>
+                    <h3 class="contact-main-title" data-i18n="nav.lets_talk">Hablemos</h3>
+                    <p class="contact-description" data-i18n="nav.lets_talk_description">Si tienes una idea o proyecto en mente. Hablemos, estoy abierto a nuevas oportunidades.</p>
                 </div>
                 <div class="contact-data">
                     <div class="contact-mail">
@@ -179,12 +184,12 @@
                         <p class="mail-text">tomasgabrielh@gmail.com</p>
                     </div>
                     <div class="contact-adress">
-                        <p class="location-headline"><svg class="contact-meta-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg>Ubicación:</p>
+                        <p class="location-headline"><svg class="contact-meta-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg> <span data-i18n="nav.location">Ubicación:</span></p>
                         <p class="location-text">Buenos Aires - Argentina</p>
                     </div>
                 </div>
                 <div class="contact-button">
-                    <button class="send-btn" type="button">Enviar mensaje<svg class="send-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></button>
+                    <button class="send-btn" type="button" data-i18n="nav.send_a_message">Enviar mensaje<svg class="send-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></button>
                 </div>
             </div>
         </section>
@@ -193,7 +198,7 @@
     <footer>
         <div class="footer-info-container">
             <div>
-                <p class="footer-copyright">Diseño y desarrollo Tomás Hernández</p>
+                <p class="footer-copyright" data-i18n="nav.footer_text">Diseño y desarrollo Tomás Hernández</p>
             </div>
             <div class="footer-social-icons">
                 <button class="contact-link icon-instagram" type="button" aria-label="Instagram" title="Instagram">

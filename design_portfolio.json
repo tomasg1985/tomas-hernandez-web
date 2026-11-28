@@ -8,9 +8,28 @@
         "title": "RapiPago",
         "description": "¿Pagar servicios con criptomonedas? Este proyecto de motion graphics explora cómo comunicar el nuevo servicio de RapiPago de forma clara y atractiva....",
         "published": "Publicado: 29 Sep 2023",
+        "in_progress": "false",
+        "last_updated": "Actualizado: --",
+        "update_note": "Actualizado ...",
         "view_project": "https://res.cloudinary.com/hkraa2l3/video/upload/v1794357991/Motion_Graphic_Muestra_Publicidad_Rapipago.mp4",
         "tech_tags": ["AFTER EFFECTS", "ILLUSTRATOR"],
-        "keywords": ["pagos", "tecnologia", "motion graphics", "after effects", "illustrator", "criptomonedas", "servicios"]
+        "keywords": ["pagos", "tecnologia", "motion graphics", "after effects", "illustrator", "criptomonedas", "servicios"],
+        "i18n": {
+            "es": {
+                "title": "RapiPago",
+                "description": "¿Pagar servicios con criptomonedas? Este proyecto de motion graphics explora cómo comunicar el nuevo servicio de RapiPago de forma clara y atractiva....",
+                "published": "Publicado: 29 Sep 2023",
+                "tech_tags": ["AFTER EFFECTS", "ILLUSTRATOR"],
+                "keywords": ["pagos", "tecnologia", "motion graphics", "after effects", "illustrator", "criptomonedas", "servicios"]
+            },
+            "en": {
+                "title": "RapiPago",
+                "description": "Paying for services with cryptocurrencies? This motion graphics project explores how to communicate RapiPago’s new service in a clear and engaging way...",
+                "published": "Publicado: 29 Sep 2023",
+                "tech_tags": ["AFTER EFFECTS", "ILLUSTRATOR"],
+                "keywords": ["payments", "technology", "motion graphics", "After Effects", "Illustrator", "cryptocurrencies", "services"]
+            }
+        }
     },
     {
         "id": 2,
@@ -21,9 +40,28 @@
         "title": "PetCare App",
         "description": "Encontrar mascotas y promover campañas para ayudarlas: esa fue la necesidad que dio origen a PetCare App...",
         "published": "Publicado: 22 Dic 2023",
+        "in_progress": "false",
+        "last_updated": "Actualizado: --",
+        "update_note": "Actualizado ...",
         "view_project": "https://res.cloudinary.com/hkraa2l3/video/upload/v1794357864/Motion_Graphic_Pet_Care_App.mp4",
         "tech_tags": ["AFTER EFFECTS", "ILLUSTRATOR", "FIGMA"],
-        "keywords": ["mascotas", "tecnologia", "apps", "animación", "after effects", "illustrator", "motion graphics"]
+        "keywords": ["mascotas", "tecnologia", "apps", "animación", "after effects", "illustrator", "motion graphics"],
+        "i18n": {
+            "es": {
+                "title": "PetCare App",
+                "description": "Encontrar mascotas y promover campañas para ayudarlas: esa fue la necesidad que dio origen a PetCare App...",
+                "published": "Publicado: 22 Dic 2023",
+                "tech_tags": ["AFTER EFFECTS", "ILLUSTRATOR", "FIGMA"],
+                "keywords": ["mascotas", "tecnologia", "apps", "animación", "after effects", "illustrator", "motion graphics"]
+            },
+            "en": {
+                "title": "PetCare App",
+                "description": "Finding pets and promoting campaigns to help them—that was the need that gave rise to PetCare App...",
+                "published": "Published: 22 Dec 2023",
+                "tech_tags": ["AFTER EFFECTS", "ILLUSTRATOR", "FIGMA"],
+                "keywords": ["pets", "technology", "apps", "animation", "After Effects", "Illustrator", "motion graphics"]
+            }
+        }
     },
     {
         "id": 3,
@@ -34,9 +72,28 @@
         "title": "Branding Bs. As",
         "description": "Branding Buenos Aires es un video turístico creado para mostrar algunos de los lugares y monumentos más emblemáticos de la ciudad de Buenos Aires, Argentina...",
         "published": "Publicado: 18 Oct 2024",
+        "in_progress": "false",
+        "last_updated": "Actualizado: --",
+        "update_note": "Actualizado ...",
         "view_project": "https://res.cloudinary.com/hkraa2l3/video/upload/v1795310980/Reel_Experiencia_BS_AS.mp4",
         "tech_tags": ["AFTER EFFECTS"],
-        "keywords": ["buenos aires", "turismo", "motion graphics", "animación", "after effects", "illustrator", "redes sociales"]
+        "keywords": ["buenos aires", "turismo", "motion graphics", "animación", "after effects", "illustrator", "redes sociales"],
+        "i18n": {
+            "es": {
+                "title": "Branding Bs. As",
+                "description": "Branding Buenos Aires es un video turístico creado para mostrar algunos de los lugares y monumentos más emblemáticos de la ciudad de Buenos Aires, Argentina...",
+                "published": "Publicado: 18 Oct 2024",
+                "tech_tags": ["AFTER EFFECTS"],
+                "keywords": ["buenos aires", "turismo", "motion graphics", "animación", "after effects", "illustrator", "redes sociales"]
+            },
+            "en": {
+                "title": "Branding Bs. As",
+                "description": "Branding Buenos Aires is a tourism video created to showcase some of the most iconic places and monuments in the city of Buenos Aires, Argentina...",
+                "published": "Published: 18 Oct 2024",
+                "tech_tags": ["AFTER EFFECTS"],
+                "keywords": ["Buenos Aires", "tourism", "motion graphics", "animation", "after effects", "Illustrator", "social media"]
+            }
+        }
     },
     {
         "id": 4,
@@ -47,9 +104,28 @@
         "title": "Voluntariado Cruz Roja",
         "description": "Voluntariado Cruz Roja es un proyecto audiovisual desarrollado mediante técnicas de motion graphics, orientado a promover la participación en el voluntariado y generar conciencia sobre la importancia de saber cómo actuar ante una situación de emergencia...",
         "published": "Publicado: 6 Nov 2023",
+        "in_progress": "false",
+        "last_updated": "Actualizado: --",
+        "update_note": "Actualizado ...",
         "view_project": "https://res.cloudinary.com/hkraa2l3/video/upload/v1795386528/Video_Cruz_Roja_Argentina.mp4",
         "tech_tags": ["AFTER EFFECTS", "ILLUSTRATOR", "PREMIERE PRO"],
-        "keywords": ["buenos aires", "cruz roja argentina", "voluntariado", "motion graphics", "animación", "after effects", "illustrator", "redes sociales"]
+        "keywords": ["buenos aires", "cruz roja argentina", "voluntariado", "motion graphics", "animación", "after effects", "illustrator", "redes sociales"],
+        "i18n": {
+            "es": {
+                "title": "Voluntariado Cruz Roja",
+                "description": "Voluntariado Cruz Roja es un proyecto audiovisual desarrollado mediante técnicas de motion graphics, orientado a promover la participación en el voluntariado y generar conciencia sobre la importancia de saber cómo actuar ante una situación de emergencia...",
+                "published": "Publicado: 6 Nov 2023",
+                "tech_tags": ["AFTER EFFECTS", "ILLUSTRATOR", "PREMIERE PRO"],
+                "keywords": ["buenos aires", "cruz roja argentina", "voluntariado", "motion graphics", "animación", "after effects", "illustrator", "redes sociales"]
+            },
+            "en": {
+                "title": "Red Cross Volunteering",
+                "description": "Red Cross Volunteering is an audiovisual project developed using motion graphics techniques, aimed at encouraging participation in volunteer work and raising awareness about the importance of knowing how to act in an emergency situation...",
+                "published": "Published: 6 Nov 2023",
+                "tech_tags": ["AFTER EFFECTS", "ILLUSTRATOR", "PREMIERE PRO"],
+                "keywords": ["Buenos Aires", "Argentine Red Cross", "volunteering", "motion graphics", "animation", "After Effects", "Illustrator", "social media"]
+            }
+        }
     },
     {
         "id": 5,
@@ -60,9 +136,28 @@
         "title": "Dunas de un cuerpo",
         "description": "Del origen de una idea a un mezcal con calidad de exportación. Esta pieza audiovisual cuenta el recorrido detrás del proyecto...",
         "published": "Publicado: 4 Dic 2023",
+        "in_progress": "false",
+        "last_updated": "Actualizado: --",
+        "update_note": "Actualizado ...",
         "view_project": "https://res.cloudinary.com/hkraa2l3/video/upload/v1794860922/Proyecto_Mezcal_Dunas_de_un_Cuerpo.mp4",
         "tech_tags": ["PREMIERE PRO"],
-        "keywords": ["proyecto", "bebidas", "mexico", "edicion de video", "mezcal", "video"]
+        "keywords": ["proyecto", "bebidas", "mexico", "edicion de video", "mezcal", "video"],
+        "i18n": {
+            "es": {
+                "title": "Dunas de un cuerpo",
+                "description": "Del origen de una idea a un mezcal con calidad de exportación. Esta pieza audiovisual cuenta el recorrido detrás del proyecto...",
+                "published": "Publicado: 4 Dic 2023",
+                "tech_tags": ["PREMIERE PRO"],
+                "keywords": ["proyecto", "bebidas", "mexico", "edicion de video", "mezcal", "video"]
+            },
+            "en": {
+                "title": "Dunes of a body",
+                "description": "From the inception of an idea to an export-quality mezcal. This audiovisual piece recounts the journey behind the project...",
+                "published": "Published: 4 Dec 2023",
+                "tech_tags": ["PREMIERE PRO"],
+                "keywords": ["project", "beverages", "Mexico", "video editing", "mezcal", "video"]
+            }
+        }
     },
     {
         "id": 6,
@@ -73,9 +168,28 @@
         "title": "Video Inspiracional",
         "description": "Imágenes dinámicas, un guion motivacional y un efecto visual que crea profundidad entre texto e imagen...",
         "published": "Publicado: 28 Ene 2026",
+        "in_progress": "false",
+        "last_updated": "Actualizado: --",
+        "update_note": "Actualizado ...",
         "view_project": "https://res.cloudinary.com/hkraa2l3/video/upload/v1794863914/Video_Motivacional.mp4",
         "tech_tags": ["PREMIERE PRO"],
-        "keywords": ["inspiracional", "social media", "premiere pro", "after effects", "rotoscopia", "video"]
+        "keywords": ["inspiracional", "social media", "premiere pro", "after effects", "rotoscopia", "video"],
+        "i18n": {
+            "es": {
+                "title": "Video Inspiracional",
+                "description": "Imágenes dinámicas, un guion motivacional y un efecto visual que crea profundidad entre texto e imagen...",
+                "published": "Publicado: 28 Ene 2026",
+                "tech_tags": ["PREMIERE PRO"],
+                "keywords": ["inspiracional", "social media", "premiere pro", "after effects", "rotoscopia", "video"]
+            },
+            "en": {
+                "title": "Inspirational Video",
+                "description": "Dynamic imagery, a motivational script, and a visual effect that creates depth between text and image...",
+                "published": "Published: 28 Jan 2026",
+                "tech_tags": ["PREMIERE PRO"],
+                "keywords": ["inspirational", "social media", "premiere pro", "after effects", "rotoscoping", "video"]
+            }
+        }
     },
     {
         "id": 7,
@@ -86,9 +200,28 @@
         "title": "Jazz Boozz Sessions",
         "description": "Jazz Boozz Sessions es un proyecto audiovisual creado para promocionar la presentación de una banda mexicana en una serie de sesiones realizadas en el establecimiento que da nombre al proyecto. La pieza también se enmarca en una iniciativa que busca dar a conocer a otras bandas de la escena local...",
         "published": "Publicado: 3 Abr 2024",
+        "in_progress": "false",
+        "last_updated": "Actualizado: --",
+        "update_note": "Actualizado ...",
         "view_project": "https://res.cloudinary.com/hkraa2l3/video/upload/v1795310652/Jazz_Boozz_Sesions.mp4",
         "tech_tags": ["PREMIERE PRO"],
-        "keywords": ["inspiracional", "social media", "redes sociales", "musica", "en vivo", "video"]
+        "keywords": ["inspiracional", "social media", "redes sociales", "musica", "en vivo", "video"],
+        "i18n": {
+            "es": {
+                "title": "Jazz Boozz Sessions",
+                "description": "Jazz Boozz Sessions es un proyecto audiovisual creado para promocionar la presentación de una banda mexicana en una serie de sesiones realizadas en el establecimiento que da nombre al proyecto. La pieza también se enmarca en una iniciativa que busca dar a conocer a otras bandas de la escena local...",
+                "published": "Publicado: 3 Abr 2024",
+                "tech_tags": ["PREMIERE PRO"],
+                "keywords": ["inspiracional", "social media", "redes sociales", "musica", "en vivo", "video"]
+            },
+            "en": {
+                "title": "Jazz Boozz Sessions",
+                "description": "Jazz Boozz Sessions is an audiovisual project created to promote a Mexican band’s performance through a series of sessions held at the establishment that gives the project its name. The project is also part of an initiative aimed at showcasing other bands from the local scene...",
+                "published": "Published: 3 Apr 2024",
+                "tech_tags": ["PREMIERE PRO"],
+                "keywords": ["inspirational", "social media", "social networks", "music", "live", "video"]
+            }
+        }
     },
     {
         "id": 8,
@@ -97,11 +230,30 @@
         "condition": "Nuevo",
         "rating": "4/5",
         "title": "Delice Chocolates",
-        "description": "Chocolates Delice es una tienda de chocolatería cuyos productos son los protagonistas de esta pieza audiovisual....",
+        "description": "Chocolates Delice es una tienda de chocolatería cuyos productos son los protagonistas de esta pieza audiovisual...",
         "published": "Publicado: 1 May 2024",
+        "in_progress": "false",
+        "last_updated": "Actualizado: --",
+        "update_note": "Actualizado ...",
         "view_project": "https://res.cloudinary.com/hkraa2l3/video/upload/v1795316336/Reel_Chocolate.mp4",
         "tech_tags": ["PREMIERE PRO"],
-        "keywords": ["inspiracional", "social media", "redes sociales", "musica", "en vivo", "video"]
+        "keywords": ["inspiracional", "social media", "redes sociales", "musica", "en vivo", "video"],
+        "i18n": {
+            "es": {
+                "title": "Delice Chocolates",
+                "description": "Chocolates Delice es una tienda de chocolatería cuyos productos son los protagonistas de esta pieza audiovisual...",
+                "published": "Publicado: 1 May 2024",
+                "tech_tags": ["PREMIERE PRO"],
+                "keywords": ["inspiracional", "social media", "redes sociales", "musica", "en vivo", "video"]
+            },
+            "en": {
+                "title": "Delice Chocolates",
+                "description": "Chocolates Delice is a chocolate shop whose products take center stage in this audiovisual piece...",
+                "published": "Published: 1 May 2024",
+                "tech_tags": ["PREMIERE PRO"],
+                "keywords": ["inspirational", "social media", "social networks", "music", "live", "video"]
+            }
+        }
     },
     {
         "id": 9,
@@ -112,9 +264,28 @@
         "title": "Delice Muffins",
         "description": "Delice es una tienda de chocolatería cuyos productos son los protagonistas de esta pieza audiovisual...",
         "published": "Publicado: 1 May 2024",
+        "in_progress": "false",
+        "last_updated": "Actualizado: --",
+        "update_note": "Actualizado ...",
         "view_project": "https://res.cloudinary.com/hkraa2l3/video/upload/v1795316344/Reel_Delice_Muffins.mp4",
         "tech_tags": ["PREMIERE PRO"],
-        "keywords": ["inspiracional", "social media", "redes sociales", "musica", "en vivo", "video"]
+        "keywords": ["inspiracional", "social media", "redes sociales", "musica", "en vivo", "video"],
+        "i18n": {
+            "es": {
+                "title": "Delice Muffins",
+                "description": "Delice es una tienda de chocolatería cuyos productos son los protagonistas de esta pieza audiovisual...",
+                "published": "Publicado: 1 May 2024",
+                "tech_tags": ["PREMIERE PRO"],
+                "keywords": ["inspiracional", "social media", "redes sociales", "musica", "en vivo", "video"]
+            },
+            "en": {
+                "title": "Delice Muffins",
+                "description": "Delice is a chocolate shop whose products take center stage in this audiovisual piece...",
+                "published": "Published: 1 May 2024",
+                "tech_tags": ["PREMIERE PRO"],
+                "keywords": ["inspirational", "social media", "social networks", "music", "live", "video"]
+            }
+        }
     },
     {
         "id": 10,
@@ -123,11 +294,30 @@
         "condition": "Nuevo",
         "rating": "4/5",
         "title": "Industrial Hub Torreón",
-        "description": "Una identidad creada desde cero para una empresa inmobiliaria mexicana, con una marca conectada con sus valores y su lugar de origen....",
+        "description": "Una identidad creada desde cero para una empresa inmobiliaria mexicana, con una marca conectada con sus valores y su lugar de origen...",
         "published": "Publicado: 2 Abr 2026",
+        "in_progress": "false",
+        "last_updated": "Actualizado: --",
+        "update_note": "Actualizado ...",
         "view_project": "#",
         "tech_tags": ["ILLUSTRATOR", "INDESIGN", "PHOTOSHOP"],
-        "keywords": ["inspiracional", "social media", "branding", "marca", "editorial", "logotipo"]
+        "keywords": ["inspiracional", "social media", "branding", "marca", "editorial", "logotipo"],
+        "i18n": {
+            "es": {
+                "title": "Industrial Hub Torreón",
+                "description": "Una identidad creada desde cero para una empresa inmobiliaria mexicana, con una marca conectada con sus valores y su lugar de origen...",
+                "published": "Publicado: 2 Abr 2026",
+                "tech_tags": ["ILLUSTRATOR", "INDESIGN", "PHOTOSHOP"],
+                "keywords": ["inspiracional", "social media", "branding", "marca", "editorial", "logotipo"]
+            },
+            "en": {
+                "title": "Industrial Hub Torreón",
+                "description": "An identity created from scratch for a Mexican real estate company, with a brand connected to its values ​​and its place of origin...",
+                "published": "Published: 2 Apr 2026",
+                "tech_tags": ["ILLUSTRATOR", "INDESIGN", "PHOTOSHOP"],
+                "keywords": ["inspirational", "social media", "branding", "brand", "editorial", "logo"]
+            }
+        }
     },
     {
         "id": 11,
@@ -138,9 +328,28 @@
         "title": "Menelmec Solutions",
         "description": "Instalaciones eléctricas de gran escala para la industria automotriz: una empresa especializada necesitaba una identidad a la altura de su trabajo...",
         "published": "Publicado: 4 Oct 2025",
+        "in_progress": "false",
+        "last_updated": "Actualizado: --",
+        "update_note": "Actualizado ...",
         "view_project": "#",
         "tech_tags": ["ILLUSTRATOR", "INDESIGN", "PHOTOSHOP"],
-        "keywords": ["inspiracional", "social media", "branding", "marca", "editorial", "logotipo"]
+        "keywords": ["inspiracional", "social media", "branding", "marca", "editorial", "logotipo"],
+        "i18n": {
+            "es": {
+                "title": "Menelmec Solutions",
+                "description": "Instalaciones eléctricas de gran escala para la industria automotriz: una empresa especializada necesitaba una identidad a la altura de su trabajo...",
+                "published": "Publicado: 4 Oct 2025",
+                "tech_tags": ["ILLUSTRATOR", "INDESIGN", "PHOTOSHOP"],
+                "keywords": ["inspiracional", "social media", "branding", "marca", "editorial", "logotipo"]
+            },
+            "en": {
+                "title": "Menelmec Solutions",
+                "description": "Large-scale electrical installations for the automotive industry: a specialized company needed an identity that measured up to its work...",
+                "published": "Published: 4 Oct 2025",
+                "tech_tags": ["ILLUSTRATOR", "INDESIGN", "PHOTOSHOP"],
+                "keywords": ["inspirational", "social media", "branding", "brand", "editorial", "logo"]
+            }
+        }
     },
     {
         "id": 12,
@@ -151,9 +360,28 @@
         "title": "Marmol Laguna",
         "description": "Una identidad visual desarrollada desde cero para una empresa especializada en revestimientos de mármol de alta gama...",
         "published": "Publicado: 4 Mar 2026",
+        "in_progress": "false",
+        "last_updated": "Actualizado: --",
+        "update_note": "Actualizado ...",
         "view_project": "#",
         "tech_tags": ["ILLUSTRATOR", "INDESIGN", "PHOTOSHOP"],
-        "keywords": ["inspiracional", "social media", "branding", "marca", "editorial", "logotipo"]
+        "keywords": ["inspiracional", "social media", "branding", "marca", "editorial", "logotipo"],
+        "i18n": {
+            "es": {
+                "title": "Marmol Laguna",
+                "description": "Una identidad visual desarrollada desde cero para una empresa especializada en revestimientos de mármol de alta gama...",
+                "published": "Publicado: 4 Mar 2026",
+                "tech_tags": ["ILLUSTRATOR", "INDESIGN", "PHOTOSHOP"],
+                "keywords": ["inspiracional", "social media", "branding", "marca", "editorial", "logotipo"]
+            },
+            "en": {
+                "title": "Laguna Marble",
+                "description": "A visual identity developed from scratch for a company specializing in high-end marble cladding...",
+                "published": "Published: 4 Mar 2026",
+                "tech_tags": ["ILLUSTRATOR", "INDESIGN", "PHOTOSHOP"],
+                "keywords": ["inspirational", "social media", "branding", "brand", "editorial", "logo"]
+            }
+        }
     },
     {
         "id": 13,
@@ -163,10 +391,29 @@
         "rating": "4/5",
         "title": "Correa Crawford",
         "description": "Servicios financieros para personas y empresas en México y Estados Unidos, reunidos bajo una identidad de marca diseñada a partir de un briefing...",
-        "published": "Publicado: 9 Ener 2025",
+        "published": "Publicado: 9 Ene 2025",
+        "in_progress": "false",
+        "last_updated": "Actualizado: --",
+        "update_note": "Actualizado ...",
         "view_project": "#",
         "tech_tags": ["ILLUSTRATOR", "INDESIGN", "PHOTOSHOP"],
-        "keywords": ["inspiracional", "social media", "branding", "marca", "editorial", "logotipo"]
+        "keywords": ["inspiracional", "social media", "branding", "marca", "editorial", "logotipo"],
+        "i18n": {
+            "es": {
+                "title": "Correa Crawford",
+                "description": "Servicios financieros para personas y empresas en México y Estados Unidos, reunidos bajo una identidad de marca diseñada a partir de un briefing...",
+                "published": "Publicado: 9 Ene 2025",
+                "tech_tags": ["ILLUSTRATOR", "INDESIGN", "PHOTOSHOP"],
+                "keywords": ["inspiracional", "social media", "branding", "marca", "editorial", "logotipo"]
+            },
+            "en": {
+                "title": "Correa Crawford",
+                "description": "Financial services for individuals and businesses in Mexico and the United States, brought together under a brand identity designed based on a brief...",
+                "published": "Published: 9 Jan 2025",
+                "tech_tags": ["ILLUSTRATOR", "INDESIGN", "PHOTOSHOP"],
+                "keywords": ["inspirational", "social media", "branding", "brand", "editorial", "logo"]
+            }
+        }
     },
     {
         "id": 14,
@@ -177,9 +424,28 @@
         "title": "Modamex",
         "description": "Uniformes para sectores diversos, con una identidad y un catálogo pensados para comunicar la oferta de MODAMEX a través de su red de distribuidores...",
         "published": "Publicado: 12 Mar 2025",
+        "in_progress": "false",
+        "last_updated": "Actualizado: --",
+        "update_note": "Actualizado ...",
         "view_project": "#",
         "tech_tags": ["ILLUSTRATOR", "INDESIGN", "PHOTOSHOP"],
-        "keywords": ["inspiracional", "social media", "branding", "marca", "editorial", "logotipo"]
+        "keywords": ["inspiracional", "social media", "branding", "marca", "editorial", "logotipo"],
+        "i18n": {
+            "es": {
+                "title": "Modamex",
+                "description": "Uniformes para sectores diversos, con una identidad y un catálogo pensados para comunicar la oferta de MODAMEX a través de su red de distribuidores...",
+                "published": "Publicado: 12 Mar 2025",
+                "tech_tags": ["ILLUSTRATOR", "INDESIGN", "PHOTOSHOP"],
+                "keywords": ["inspiracional", "social media", "branding", "marca", "editorial", "logotipo"]
+            },
+            "en": {
+                "title": "Modamex",
+                "description": "Uniforms for various sectors, with an identity and a catalog designed to communicate MODAMEX’s offering through its network of distributors...",
+                "published": "Published: 12 Mar 2025",
+                "tech_tags": ["ILLUSTRATOR", "INDESIGN", "PHOTOSHOP"],
+                "keywords": ["inspirational", "social media", "branding", "brand", "editorial", "logo"]
+            }
+        }
     },
     {
         "id": 15,
@@ -190,9 +456,28 @@
         "title": "Deportones",
         "description": "Una identidad visual más coherente para redes sociales y sitio web, creada para una empresa argentina que fabrica portones eléctricos y productos de metal a medida...",
         "published": "Publicado: 20 Nov 2025",
+        "in_progress": "false",
+        "last_updated": "Actualizado: --",
+        "update_note": "Actualizado ...",
         "view_project": "https://www.instagram.com/de.portones/",
         "tech_tags": ["INSTAGRAM"],
-        "keywords": ["social media", "construccion", "empresa", "argentina"]
+        "keywords": ["social media", "construccion", "empresa", "argentina"],
+        "i18n": {
+            "es": {
+                "title": "Deportones",
+                "description": "Una identidad visual más coherente para redes sociales y sitio web, creada para una empresa argentina que fabrica portones eléctricos y productos de metal a medida...",
+                "published": "Publicado: 20 Nov 2025",
+                "tech_tags": ["INSTAGRAM"],
+                "keywords": ["social media", "construccion", "empresa", "argentina"]
+            },
+            "en": {
+                "title": "Deportones",
+                "description": "A more cohesive visual identity for social media and a website, created for an Argentine company that manufactures electric gates and custom metal products...",
+                "published": "Published: 20 Nov 2025",
+                "tech_tags": ["INSTAGRAM"],
+                "keywords": ["social media", "construction", "company", "Argentina"]
+            }
+        }
     },
     {
         "id": 16,
@@ -203,9 +488,28 @@
         "title": "Mafensa MX",
         "description": "Comunicación visual para una empresa que equipa al sector ferretero. Mafensa MX reúne piezas para redes sociales y materiales editoriales desarrollados para la marca...",
         "published": "Publicado: 19 Dic 2023",
+        "in_progress": "false",
+        "last_updated": "Actualizado: --",
+        "update_note": "Actualizado ...",
         "view_project": "https://www.instagram.com/mafensamx/",
         "tech_tags": ["INSTAGRAM"],
-        "keywords": ["social media", "construccion", "empresa", "ferreteria", "mexico"]
+        "keywords": ["social media", "construccion", "empresa", "ferreteria", "mexico"],
+        "i18n": {
+            "es": {
+                "title": "Mafensa MX",
+                "description": "Comunicación visual para una empresa que equipa al sector ferretero. Mafensa MX reúne piezas para redes sociales y materiales editoriales desarrollados para la marca...",
+                "published": "Publicado: 19 Dic 2023",
+                "tech_tags": ["INSTAGRAM"],
+                "keywords": ["social media", "construccion", "empresa", "ferreteria", "mexico"]
+            },
+            "en": {
+                "title": "Mafensa MX",
+                "description": "Visual communication for a company that supplies the hardware sector. Mafensa MX brings together social media assets and editorial materials developed for the brand...",
+                "published": "Published: 19 Dec 2023",
+                "tech_tags": ["INSTAGRAM"],
+                "keywords": ["social media", "construction", "company", "hardware store", "Mexico"]
+            }
+        }
     },
     {
         "id": 17,
@@ -216,9 +520,28 @@
         "title": "Heker Mexico",
         "description": "Soluciones agrícolas que merecen una comunicación clara. Para Heker de México, desarrollé contenido mensual que presenta y promociona sus productos en redes sociales...",
         "published": "Publicado: 20 Feb 2023",
+        "in_progress": "false",
+        "last_updated": "Actualizado: --",
+        "update_note": "Actualizado ...",
         "view_project": "https://www.instagram.com/hekerdemexico/",
         "tech_tags": ["INSTAGRAM"],
-        "keywords": ["social media", "mexico", "fertilizantes", "agricola", "agroindustrias"]
+        "keywords": ["social media", "mexico", "fertilizantes", "agricola", "agroindustrias"],
+        "i18n": {
+            "es": {
+                "title": "Heker Mexico",
+                "description": "Soluciones agrícolas que merecen una comunicación clara. Para Heker de México, desarrollé contenido mensual que presenta y promociona sus productos en redes sociales...",
+                "published": "Publicado: 20 Feb 2023",
+                "tech_tags": ["INSTAGRAM"],
+                "keywords": ["social media", "mexico", "fertilizantes", "agricola", "agroindustrias"]
+            },
+            "en": {
+                "title": "Heker Mexico",
+                "description": "Agricultural solutions that deserve clear communication. For Heker de México, I developed monthly content to showcase and promote their products on social media...",
+                "published": "Published: 20 Feb 2023",
+                "tech_tags": ["INSTAGRAM"],
+                "keywords": ["social media", "Mexico", "fertilizers", "agricultural", "agribusinesses"]
+            }
+        }
     },
     {
         "id": 18,
@@ -229,9 +552,28 @@
         "title": "Campoterra",
         "description": "Soluciones agrícolas que merecen una comunicación clara. Para Heker de México, desarrollé contenido mensual que presenta y promociona sus productos en redes sociales...",
         "published": "Publicado: 6 Ene 2026",
+        "in_progress": "false",
+        "last_updated": "Actualizado: --",
+        "update_note": "Actualizado ...",
         "view_project": "#",
         "tech_tags": ["INSTAGRAM"],
-        "keywords": ["social media", "real state", "construccion", "mexico"]
+        "keywords": ["social media", "real state", "construccion", "mexico"],
+        "i18n": {
+            "es": {
+                "title": "Campoterra",
+                "description": "Soluciones agrícolas que merecen una comunicación clara. Para Heker de México, desarrollé contenido mensual que presenta y promociona sus productos en redes sociales...",
+                "published": "Publicado: 6 Ene 2026",
+                "tech_tags": ["INSTAGRAM"],
+                "keywords": ["social media", "real state", "construccion", "mexico"]
+            },
+            "en": {
+                "title": "Campoterra",
+                "description": "Agricultural solutions that deserve clear communication. For Heker de México, I developed monthly content to showcase and promote their products on social media...",
+                "published": "Published: 6 Jan 2026",
+                "tech_tags": ["INSTAGRAM"],
+                "keywords": ["social media", "real estate", "construction", "Mexico"]
+            }
+        }
     },
     {
         "id": 19,
@@ -242,9 +584,28 @@
         "title": "Auratech Studio",
         "description": "Auratech Studio es una empresa mexicana dedicada a la publicidad en medios digitales. El proyecto aborda la evolución de su proceso de creación de publicaciones para Instagram: la agencia comenzó diseñando sus contenidos con la suite de Adobe y, posteriormente, incorporó herramientas de inteligencia artificial a su flujo de trabajo...",
         "published": "Publicado: 4 Jul 2023",
+        "in_progress": "false",
+        "last_updated": "Actualizado: --",
+        "update_note": "Actualizado ...",
         "view_project": "https://www.instagram.com/auratechstudio/",
         "tech_tags": ["INSTAGRAM"],
-        "keywords": ["social media", "mexico", "publicidad", "inteligencia artificial", "ia"]
+        "keywords": ["social media", "mexico", "publicidad", "inteligencia artificial", "ia"],
+        "i18n": {
+            "es": {
+                "title": "Auratech Studio",
+                "description": "Auratech Studio es una empresa mexicana dedicada a la publicidad en medios digitales. El proyecto aborda la evolución de su proceso de creación de publicaciones para Instagram: la agencia comenzó diseñando sus contenidos con la suite de Adobe y, posteriormente, incorporó herramientas de inteligencia artificial a su flujo de trabajo...",
+                "published": "Publicado: 4 Jul 2023",
+                "tech_tags": ["INSTAGRAM"],
+                "keywords": ["social media", "mexico", "publicidad", "inteligencia artificial", "ia"]
+            },
+            "en": {
+                "title": "Auratech Studio",
+                "description": "Auratech Studio is a Mexican company specializing in digital media advertising. The project explores the evolution of its process for creating Instagram posts: the agency initially designed its content using the Adobe suite and subsequently integrated artificial intelligence tools into its workflow...",
+                "published": "Published: 4 Jul 2023",
+                "tech_tags": ["INSTAGRAM"],
+                "keywords": ["social media", "Mexico", "advertising", "artificial intelligence", "AI"]
+            }
+        }
     },
     {
         "id": 20,
@@ -255,9 +616,28 @@
         "title": "Jazz Boozz",
         "description": "Jazz Boozz es un local nocturno contemporáneo ubicado en Torreón, Coahuila, México. Está dirigido a jóvenes y adultos contemporáneos que buscan disfrutar de un ambiente diferente...",
         "published": "Publicado: 15 Dic 2023",
+        "in_progress": "false",
+        "last_updated": "Actualizado: --",
+        "update_note": "Actualizado ...",
         "view_project": "https://www.instagram.com/jazzboozz/",
         "tech_tags": ["INSTAGRAM"],
-        "keywords": ["social media", "bar", "mexico", "cocketeles", "bebidas"]
+        "keywords": ["social media", "bar", "mexico", "cocketeles", "bebidas"],
+        "i18n": {
+            "es": {
+                "title": "Jazz Boozz",
+                "description": "Jazz Boozz es un local nocturno contemporáneo ubicado en Torreón, Coahuila, México. Está dirigido a jóvenes y adultos contemporáneos que buscan disfrutar de un ambiente diferente...",
+                "published": "Publicado: 15 Dec 2023",
+                "tech_tags": ["INSTAGRAM"],
+                "keywords": ["social media", "bar", "mexico", "cocketeles", "bebidas"]
+            },
+            "en": {
+                "title": "Jazz Boozz",
+                "description": "Jazz Boozz is a contemporary nightlife venue located in Torreón, Coahuila, Mexico. It caters to young people and contemporary adults looking to enjoy a different kind of atmosphere...",
+                "published": "Published: 15 Dic 2023",
+                "tech_tags": ["INSTAGRAM"],
+                "keywords": ["social media", "bar", "Mexico", "cocktails", "drinks"]
+            }
+        }
     },
     {
         "id": 21,
@@ -268,9 +648,28 @@
         "title": "Heker Fertilizantes",
         "description": "Heker de México es una empresa dedicada a la venta de fertilizantes para el sector agroindustrial. Al comenzar a comercializar productos de desarrollo propio, la empresa necesitó etiquetas para identificar y presentar sus productos...",
         "published": "Publicado: 27 Oct 2023",
+        "in_progress": "false",
+        "last_updated": "Actualizado: --",
+        "update_note": "Actualizado ...",
         "view_project": "#",
         "tech_tags": ["ILLUSTRATOR", "BLENDER 3D"],
-        "keywords": ["fertilizantes", "agicultura", "empaques", "mexico"]
+        "keywords": ["fertilizantes", "agicultura", "empaques", "mexico"],
+        "i18n": {
+            "es": {
+                "title": "Heker Fertilizantes",
+                "description": "Heker de México es una empresa dedicada a la venta de fertilizantes para el sector agroindustrial. Al comenzar a comercializar productos de desarrollo propio, la empresa necesitó etiquetas para identificar y presentar sus productos...",
+                "published": "Publicado: 27 Oct 2023",
+                "tech_tags": ["ILLUSTRATOR", "BLENDER 3D"],
+                "keywords": ["fertilizantes", "agicultura", "empaques", "mexico"]
+            },
+            "en": {
+                "title": "Heker Fertilizantes",
+                "description": "Heker de México is a company dedicated to the sale of fertilizers for the agro-industrial sector. Upon beginning to market products developed in-house, the company required labels to identify and present its products...",
+                "published": "Published: 27 Oct 2023",
+                "tech_tags": ["ILLUSTRATOR", "BLENDER 3D"],
+                "keywords": ["fertilizers", "agriculture", "packaging", "Mexico"]
+            }
+        }
     },
     {
         "id": 22,
@@ -281,8 +680,27 @@
         "title": "El Arrasador",
         "description": "El Arrasador es una empresa mexicana del rubro de comestibles que lanzó un producto de carne seca en presentaciones prácticas para llevar...",
         "published": "Publicado: 17 May 2024",
+        "in_progress": "false",
+        "last_updated": "Actualizado: --",
+        "update_note": "Actualizado ...",
         "view_project": "#",
         "tech_tags": ["PHOTOSHOP","ILLUSTRATOR", "MOCKUP"],
-        "keywords": ["comestibles", "carne seca", "empaques", "mexico"]
+        "keywords": ["comestibles", "carne seca", "empaques", "mexico"],
+        "i18n": {
+            "es": {
+                "title": "El Arrasador",
+                "description": "El Arrasador es una empresa mexicana del rubro de comestibles que lanzó un producto de carne seca en presentaciones prácticas para llevar...",
+                "published": "Publicado: 17 May 2024",
+                "tech_tags": ["PHOTOSHOP","ILLUSTRATOR", "MOCKUP"],
+                "keywords": ["comestibles", "carne seca", "empaques", "mexico"]
+            },
+            "en": {
+                "title": "El Arrasador",
+                "description": "El Arrasador is a Mexican company in the food sector that has launched a beef jerky product in convenient, on-the-go packaging...",
+                "published": "Published: 17 May 2024",
+                "tech_tags": ["PHOTOSHOP","ILLUSTRATOR", "MOCKUP"],
+                "keywords": ["edibles", "dried meat", "packaging", "Mexico"]
+            }
+        }
     }
 ]

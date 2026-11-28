@@ -16,6 +16,25 @@ const videoPlayerStatus = document.getElementById('video-player-status');
 let allProjects = [];
 const expandedProjectSections = new Set();
 
+function getCurrentLang() {
+    return window.i18n?.getLang() || 'es';
+}
+
+function t(key, fallback = '') {
+    const val = window.i18n?.t(key);
+    return val && val !== key ? val : fallback;
+}
+
+function getLocalizedValue(item, field, fallback = '') {
+    const lang = getCurrentLang();
+    return (
+        item?.i18n?.[lang]?.[field] ??
+        item?.[field] ??
+        item?.i18n?.es?.[field] ??
+        fallback
+    );
+}
+
 function initializeProjectSectionReveal() {
     const main = document.querySelector('.portfolio-showcase-main-info');
     const buttonContainer = main?.querySelector('.view-more-container');
@@ -42,7 +61,9 @@ function initializeProjectSectionReveal() {
             element.hidden = isExpanded;
         });
         button.setAttribute('aria-expanded', String(!isExpanded));
-        button.childNodes[0].textContent = isExpanded ? 'Ver más' : 'Ver menos';
+        button.childNodes[0].textContent = isExpanded
+            ? t('nav.view_more', 'Ver más')
+            : t('nav.view_less', 'Ver menos');
     });
 }
 
@@ -65,7 +86,7 @@ if (videoPlayerDialog && videoPlayer) {
     });
 
     videoPlayer.addEventListener('error', () => {
-        videoPlayerStatus.textContent = 'No se pudo cargar este video.';
+        videoPlayerStatus.textContent = t('nav.video_load_error', 'No se pudo cargar este video.');
         videoPlayerStatus.hidden = false;
         console.error('Error al cargar el video del proyecto:', videoPlayer.error);
     });
@@ -84,7 +105,10 @@ function openProjectVideo(encodedUrl) {
     videoPlayer.volume = 1;
     videoPlayerDialog.showModal();
     videoPlayer.play().catch(error => {
-        videoPlayerStatus.textContent = 'No se pudo iniciar el video. Usá los controles para reproducirlo.';
+        videoPlayerStatus.textContent = t(
+            'nav.video_play_error',
+            'No se pudo iniciar el video. Usá los controles para reproducirlo.'
+        );
         videoPlayerStatus.hidden = false;
         console.error('Error al iniciar el video del proyecto:', error);
     });
@@ -111,8 +135,8 @@ function updateMoreProjectsControl(section, projectCount) {
     const isExpanded = hiddenCount > 0 && expandedProjectSections.has(section);
     control.dataset.hiddenCount = String(hiddenCount);
     control.textContent = isExpanded
-        ? 'ver menos proyectos'
-        : `ver mas proyectos (${hiddenCount})`;
+        ? t('nav.view_less_projects', 'ver menos proyectos')
+        : `${t('nav.view_more_projects', 'ver mas proyectos')} (${hiddenCount})`;
     control.setAttribute('aria-expanded', String(isExpanded));
     control.classList.toggle('is-disabled', hiddenCount === 0 && !isExpanded);
 }
@@ -159,7 +183,7 @@ function showProjectCards(projects, section) {
     updateMoreProjectsControl(section, projects.length);
 
     if (projects.length === 0) {
-        projectsShowcase.innerHTML = '<p>No se encontraron proyectos.</p>';
+        projectsShowcase.innerHTML = `<p>${t('nav.no_projects_found', 'No se encontraron proyectos.')}</p>`;
         return;
     }
 
@@ -168,7 +192,7 @@ function showProjectCards(projects, section) {
     projectsShowcase.innerHTML = `
         <div class="project-section-carousel${projects.length > 1 ? ' has-arrows' : ''}${isExpanded ? ' is-expanded' : ''}">
             ${projects.length > 1 ? `
-                <button class="project-carousel-arrow project-carousel-arrow-prev" type="button" aria-label="Proyecto anterior">
+                <button class="project-carousel-arrow project-carousel-arrow-prev" type="button" aria-label="${t('nav.prev_project', 'Proyecto anterior')}">
                     <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 18l-6-6 6-6"></path></svg>
                 </button>
             ` : ''}
@@ -177,29 +201,39 @@ function showProjectCards(projects, section) {
                 const rating = projectRatings.getSummary(project, 'design');
                 const ratingLabel = projectRatings.formatAverage(rating.average);
                 const ratingCount = projectRatings.getCountLabel(rating.count);
-                const ratingScope = rating.synced ? 'global' : 'local';
-                const localCountLabel = `${ratingCount} ${ratingScope}${rating.count === 1 ? '' : 'es'}`;
+                const ratingScope = rating.synced
+                    ? t('nav.rating_global', 'global')
+                    : t('nav.rating_local', 'local');
+                const pluralSuffix = rating.count === 1 ? '' : (getCurrentLang() === 'en' ? 's' : 'es');
+                const localCountLabel = `${ratingCount} ${ratingScope}${pluralSuffix}`;
+                const localizedTag = getLocalizedValue(project, 'project_tag');
+                const localizedCondition = getLocalizedValue(project, 'condition');
+                const localizedTitle = getLocalizedValue(project, 'title');
+                const localizedDescription = getLocalizedValue(project, 'description');
+                const localizedPublished = getLocalizedValue(project, 'published');
+                const localizedTechTags = getLocalizedValue(project, 'tech_tags', project.tech_tags);
+
                 const projectLikeHtml = `
-                    <button class="project-like-button card-project-like" type="button" aria-label="Me gusta este proyecto" aria-pressed="false">
+                    <button class="project-like-button card-project-like" type="button" aria-label="${t('nav.like_project_aria', 'Me gusta este proyecto')}" aria-pressed="false">
                         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 0 0 0-7.78Z"/></svg>
-                        <span data-project-like-label>Me gusta</span>
+                        <span data-project-like-label>${t('nav.like_label', 'Me gusta')}</span>
                         <span class="project-like-count" data-project-like-count>0</span>
                     </button>`;
                 const projectDetailsUrl = `portfolio-details.html?id=${encodeURIComponent(project.id)}&type=design&section=${encodeURIComponent(project.section)}`;
                 const isVideoProject = typeof project.view_project === 'string'
                     && /\.mp4(?:$|[?#])/i.test(project.view_project);
                 const moreProjectAction = isVideoProject
-                    ? `<button class="github-link project-video-play" type="button" data-video-url="${encodeURIComponent(project.view_project)}">Reproducir<svg class="view-more-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></button>`
+                    ? `<button class="github-link project-video-play" type="button" data-video-url="${encodeURIComponent(project.view_project)}">${t('nav.play_video', 'Reproducir')}<svg class="view-more-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></button>`
                     : `<a href="${project.view_project}" target="_blank" rel="noopener noreferrer">
-                        <button class="github-link" type="button">Ver más<svg class="view-more-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6"/></svg></button>
+                        <button class="github-link" type="button">${t('nav.view_more_btn', 'Ver más')}<svg class="view-more-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></button>
                     </a>`;
 
                 return `
             <div class="card${index >= initialProjectLimit ? ' project-card-overflow' : ''}">
                 <div class="rate-condition-container">
                     <div class="condition-tag">
-                        <p class="category">${project.project_tag}</p>
-                        <p class="new-tag">${project.condition}</p>
+                        <p class="category">${localizedTag}</p>
+                        <p class="new-tag">${localizedCondition}</p>
                     </div>
                     <div class="rating">
                         <p class="rating-stars">
@@ -211,20 +245,20 @@ function showProjectCards(projects, section) {
                 </div>
 
                 <div class="project-main-card-content">
-                    <h4 class="project-main-title">${project.title}</h4>
-                    <p class="project-main-description">${project.description}</p>
+                    <h4 class="project-main-title">${localizedTitle}</h4>
+                    <p class="project-main-description">${localizedDescription}</p>
                 </div>
 
                 <div class="languages-tag-container">
-                    ${project.tech_tags.map(tag => `<span class="language-tag">${tag}</span>`).join('')}
+                    ${(Array.isArray(localizedTechTags) ? localizedTechTags : []).map(tag => `<span class="language-tag">${tag}</span>`).join('')}
                 </div>
 
                 <div class="card-footer">
-                    <p class="card-published">${project.published}</p>
+                    <p class="card-published">${localizedPublished}</p>
                     ${projectLikeHtml}
                     <div class="card-actions">
                         <a class="project-details-link" href="${projectDetailsUrl}" data-project-id="${project.id}" data-portfolio-type="design" data-project-section="${project.section}">
-                            <button class="preview-link" type="button">Ver detalles</button>
+                            <button class="preview-link" type="button">${t('nav.view_details', 'Ver detalles')}</button>
                         </a>
                         ${moreProjectAction}
                     </div>
@@ -234,7 +268,7 @@ function showProjectCards(projects, section) {
             }).join('')}
             </div>
             ${projects.length > 1 ? `
-                <button class="project-carousel-arrow project-carousel-arrow-next" type="button" aria-label="Proyecto siguiente">
+                <button class="project-carousel-arrow project-carousel-arrow-next" type="button" aria-label="${t('nav.next_project', 'Proyecto siguiente')}">
                     <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18l6-6-6-6"></path></svg>
                 </button>
             ` : ''}
@@ -262,23 +296,36 @@ function showProjectCards(projects, section) {
     initializeProjectCarousel(projectsShowcase);
 }
 
-// Renderizado de las tarjetas de proyectos de acuerdo a las busquedas en los inputs
-
 function renderProjects() {
     const projectTerm = normalizeSearchText(searchInput.value);
     const keywordTerm = normalizeSearchText(keywordSearchInput.value);
     const visibleProjects = allProjects.filter(project => {
+        const localizedTitle = getLocalizedValue(project, 'title');
+        const localizedDescription = getLocalizedValue(project, 'description');
+        const localizedTag = getLocalizedValue(project, 'project_tag');
+        const localizedCondition = getLocalizedValue(project, 'condition');
+        const localizedPublished = getLocalizedValue(project, 'published');
+        const localizedKeywords = getLocalizedValue(project, 'keywords', project.keywords);
+        const localizedTechTags = getLocalizedValue(project, 'tech_tags', project.tech_tags);
+
         const searchableText = normalizeSearchText([
             project.title,
+            localizedTitle,
             project.description,
+            localizedDescription,
             project.project_tag,
+            localizedTag,
             project.condition,
+            localizedCondition,
             project.published,
+            localizedPublished,
             project.section,
-            ...(Array.isArray(project.tech_tags) ? project.tech_tags : [])
+            ...(Array.isArray(localizedKeywords) ? localizedKeywords : []),
+            ...(Array.isArray(localizedTechTags) ? localizedTechTags : [])
         ].join(' '));
+
         const keywords = normalizeSearchText(
-            Array.isArray(project.keywords) ? project.keywords.join(' ') : ''
+            Array.isArray(localizedKeywords) ? localizedKeywords.join(' ') : ''
         );
 
         return (!projectTerm || searchableText.includes(projectTerm))
@@ -293,10 +340,9 @@ function renderProjects() {
     });
 }
 
-// Eventos para los inputs de busqueda de campos keywords y busuqeda en tiempo real
-
 searchInput.addEventListener('input', renderProjects);
 keywordSearchInput.addEventListener('input', renderProjects);
+
 document.querySelectorAll('.view-more-link[data-project-section]').forEach(control => {
     control.addEventListener('click', event => {
         event.preventDefault();
@@ -315,6 +361,7 @@ document.querySelectorAll('.view-more-link[data-project-section]').forEach(contr
         renderProjects();
     });
 });
+
 window.addEventListener('resize', () => {
     const nextInitialProjectLimit = getInitialProjectLimit();
     if (nextInitialProjectLimit !== renderedInitialProjectLimit) {
@@ -323,25 +370,30 @@ window.addEventListener('resize', () => {
     }
     document.querySelectorAll('.project-section-carousel.has-arrows').forEach(updateProjectCarouselButtons);
 });
+
+window.addEventListener('languagechange', () => {
+    if (allProjects.length) {
+        renderProjects();
+    }
+});
+
 showAllProjectsButton.addEventListener('click', () => {
     searchInput.value = '';
     keywordSearchInput.value = '';
     renderProjects();
 });
 
-// Obtener projectos del json local
-
 async function obtainProducts() {
     try {
-        const responseLocal = await fetch('design_portfolio.json')
+        const responseLocal = await fetch('design_portfolio.json');
         const localProjects = await responseLocal.json();
 
         allProjects = [...localProjects];
         await projectRatings.loadSummaries(allProjects, 'design');
 
-        renderProjects(allProjects);
-    }catch (error) {
-        console.log("Error al cargar los proyectos:", error)
+        renderProjects();
+    } catch (error) {
+        console.log('Error al cargar los proyectos:', error);
     }
 }
 
@@ -353,6 +405,7 @@ window.addEventListener('pageshow', async event => {
         renderProjects();
     }
 });
+
 window.addEventListener('storage', event => {
     if (event.key && (
         event.key.startsWith('portfolio-project-ratings-v1:')

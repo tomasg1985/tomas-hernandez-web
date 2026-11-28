@@ -29,7 +29,7 @@ function loadWebProjects() {
                     <p class="showcase-headline">${escapeHtml(project.project_tag)}</p>
                     <h2 class="showcase-title">${escapeHtml(project.title)}</h2>
                     <a href="${escapeHtml(project.view_project)}" target="_blank" rel="noopener noreferrer">
-                        <span class="showcase-button">Ver proyecto</span>
+                        <span class="showcase-button" data-i18n="nav.view_project">Ver proyecto</span>
                     </a>
                 </div>
             </article>

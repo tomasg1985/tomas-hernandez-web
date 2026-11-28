@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es-AR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Explora los proyectos de desarrollo web y diseno grafico de Tomas Hernandez.">
     <title>Portfolio | Proyectos</title>
     <link rel="stylesheet" href="style.css">
+    <script src="i18n.js" defer></script>
     <script src="navigation.js" defer></script>
 </head>
 <body class="portfolio-hub-page">
@@ -17,23 +18,27 @@
         </button>
         <ul class="portfolio-nav-list" id="primary-navigation">
             <a class="portfolio-nav-link" href="index.html">
-                <li class="portfolio-nav-list-item">INICIO</li>
+                <li class="portfolio-nav-list-item" data-i18n="nav.home">INICIO</li>
             </a>
             <a class="portfolio-nav-link" href="about.html">
-                <li class="portfolio-nav-list-item">SOBRE MI</li>
+                <li class="portfolio-nav-list-item" data-i18n="nav.about">SOBRE MI</li>
             </a>
             <a class="portfolio-nav-link" href="portfolio.html">
-                <li class="portfolio-nav-list-item">PORTFOLIO</li>
+                <li class="portfolio-nav-list-item" data-i18n="nav.portfolio">PORTFOLIO</li>
             </a>
             <a class="portfolio-nav-link" href="certifications.html">
-                <li class="portfolio-nav-list-item">CERTIFICACIONES</li>
+                <li class="portfolio-nav-list-item" data-i18n="nav.certifications">CERTIFICACIONES</li>
             </a>
             <a class="portfolio-nav-link" href="contact.html">
-                <li class="portfolio-nav-list-item">CONTACTO</li>
+                <li class="portfolio-nav-list-item" data-i18n="nav.contact">CONTACTO</li>
             </a>
             <!--<a class="portfolio-nav-link" href="#">
                 <button class="portfolio-button-2" type="button">DESCARGAR PORTFOLIO<svg class="download-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0 5-5m-5 5-5-5M5 17v4h14v-4"/></svg></button>
             </a>-->
+            <div class="lang-switch" role="group" aria-label="Idioma">
+                <button type="button" data-lang-button="es" aria-pressed="true">ES</button>
+                <button type="button" data-lang-button="en" aria-pressed="false">EN</button>
+            </div>
         </ul>
     </nav>
 
@@ -42,22 +47,22 @@
 
         <section class="portfolio-hub-grid" id="portfolio-sections" aria-label="&Aacute;reas del portfolio">
             <a class="portfolio-hub-card portfolio-hub-card-web" href="web-portfolio.html">
-                <span class="portfolio-hub-card-index">01 / DESARROLLO</span>
+                <span class="portfolio-hub-card-index" data-i18n="nav.headline_development_title">01 / DESARROLLO</span>
                 <span class="portfolio-hub-card-content">
-                    <span class="portfolio-hub-card-kicker">Experiencias digitales</span>
-                    <span class="portfolio-hub-card-title">Portfolio web</span>
-                    <span class="portfolio-hub-card-description">Sitios, aplicaciones y productos digitales dise&ntilde;ados para resolver necesidades reales.</span>
-                    <span class="portfolio-hub-card-action">Explorar proyectos <span aria-hidden="true">&rarr;</span></span>
+                    <span class="portfolio-hub-card-kicker" data-i18n="nav.digtal_experiences_title">Experiencias digitales</span>
+                    <span class="portfolio-hub-card-title" data-i18n="nav.portfolio_web_title">Portfolio Web</span>
+                    <span class="portfolio-hub-card-description" data-i18n="nav.development_description">Sitios, aplicaciones y productos digitales dise&ntilde;ados para resolver necesidades reales.</span>
+                    <span class="portfolio-hub-card-action" data-i18n="nav.explore_projects">Explorar proyectos <span aria-hidden="true">&rarr;</span></span>
                 </span>
                 <span class="portfolio-hub-art portfolio-hub-art-web" aria-hidden="true"><span>&lt;/&gt;</span></span>
             </a>
             <a class="portfolio-hub-card portfolio-hub-card-design" href="design-portfolio.html">
-                <span class="portfolio-hub-card-index">02 / COMUNICACI&Oacute;N VISUAL</span>
+                <span class="portfolio-hub-card-index" data-i18n="nav.headline_design_title">02 / DISEÑO GRÁFICO</span>
                 <span class="portfolio-hub-card-content">
-                    <span class="portfolio-hub-card-kicker">Marcas e historias</span>
-                    <span class="portfolio-hub-card-title">Dise&ntilde;o gr&aacute;fico</span>
-                    <span class="portfolio-hub-card-description">Identidades, motion graphics, edici&oacute;n audiovisual y piezas para medios digitales.</span>
-                    <span class="portfolio-hub-card-action">Explorar proyectos <span aria-hidden="true">&rarr;</span></span>
+                    <span class="portfolio-hub-card-kicker" data-i18n="nav.brands_and_histories_title">Marcas e historias</span>
+                    <span class="portfolio-hub-card-title" data-i18n="nav.graphic_design_title">Diseño Gráfico</span>
+                    <span class="portfolio-hub-card-description" data-i18n="nav.graphic_design_description">Identidades, motion graphics, edición audiovisual y piezas para medios digitales.</span>
+                    <span class="portfolio-hub-card-action" data-i18n="nav.explore_projects">Explorar proyectos <span aria-hidden="true">&rarr;</span></span>
                 </span>
                 <span class="portfolio-hub-art portfolio-hub-art-design" aria-hidden="true"><span>&#10038;</span></span>
             </a>
@@ -65,44 +70,44 @@
 
         <section class="portfolio-hub-specialties" aria-labelledby="portfolio-specialties-title">
             <div class="portfolio-hub-section-heading">
-                <p class="portfolio-hub-eyebrow">QU&Eacute; VAS A ENCONTRAR</p>
-                <h2 id="portfolio-specialties-title">Ideas, dise&ntilde;o y desarrollo</h2>
+                <p class="portfolio-hub-eyebrow" data-i18n="nav.find_title">QUÉ VAS A ENCONTRAR</p>
+                <h2 id="portfolio-specialties-title" data-i18n="nav.find_headline">Ideas, diseño y desarrollo</h2>
             </div>
             <div class="portfolio-hub-specialty-grid">
                 <article class="portfolio-hub-specialty">
                     <span class="portfolio-hub-specialty-number">01</span>
-                    <h3>Experiencias web</h3>
-                    <p>Sitios, aplicaciones y soluciones digitales con foco en claridad, utilidad y una navegaci&oacute;n simple.</p>
-                    <div class="portfolio-hub-tags"><span>Desarrollo</span><span>UX/UI</span><span>Software</span></div>
+                    <h3 data-i18n="nav.web_experiences_title">Experiencias web</h3>
+                    <p  data-i18n="nav.web_experiences_description">Sitios, aplicaciones y soluciones digitales con foco en claridad, utilidad y una navegación simple.</p>
+                    <div class="portfolio-hub-tags"><span data-i18n="nav.development_tag">Desarrollo</span><span>UX/UI</span><span>Software</span></div>
                 </article>
                 <article class="portfolio-hub-specialty">
                     <span class="portfolio-hub-specialty-number">02</span>
-                    <h3>Sistemas visuales</h3>
-                    <p>Identidades y piezas audiovisuales que organizan mensajes y construyen una presencia reconocible.</p>
-                    <div class="portfolio-hub-tags"><span>Branding</span><span>Motion</span><span>Edici&oacute;n</span></div>
+                    <h3 data-i18n="nav.visual_systems_title">Sistemas visuales</h3>
+                    <p data-i18n="nav.visual_systems_description">Identidades y piezas audiovisuales que organizan mensajes y construyen una presencia reconocible.</p>
+                    <div class="portfolio-hub-tags"><span>Branding</span><span>Motion</span><span data-i18n="nav.editing_tag">Edición</span></div>
                 </article>
                 <article class="portfolio-hub-specialty">
                     <span class="portfolio-hub-specialty-number">03</span>
-                    <h3>Trabajo integral</h3>
-                    <p>Una mirada que conecta concepto, dise&ntilde;o y ejecuci&oacute;n para acompa&ntilde;arte de principio a fin.</p>
-                    <div class="portfolio-hub-tags"><span>Estrategia</span><span>Creatividad</span><span>Tecnolog&iacute;a</span></div>
+                    <h3 data-i18n="nav.integral_work_title">Trabajo integral</h3>
+                    <p data-i18n="nav.integral_work_description">Una mirada que conecta concepto, diseño y ejecución para acompañarte de principio a fin.</p>
+                    <div class="portfolio-hub-tags"><span data-i18n="nav.strategy_tag">Estrategia</span><span data-i18n="nav.creativity_tag">Creatividad</span><span data-i18n="nav.technology_tag">Tecnología</span></div>
                 </article>
             </div>
         </section>
 
         <section class="portfolio-hub-contact">
             <div>
-                <p class="portfolio-hub-eyebrow">&iquest;TEN&Eacute;S UN PROYECTO?</p>
-                <h2>Hablemos de tu pr&oacute;xima idea.</h2>
+                <p class="portfolio-hub-eyebrow" data-i18n="nav.got_a_project">¿TENÉS UN PROYECTO?</p>
+                <h2 data-i18n="nav.lets_talk_idea">Hablemos de tu próxima idea.</h2>
             </div>
-            <a href="contact.html">Contactame <span aria-hidden="true">&rarr;</span></a>
+            <a href="contact.html" data-i18n="nav.lets_get_in_touch">Contactame <span aria-hidden="true">&rarr;</span></a>
         </section>
     </main>
 
     <footer>
         <div class="footer-info-container">
             <div>
-                <p class="footer-copyright">Diseño y desarrollo Tomás Hernández</p>
+                <p class="footer-copyright" data-i18n="nav.footer_text">Diseño y desarrollo Tomás Hernández</p>
             </div>
             <div class="footer-social-icons">
                 <button class="contact-link icon-instagram" type="button" aria-label="Instagram" title="Instagram">

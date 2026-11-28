@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es-AR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio | Diseño</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://googleapis.com">
+    <script src="i18n.js" defer></script>
     <script src="navigation.js" defer></script>
     <script src="project-ratings.js?v=20261123-shared-counts" defer></script>
 </head>
@@ -13,8 +14,8 @@
 
     <div class="top-header-container" role="region" aria-label="Aviso de nuevos proyectos">
         <div class="new-releases-main">
-            <p class="new-releases-text"><strong>Próximo lanzamiento: </strong>Nueva selección de proyectos en preparación.</p>
-            <input class="comming-soon" type="button" value="Muy pronto">
+            <p class="new-releases-text"><strong data-i18n="nav.new_releases">Próximo lanzamiento: Nueva selección de proyectos en preparación.</strong></p>
+            <button class="comming-soon" data-i18n="nav.comming soon">Muy pronto</button>
         </div>
         <button class="top-header-close" type="button" aria-label="Cerrar aviso">×</button>
     </div>
@@ -27,23 +28,27 @@
         </button>
         <ul class="portfolio-nav-list" id="primary-navigation">
             <a class="portfolio-nav-link" href="index.html">
-                <li class="portfolio-nav-list-item">INICIO</li>
+                <li class="portfolio-nav-list-item" data-i18n="nav.home">INICIO</li>
             </a>
             <a class="portfolio-nav-link" href="about.html">
-                <li class="portfolio-nav-list-item">SOBRE MI</li>
+                <li class="portfolio-nav-list-item" data-i18n="nav.about">SOBRE MI</li>
             </a>
             <a class="portfolio-nav-link" href="portfolio.html">
-                <li class="portfolio-nav-list-item">PORTFOLIO</li>
+                <li class="portfolio-nav-list-item" data-i18n="nav.portfolio">PORTFOLIO</li>
             </a>
             <a class="portfolio-nav-link" href="certifications.html">
-                <li class="portfolio-nav-list-item">CERTIFICACIONES</li>
+                <li class="portfolio-nav-list-item" data-i18n="nav.certifications">CERTIFICACIONES</li>
             </a>
             <a class="portfolio-nav-link" href="contact.html">
-                <li class="portfolio-nav-list-item">CONTACTO</li>
+                <li class="portfolio-nav-list-item" data-i18n="nav.contact">CONTACTO</li>
             </a>
             <!--<a class="portfolio-nav-link" href="#">
                 <button class="portfolio-button-2" type="button">DESCARGAR PORTFOLIO<svg class="download-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0 5-5m-5 5-5-5M5 17v4h14v-4"/></svg></button>
             </a>-->
+            <div class="lang-switch-light-background" role="group" aria-label="Idioma">
+                <button type="button" data-lang-button="es" aria-pressed="true">ES</button>
+                <button type="button" data-lang-button="en" aria-pressed="false">EN</button>
+            </div>
         </ul>
     </nav>
 
@@ -66,52 +71,52 @@
             <div>
                 <span class="breadcrumb-container">
                     <a class="breadcrumb-link" href="">Home ></a>
-                    <a class="breadcrumb-link" href="">Portfolio/Proyectos ></a>
-                    <a class="breadcrumb-link-active" href="">Diseño</a>
+                    <a class="breadcrumb-link" href="" data-i18n="nav.portfolio_breadcrumb">Portfolio/Proyectos ></a>
+                    <a class="breadcrumb-link-active" href="" data-i18n="nav.portfolio_breadcrumb_active">Diseño</a>
                 </span>
             </div>
         </section>
     
         <section>
             <div class="showcase-container">
-                <h3 class="portfolio-showcase-title">Portfolio Diseño</h3>
-                <p class="web-projects-description">El diseño es mucho más que estética; es la herramienta principal para comunicar ideas, transmitir valores y conectar visualmente con las personas. En esta sección comparto una selección de mis trabajos de diseño, donde cada pieza nace de un proceso de conceptualización, búsqueda creativa y atención al detalle.
-                    <br><br>
-                    A través del uso estratégico del color, la tipografía y la composición, busco dar vida a identidades visuales coherentes, atractivas y memorables que potencien la presencia de cada proyecto.</p>
+                <h3 class="portfolio-showcase-title" data-i18n="nav.portfolio_design_main_title">Portfolio Diseño</h3>
+                <p class="web-projects-description" data-i18n="nav.portfolio_design_paragraph_1">El diseño es mucho más que estética; es la herramienta principal para comunicar ideas, transmitir valores y conectar visualmente con las personas. En esta sección comparto una selección de mis trabajos de diseño, donde cada pieza nace de un proceso de conceptualización, búsqueda creativa y atención al detalle.</p>
+                
+                <p class="web-projects-description" data-i18n="nav.portfolio_design_paragraph_2">A través del uso estratégico del color, la tipografía y la composición, busco dar vida a identidades visuales coherentes, atractivas y memorables que potencien la presencia de cada proyecto.</p>
             </div>
         </section>
 
         <section class="filter-section-container">
             <div class="filter-inputs">
                 <div class="view-all-btn">
-                    <input class="view-all" id="show-all-design-projects" type="button" value="Ver todos los proyectos">
+                    <button class="view-all" id="show-all-design-projects" data-i18n="nav.show_all_design_projects">Ver todos los proyecto</button>
                 </div>
                 <div class="search-input">
-                    <input class="search" type="search" placeholder="Buscar por proyecto..." aria-label="Buscar por proyecto" id="design-project-search">
+                    <input class="search" type="search" data-i18n-placeholder="nav.search_by_projects" aria-label="Buscar por proyecto" id="design-project-search">
                 </div>
                 <div class="search-input">
-                    <input class="search" type="search" placeholder="Buscar por palabra clave..." aria-label="Buscar por palabra clave" id="design-keyword-search">
+                    <input class="search" type="search" data-i18n-placeholder="nav.search_by_keyword"  aria-label="Buscar por palabra clave" id="design-keyword-search">
                 </div>
                 <div class="popularity-input">
                     <select class="popularity" id="" name="">
-                        <option value="default" selected>Popularidad</option>
-                        <option value="plus-4">Mas de 4</option>
-                        <option value="plus-3">Mas de 3</option>
-                        <option value="less-3">Menos de 3</option>
-                        <option value="plus-2">Mas de 2</option>
-                        <option value="less-3">Menos de 2</option>
+                        <option value="default" selected data-i18n="nav.popularity">Popularidad</option>
+                        <option value="plus-4" data-i18n="nav.more_4">Mas de 4</option>
+                        <option value="plus-3" data-i18n="nav.more_3">Mas de 3</option>
+                        <option value="less-3" data-i18n="nav.less_3">Menos de 3</option>
+                        <option value="plus-2" data-i18n="nav.more_2">Mas de 2</option>
+                        <option value="less-3" data-i18n="nav.less_2">Menos de 2</option>
                     </select>
                 </div>
                 <div class="tech-stack-input">
                     <select class="tech-stack" id="" name="">
-                        <option value="default" selected>Software</option>
-                        <option value="html">After Effects</option>
-                        <option value="css">Premiere</option>
-                        <option value="js">Photoshop</option>
-                        <option value="python">Illustratror</option>
-                        <option value="node">In Design</option>
-                        <option value="node">Figma</option>
-                        <option value="node">IA</option>
+                        <option value="default" selected data-i18n="nav.software_title">Software</option>
+                        <option value="html" data-i18n="nav.web">After Effects</option>
+                        <option value="css" data-i18n="nav.web">Premiere</option>
+                        <option value="js" data-i18n="nav.web">Photoshop</option>
+                        <option value="python" data-i18n="nav.web">Illustratror</option>
+                        <option value="node" data-i18n="nav.web">In Design</option>
+                        <option value="node" data-i18n="nav.web">Figma</option>
+                        <option value="node" data-i18n="nav.web">IA</option>
                     </select>
                 </div>
             </div>
@@ -121,8 +126,8 @@
 
         <section>
             <div class="showcase-container">
-                <h4 class="portfolio-showcase-title">Motion Graphics</h4>
-                <p class="detailed-projects-description">El movimiento transforma una imagen estática en una experiencia capaz de captar la atención al instante y transmitir emociones con mayor fuerza. En esta sección presento una selección de mis proyectos de motion graphics, donde combino diseño gráfico, tipografía cinética, ritmo y fluidez visual para dar vida a ideas y mensajes. Cada pieza está pensada para comunicar de forma clara, dinámica y memorable, adaptándose a las exigencias narrativas y estéticas de los entornos digitales actuales.</p>
+                <h4 class="portfolio-showcase-title" data-i18n="nav.motion_graphics_title">Motion Graphics</h4>
+                <p class="detailed-projects-description" data-i18n="nav.motion_graphics_description">El movimiento transforma una imagen estática en una experiencia capaz de captar la atención al instante y transmitir emociones con mayor fuerza. En esta sección presento una selección de mis proyectos de motion graphics, donde combino diseño gráfico, tipografía cinética, ritmo y fluidez visual para dar vida a ideas y mensajes. Cada pieza está pensada para comunicar de forma clara, dinámica y memorable, adaptándose a las exigencias narrativas y estéticas de los entornos digitales actuales.</p>
             </div>
         </section>
 
@@ -139,8 +144,8 @@
 
         <section>
             <div class="showcase-container">
-                <h4 class="portfolio-showcase-title">Edicion de Video</h4>
-                <p class="detailed-projects-description">Editar un video es darle forma, ritmo y emoción a una historia para conectar de manera auténtica con quien mira. En esta sección comparto una selección de mis trabajos de edición audiovisual, donde combino montaje dinámico, corrección de color y diseño sonoro para construir piezas atractivas y profesionales. Cada proyecto refleja mi atención al detalle, mi criterio narrativo y mi capacidad para transformar material en bruto en contenido visualmente envolvente y con un mensaje claro.</p>
+                <h4 class="portfolio-showcase-title" data-i18n="nav.video_title">Edicion de Video</h4>
+                <p class="detailed-projects-description" data-i18n="nav.video_description">Editar un video es darle forma, ritmo y emoción a una historia para conectar de manera auténtica con quien mira. En esta sección comparto una selección de mis trabajos de edición audiovisual, donde combino montaje dinámico, corrección de color y diseño sonoro para construir piezas atractivas y profesionales. Cada proyecto refleja mi atención al detalle, mi criterio narrativo y mi capacidad para transformar material en bruto en contenido visualmente envolvente y con un mensaje claro.</p>
             </div>
         </section>
 
@@ -156,8 +161,8 @@
 
         <section>
             <div class="showcase-container">
-                <h4 class="portfolio-showcase-title">Branding</h4>
-                <p class="detailed-projects-description">Una marca es mucho más que un logotipo; es la personalidad, el propósito y la huella visual que deja en la mente de las personas. En este apartado presento una selección de proyectos de branding donde he trabajado desde la conceptualización estratégica hasta el desarrollo de sistemas visuales completos. Cada identidad está pensada para transmitir valores auténticos, diferenciarse en el mercado y mantener una coherencia estética sólida en todos sus puntos de contacto, tanto digitales como físicos.</p>
+                <h4 class="portfolio-showcase-title" data-i18n="nav.branding_title">Branding</h4>
+                <p class="detailed-projects-description" data-i18n="nav.branding_description">Una marca es mucho más que un logotipo; es la personalidad, el propósito y la huella visual que deja en la mente de las personas. En este apartado presento una selección de proyectos de branding donde he trabajado desde la conceptualización estratégica hasta el desarrollo de sistemas visuales completos. Cada identidad está pensada para transmitir valores auténticos, diferenciarse en el mercado y mantener una coherencia estética sólida en todos sus puntos de contacto, tanto digitales como físicos.</p>
             </div>
         </section>
 
@@ -174,8 +179,8 @@
 
         <section>
             <div class="showcase-container">
-                <h4 class="portfolio-showcase-title">Redes sociales</h4>
-                <p class="detailed-projects-description">En las redes sociales, cada publicación tiene apenas unos segundos para captar la atención y comunicar un mensaje claro. En este apartado comparto una selección de diseños y contenidos creados específicamente para plataformas digitales, combinando atractivo visual, jerarquía de información y coherencia con la identidad de cada marca. Cada pieza está pensada para generar conexión con la audiencia, fortalecer el posicionamiento y lograr una presencia visual profesional y atractiva en el feed.</p>
+                <h4 class="portfolio-showcase-title" data-i18n="nav.social_title">Redes Sociales</h4>
+                <p class="detailed-projects-description" data-i18n="nav.social_description">En las redes sociales, cada publicación tiene apenas unos segundos para captar la atención y comunicar un mensaje claro. En este apartado comparto una selección de diseños y contenidos creados específicamente para plataformas digitales, combinando atractivo visual, jerarquía de información y coherencia con la identidad de cada marca. Cada pieza está pensada para generar conexión con la audiencia, fortalecer el posicionamiento y lograr una presencia visual profesional y atractiva en el feed.</p>
             </div>
         </section>
 
@@ -191,8 +196,8 @@
 
         <section>
             <div class="showcase-container">
-                <h4 class="portfolio-showcase-title">Packaging</h4>
-                <p class="detailed-projects-description">En las redes sociales, cada publicación tiene apenas unos segundos para captar la atención y comunicar un mensaje claro. En este apartado comparto una selección de diseños y contenidos creados específicamente para plataformas digitales, combinando atractivo visual, jerarquía de información y coherencia con la identidad de cada marca. Cada pieza está pensada para generar conexión con la audiencia, fortalecer el posicionamiento y lograr una presencia visual profesional y atractiva en el feed.</p>
+                <h4 class="portfolio-showcase-title" data-i18n="nav.packaging_title">Packaging</h4>
+                <p class="detailed-projects-description" data-i18n="nav.packaging_description">En las redes sociales, cada publicación tiene apenas unos segundos para captar la atención y comunicar un mensaje claro. En este apartado comparto una selección de diseños y contenidos creados específicamente para plataformas digitales, combinando atractivo visual, jerarquía de información y coherencia con la identidad de cada marca. Cada pieza está pensada para generar conexión con la audiencia, fortalecer el posicionamiento y lograr una presencia visual profesional y atractiva en el feed.</p>
             </div>
         </section>
 
@@ -215,7 +220,7 @@
     <footer>
         <div class="footer-info-container">
             <div>
-                <p class="footer-copyright">Diseño y desarrollo Tomás Hernández</p>
+                <p class="footer-copyright" data-i18n="nav.footer_text">Diseño y desarrollo Tomás Hernández</p>
             </div>
             <div class="footer-social-icons">
                 <button class="contact-link icon-instagram" type="button" aria-label="Instagram" title="Instagram">
@@ -236,7 +241,7 @@
             <button class="video-player-close" type="submit" aria-label="Cerrar reproductor">×</button>
         </form>
         <p id="video-player-status" class="video-player-status" role="status" hidden></p>
-        <video id="portfolio-video-player" controls playsinline preload="none">
+        <video id="portfolio-video-player" controls playsinline preload="none" data-i18n="nav.video_notice">
             Tu navegador no admite la reproducción de video.
         </video>
     </dialog>

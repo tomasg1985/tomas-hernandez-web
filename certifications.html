@@ -1,18 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es-AR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio | Certificaciones</title>
     <link rel="stylesheet" href="style.css">
+    <script src="i18n.js" defer></script>
     <script src="navigation.js" defer></script>
 </head>
 <body>
 
     <div class="top-header-container" role="region" aria-label="Aviso de nuevos proyectos">
         <div class="new-releases-main">
-            <p class="new-releases-text"><strong>Próximo lanzamiento: </strong>Nueva selección de proyectos en preparación.</p>
-            <input class="comming-soon" type="button" value="Muy pronto">
+            <p class="new-releases-text"><strong data-i18n="nav.new_releases">Próximo lanzamiento: Nueva selección de proyectos en preparación.</strong></p>
+            <button class="comming-soon" data-i18n="nav.comming soon">Muy pronto</button>
         </div>
         <button class="top-header-close" type="button" aria-label="Cerrar aviso">×</button>
     </div>
@@ -25,23 +26,27 @@
         </button>
         <ul class="portfolio-nav-list" id="primary-navigation">
             <a class="portfolio-nav-link" href="index.html">
-                <li class="portfolio-nav-list-item">INICIO</li>
+                <li class="portfolio-nav-list-item" data-i18n="nav.home">INICIO</li>
             </a>
             <a class="portfolio-nav-link" href="about.html">
-                <li class="portfolio-nav-list-item">SOBRE MI</li>
+                <li class="portfolio-nav-list-item" data-i18n="nav.about">SOBRE MI</li>
             </a>
             <a class="portfolio-nav-link" href="portfolio.html">
-                <li class="portfolio-nav-list-item">PORTFOLIO</li>
+                <li class="portfolio-nav-list-item" data-i18n="nav.portfolio">PORTFOLIO</li>
             </a>
             <a class="portfolio-nav-link" href="certifications.html">
-                <li class="portfolio-nav-list-item">CERTIFICACIONES</li>
+                <li class="portfolio-nav-list-item" data-i18n="nav.certifications">CERTIFICACIONES</li>
             </a>
             <a class="portfolio-nav-link" href="contact.html">
-                <li class="portfolio-nav-list-item">CONTACTO</li>
+                <li class="portfolio-nav-list-item" data-i18n="nav.contact">CONTACTO</li>
             </a>
             <!--<a class="portfolio-nav-link" href="#">
                 <button class="portfolio-button-2" type="button">DESCARGAR PORTFOLIO<svg class="download-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0 5-5m-5 5-5-5M5 17v4h14v-4"/></svg></button>
             </a>-->
+            <div class="lang-switch-light-background" role="group" aria-label="Idioma">
+                <button type="button" data-lang-button="es" aria-pressed="true">ES</button>
+                <button type="button" data-lang-button="en" aria-pressed="false">EN</button>
+            </div>
         </ul>
     </nav>
 
@@ -64,49 +69,49 @@
             <div>
                 <span class="breadcrumb-container">
                     <a class="breadcrumb-link" href="">Home ></a>
-                    <a class="breadcrumb-link" href="">Certificaciones</a>
+                    <a class="breadcrumb-link" href="" data-i18n="nav.certfications_breadcrumb">Certificaciones</a>
                 </span>
             </div>
         </section>
     
         <section>
             <div class="showcase-container">
-                <h3 class="portfolio-showcase-title">Certificaciones</h3>
-                <p class="web-projects-description">Detrás de cada interfaz funcional y cada línea de código bien estructurada hay una base sólida de estudio, práctica y actualización constante. Estas certificaciones representan los hitos de mi formación especializada y avalan mi dominio en las tecnologías clave del sector.
-                <br><br>
-                Más allá de un título, cada curso completado me ha permitido incorporar estándares actuales de la industria, optimizar mis flujos de trabajo y adquirir las herramientas necesarias para transformar ideas en productos digitales robustos, escalables y centrados en el usuario.</p>
+                <h3 class="portfolio-showcase-title" data-i18n="nav.certfications_title">Certificaciones</h3>
+                <p class="web-projects-description" data-i18n="nav.certfications_description_paragraph_1">Detrás de cada interfaz funcional y cada línea de código bien estructurada hay una base sólida de estudio, práctica y actualización constante. Estas certificaciones representan los hitos de mi formación especializada y avalan mi dominio en las tecnologías clave del sector.</p>
+                
+                <p class="web-projects-description" data-i18n="nav.certfications_description_paragraph_2">Más allá de un título, cada curso completado me ha permitido incorporar estándares actuales de la industria, optimizar mis flujos de trabajo y adquirir las herramientas necesarias para transformar ideas en productos digitales robustos, escalables y centrados en el usuario.</p>
             </div>
         </section>
 
         <section class="filter-section-container">
             <div class="filter-inputs">
                 <div class="view-all-btn">
-                    <input class="view-all" id="show-all-certifications" type="button" value="Ver todas las certificaciones">
+                    <button class="view-all" id="show-all-certifications" data-i18n="nav.show_all_certfications">Ver todas las certificaciones</button>
                 </div>
                 <div class="search-input">
-                    <input class="search" type="search" placeholder="Buscar por proyecto..." aria-label="Buscar por proyecto" id="design-project-search">
+                    <input class="search" type="search" data-i18n-placeholder="nav.search_by_certifications" aria-label="Buscar por proyecto" id="design-project-search">
                 </div>
                 <div class="search-input">
-                    <input class="search" type="search" placeholder="Buscar por palabra clave..." aria-label="Buscar por palabra clave" id="design-keyword-search">
+                    <input class="search" type="search" data-i18n-placeholder="nav.search_by_keyword" aria-label="Buscar por palabra clave" id="design-keyword-search">
                 </div>
                 <div class="popularity-input">
                     <select class="popularity" id="" name="">
-                        <option value="default" selected>Popularidad</option>
-                        <option value="plus-4">Mas de 4</option>
-                        <option value="plus-3">Mas de 3</option>
-                        <option value="less-3">Menos de 3</option>
-                        <option value="plus-2">Mas de 2</option>
-                        <option value="less-3">Menos de 2</option>
+                        <option value="default" selected data-i18n="nav.popularity">Popularidad</option>
+                        <option value="plus-4" data-i18n="nav.more_4">Mas de 4</option>
+                        <option value="plus-3" data-i18n="nav.more_3">Mas de 3</option>
+                        <option value="less-3" data-i18n="nav.less_3">Menos de 3</option>
+                        <option value="plus-2" data-i18n="nav.more_2">Mas de 2</option>
+                        <option value="less-3" data-i18n="nav.less_2">Menos de 2</option>
                     </select>
                 </div>
                 <div class="tech-stack-input">
                     <select class="tech-stack" id="" name="">
-                        <option value="default" selected>Especialidad</option>
-                        <option value="html">Web</option>
-                        <option value="css">IA</option>
-                        <option value="js">Idiomas</option>
-                        <option value="python">UX/UI</option>
-                        <option value="node">Otros</option>
+                        <option value="default" selected data-i18n="nav.specialty">Especialidad</option>
+                        <option value="html" data-i18n="nav.web">Web</option>
+                        <option value="css" data-i18n="nav.ai">Inteligencia Artificial</option>
+                        <option value="js" data-i18n="nav.languajes">Idiomas</option>
+                        <option value="python" data-i18n="nav.ux/ui">UX/UI</option>
+                        <option value="node" data-i18n="nav.other">Otros</option>
                     </select>
                 </div>
             </div>
@@ -117,8 +122,8 @@
 
         <section>
             <div class="showcase-container">
-                <h4 class="portfolio-showcase-title">Programación</h4>
-                <p class="detailed-projects-description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+                <h4 class="portfolio-showcase-title" data-i18n="nav.programming_title">Programación</h4>
+                <p class="detailed-projects-description" data-i18n="nav.programming_description">Formación orientada a la construcción de sitios y aplicaciones web funcionales, estructuradas y escalables. Estas certificaciones respaldan mi capacidad para llevar un diseño a código limpio y eficiente, manejando lógica de programación, desarrollo front-end y gestión de bases de datos para ofrecer soluciones digitales completas y bien optimizadas.</p>
             </div>
         </section>
 
@@ -127,7 +132,7 @@
         </section>
 
         <section class="view-more-projects-container project-section-more">
-            <a class="view-more-link" href="#" data-project-section="programming">ver mas certificados (0)</a>
+            <a class="view-more-link" href="#" data-project-section="programming" data-i18n="nav.view_more_certificates">ver mas certificados (0)</a>
         </section>
 
 
@@ -135,8 +140,8 @@
 
         <section>
             <div class="showcase-container">
-                <h4 class="portfolio-showcase-title">Inteligencia Artificial</h4>
-                <p class="detailed-projects-description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+                <h4 class="portfolio-showcase-title" data-i18n="nav.ai_title">Inteligencia Artificial</h4>
+                <p class="detailed-projects-description" data-i18n="nav.ai_description">Capacitación enfocada en el uso práctico y estratégico de herramientas de Inteligencia Artificial generativa y automatización aplicadas al flujo de trabajo creativo y técnico. Estos conocimientos me permiten agilizar procesos de ideación, producción visual, redacción y desarrollo, elevando la calidad y los tiempos de entrega en cada proyecto.</p>
             </div>
         </section>
 
@@ -145,7 +150,7 @@
         </section>
 
         <section class="view-more-projects-container project-section-more">
-            <a class="view-more-link" href="#" data-project-section="ai">ver mas certificados (0)</a>
+            <a class="view-more-link" href="#" data-project-section="ai" data-i18n="nav.view_more_certificates">ver mas certificados (0)</a>
         </section>
 
 
@@ -153,8 +158,8 @@
 
         <section>
             <div class="showcase-container">
-                <h4 class="portfolio-showcase-title">Computación en la nube</h4>
-                <p class="detailed-projects-description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+                <h4 class="portfolio-showcase-title" data-i18n="nav.cloud_title">Computación en la Nube</h4>
+                <p class="detailed-projects-description" data-i18n="nav.cloud_description">Conocimientos certificados sobre infraestructura en la nube, despliegue de servicios y entornos digitales modernos. Esta base me permite comprender cómo se alojan, escalan y mantienen las plataformas web actuales, facilitando la colaboración fluida con equipos de desarrollo e IT y asegurando proyectos preparados para entornos reales de producción.</p>
             </div>
         </section>
 
@@ -163,7 +168,7 @@
         </section>
 
         <section class="view-more-projects-container project-section-more">
-            <a class="view-more-link" href="#" data-project-section="aws">ver mas certificados (0)</a>
+            <a class="view-more-link" href="#" data-project-section="aws" data-i18n="nav.view_more_certificates">ver mas certificados (0)</a>
         </section>
 
 
@@ -171,8 +176,8 @@
 
         <section>
             <div class="showcase-container">
-                <h4 class="portfolio-showcase-title">UX/UI</h4>
-                <p class="detailed-projects-description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+                <h4 class="portfolio-showcase-title" data-i18n="nav.ux-ui_title">UX/UI</h4>
+                <p class="detailed-projects-description" data-i18n="nav.ux-ui_description">Especialización centrada en el diseño de interfaces intuitivas, accesibles y orientadas a la conversión. A través de estas certificaciones complemento mi criterio estético con metodologías de arquitectura de la información, prototipado y experiencia de usuario, garantizando que cada producto digital no solo sea visualmente atractivo, sino fácil y agradable de usar.</p>
             </div>
         </section>
 
@@ -181,7 +186,7 @@
         </section>
 
         <section class="view-more-projects-container project-section-more">
-            <a class="view-more-link" href="#" data-project-section="uxui">ver mas certificados (0)</a>
+            <a class="view-more-link" href="#" data-project-section="uxui" data-i18n="nav.view_more_certificates">ver mas certificados (0)</a>
         </section>
 
 
@@ -189,8 +194,8 @@
 
         <section>
             <div class="showcase-container">
-                <h4 class="portfolio-showcase-title">Idiomas</h4>
-                <p class="detailed-projects-description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+                <h4 class="portfolio-showcase-title" data-i18n="nav.languages_title">Idiomas</h4>
+                <p class="detailed-projects-description" data-i18n="nav.languages_description">Formación en idiomas orientada a la comunicación profesional y técnica en entornos globales. Esta competencia me permite trabajar con clientes y equipos internacionales, acceder de primera mano a documentación técnica actualizada y mantenerme al día con las tendencias y estándares de la industria a nivel mundial.</p>
             </div>
         </section>
 
@@ -199,13 +204,13 @@
         </section>
 
         <section class="view-more-projects-container project-section-more">
-            <a class="view-more-link" href="#" data-project-section="languages">ver mas certificados (0)</a>
+            <a class="view-more-link" href="#" data-project-section="languages" data-i18n="nav.view_more_certificates">ver mas certificados (0)</a>
         </section>
 
     <footer>
         <div class="footer-info-container">
             <div>
-                <p class="footer-copyright">Diseño y desarrollo Tomás Hernández</p>
+                <p class="footer-copyright" data-i18n="nav.footer_text">Diseño y desarrollo Tomás Hernández</p>
             </div>
             <div class="footer-social-icons">
                 <button class="contact-link icon-instagram" type="button" aria-label="Instagram" title="Instagram">

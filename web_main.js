@@ -44,6 +44,20 @@ function initializeProjectSectionReveal() {
 
 initializeProjectSectionReveal();
 
+function getCurrentLang() {
+    return window.i18n?.getLang() || 'es';
+}
+
+function getLocalizedValue(item, field, fallback = '') {
+    const lang = getCurrentLang();
+    return (
+        item?.i18n?.[lang]?.[field] ??
+        item?.[field] ??
+        item?.i18n?.es?.[field] ??
+        fallback
+    );
+}
+
 function getInitialProjectLimit() {
     if (window.matchMedia('(max-width: 992px)').matches) return 2;
     if (window.matchMedia('(max-width: 1200px)').matches) return 3;

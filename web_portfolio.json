@@ -9,9 +9,20 @@
         "title": "TechStore",
         "description": "Plataforma de comercio electrónico moderna orientada a la comercialización de...",
         "published": "Publicado: 8 Dic 2026",
+        "in_progress": "false",
+        "last_updated": "Actualizado: --",
+        "update_note": "Actualizado ...",
         "view_project": "https://tomasg1985.github.io/",
         "tech_tags": ["HTML", "CSS", "JAVASCRIPT"],
-        "keywords": ["ecommerce", "tecnologia"]
+        "keywords": ["ecommerce", "tecnologia"],
+        "i18n": {
+            "es": {
+
+            },
+            "en": {
+                
+            }
+        }
     },
     {
         "id": 2,
@@ -22,6 +33,9 @@
         "title": "EduTech",
         "description": "Plataforma de comercio electrónico enfocada a la venta y distribución de textos...",
         "published": "Publicado: ---",
+        "in_progress": "false",
+        "last_updated": "Actualizado: --",
+        "update_note": "Actualizado ...",
         "view_project": "#",
         "tech_tags": ["HTML", "CSS", "JAVASCRIPT"],
         "keywords": ["ecommerce", "educacion"]
@@ -35,6 +49,9 @@
         "title": "De Portones",
         "description": "Sitio web para una empresa argentina dedicada al rubro de la construcción, empresa...",
         "published": "Publicado: 14 Jul 2025",
+        "in_progress": "false",
+        "last_updated": "Actualizado: --",
+        "update_note": "Actualizado ...",
         "view_project": "https://deportones.com/",
         "tech_tags": ["WORDPRESS", "WOOCOMMERCE"],
         "keywords": ["ecommerce", "educacion"]
@@ -48,6 +65,9 @@
         "title": "Menelmec Solutions",
         "description": "Plataforma de comercio electrónico enfocada a la venta y distribución de textos...",
         "published": "Publicado: 4 Oct 2025",
+        "in_progress": "false",
+        "last_updated": "Actualizado: --",
+        "update_note": "Actualizado ...",
         "view_project": "https://menelmec.com.ar/",
         "tech_tags": ["WORDPRESS", "ELEMENTOR"],
         "keywords": ["ecommerce", "educacion"]
@@ -61,6 +81,9 @@
         "title": "Maquinaria Centro",
         "description": "Landing page realizada para dar a conocer los servicios de esta empresa argentina...",
         "published": "Publicado: 23 Ago 2025",
+        "in_progress": "false",
+        "last_updated": "Actualizado: --",
+        "update_note": "Actualizado ...",
         "view_project": "https://maquinariascentro.com.ar/",
         "tech_tags": ["WORDPRESS", "ELEMENTOR"],
         "keywords": ["ecommerce", "educacion"]
@@ -74,6 +97,9 @@
         "title": "Medical CMS",
         "description": "Plataforma plataforma SaaS orientada inicialmente al mercado argentino para la gestión...",
         "published": "Publicado: --",
+        "in_progress": "false",
+        "last_updated": "Actualizado: --",
+        "update_note": "Actualizado ...",
         "view_project": "#",
         "tech_tags": ["HTML", "CSS", "JAVASCRIPT", "PYTHON", "POSTGRESQL", "APIREST", "DOCKER"],
         "keywords": ["software", "health", "medical", "software as a service", "saas"]
@@ -87,6 +113,9 @@
         "title": "PhysaFlow",
         "description": "PhysaFlow es una aplicación web que ayuda a los operadores de centros de datos a...",
         "published": "Publicado: 20 Ago 2026",
+        "in_progress": "false",
+        "last_updated": "Actualizado: --",
+        "update_note": "Actualizado ...",
         "view_project": "#",
         "tech_tags": ["REACT", "NOJEJS", "APIREST", "TAILWIND", "POSTGRESQL", "VITE", "CSS"],
         "keywords": ["software", "data center", "lead management", "empresas", "centros de datos"]
@@ -100,6 +129,9 @@
         "title": "NautiFlow",
         "description": "NautiFlow es una plataforma que ayuda a los lancheros del del delta de tigre a...",
         "published": "Publicado: --",
+        "in_progress": "false",
+        "last_updated": "Actualizado: --",
+        "update_note": "Actualizado ...",
         "view_project": "#",
         "tech_tags": ["EXPRESS", "NOJEJS", "APIREST", "TAILWIND", "JWT", "POSTGRESQL", "VITE", "CSS"],
         "keywords": ["software", "gestion de transportistas", "lancheros", "transporte", "centros de datos"]
@@ -113,6 +145,9 @@
         "title": "FitFlow",
         "description": "NautiFlow es una plataforma que ayuda a los lancheros del del delta de tigre a...",
         "published": "Publicado: --",
+        "in_progress": "false",
+        "last_updated": "Actualizado: --",
+        "update_note": "Actualizado ...",
         "view_project": "#",
         "tech_tags": ["EXPRESS", "NOJEJS", "APIREST", "TAILWIND", "JWT", "POSTGRESQL", "VITE", "CSS"],
         "keywords": ["software", "gestion de transportistas", "lancheros", "transporte", "centros de datos"]
@@ -126,6 +161,9 @@
         "title": "Medical CMS",
         "description": "Plataforma plataforma SaaS orientada inicialmente al mercado argentino para la gestión...",
         "published": "Publicado: 15 Mar 2024",
+        "in_progress": "false",
+        "last_updated": "Actualizado: --",
+        "update_note": "Actualizado ...",
         "view_project": "#",
         "tech_tags": ["FIGMA"],
         "keywords": ["software", "health", "medical", "software as a service", "saas", "uxui", "figma", "app"]
@@ -139,6 +177,9 @@
         "title": "Agentes para agencia",
         "description": "Sistema multiagente diseñado para la gestión de contenido y la automatizacion para...",
         "published": "Publicado: --",
+        "in_progress": "false",
+        "last_updated": "Actualizado: --",
+        "update_note": "Actualizado ...",
         "view_project": "#",
         "tech_tags": ["PYTHON", "APIREST", "FASTAPI", "SERPER.DEV"],
         "keywords": ["software", "health", "medical", "software as a service", "saas", "uxui", "figma", "app"]
